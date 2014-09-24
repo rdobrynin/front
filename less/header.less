@@ -1,1 +1,15 @@
 // Insert your styling here.
+.navbar-inverse {
+background-color: @brand;
+  .navbar-nav > li > a{
+    color: @component-active-color;
+  }
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: @brand-hover;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: @brand-hover;
+}
