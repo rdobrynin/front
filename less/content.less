@@ -5,10 +5,26 @@ body {
 
 }
 
-.brand {
-  background-color: @brand;
+a, a:visited, a:focus, a:active, a:hover{
+  outline:0 none !important;
 }
 
-.brand h2 {
-  color:@component-active-color;
+.brand-legend {
+  background-color: @brand;
+  h2 {
+    color: #ffffff;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+  }
+}
+
+.block {
+  border-bottom: 1px solid @table-border-color;
+}
+
+.wrapper {
+  background-color: @body-bg;
 }

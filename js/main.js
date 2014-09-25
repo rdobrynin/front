@@ -11,4 +11,19 @@ $(function() {
         }
         $(this).addClass('active');
     });
+
+    $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show');
+        if($('.first-tab').hasClass('active')) {
+
+            $('.first-tab').css('border-right', '1px solid #ddd');
+        }
+    });
+
+    if($('.first-tab').hasClass('active')) {
+
+        $('.first-tab').css('border-right', '1px solid #ddd');
+    }
+
 });

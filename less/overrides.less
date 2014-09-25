@@ -24,3 +24,61 @@ h2 {
   font-size: 1.3em;
 }
 
+
+.nav-tabs {
+  border-bottom: none;
+
+  li {
+    border-right: 1px solid @table-border-color;
+    a {
+      color:@brand;
+      border-radius: 0;
+      padding:15px 80px 15px 80px;
+      margin-right: 0;
+//      border-left: 1px solid @table-border-color;
+    }
+
+    .active {
+      a {
+        border-radius: 0;
+      }
+    }
+
+
+  }
+
+  .active:first-child {
+    border-right:0;
+  }
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+  color:@brand;
+  border-bottom-color: #F6F6F6;
+  cursor: default;
+  border-right:0;
+  border-left:0;
+
+}
+
+.nav-tabs > li.active > a {
+  border-bottom: 1px solid @body-bg;
+}
+
+.nav-tabs > li.first-tab > a, .nav-tabs > li.first-tab > a:hover {
+  border-left: 1px solid @table-border-color !important;
+}
+
+.nav-tabs > li > a:hover {
+  border-bottom: 1px solid @table-border-color;
+}
+
+.nav-tabs > li.active > a:hover {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid @body-bg;
+  background-color: none;
+}
+
+
+
