@@ -31,7 +31,15 @@ a, a:visited, a:focus, a:active, a:hover{
 .wrapper {
   background-color: @body-bg;
   padding-top: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.block-with-data-form {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #table-dashboard-info {
@@ -69,6 +77,10 @@ color:@brand-primary;
   font-size: 1.2em;
 }
 
+.btn-sm {
+  padding: 9px 9px 7px 8px !important;
+}
+
 .btn-primary{
   -webkit-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -80,7 +92,7 @@ color:@brand-primary;
   color: @body-bg;
   font-size: 13px;
   font-weight: bold;
-  padding: 12px 40px;
+  padding: 12px 30px;
   display: inline-block;
   position: relative;
 }
@@ -88,5 +100,54 @@ color:@brand-primary;
 .btn-primary:hover, .btn-primary:focus {
   background: lighten(@brand-primary, 2%);
   border-bottom: 4px solid darken(@brand-primary, 4%);
+}
+
+.btn-success{
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  background: @brand-success;
+  border: none;
+  border-bottom: 4px solid darken(@brand-success, 10%);
+  line-height: 1;
+  color: @body-bg;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 12px 30px;
+  display: inline-block;
+  position: relative;
+}
+
+.btn-success:hover, .btn-success:focus {
+  background: lighten(@brand-success, 2%);
+  border-bottom: 4px solid darken(@brand-success, 4%);
+}
+
+a {
+  color: @link-color;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: pointer;
+  color: lighten(@link-color, 40%);
+}
+
+
+.disabled > td  {
+  color: lighten(@gray-light, 20%);
+  .switch a {
+    color: lighten(@gray-light, 20%);
+  }
+}
+
+.switch {
+  font-weight: bold;
+  color: @brand;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
