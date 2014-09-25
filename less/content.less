@@ -1,11 +1,17 @@
 // Insert your styling here.
 body {
   background-color: @body;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
-a, a:visited, a:focus, a:active, a:hover{
+html {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, a:visited, a:focus, a:active, a:hover, button:focus{
   outline:0 none !important;
 }
 
@@ -87,7 +93,7 @@ color:@brand-primary;
   border-radius: 4px;
   background: @brand-primary;
   border: none;
-  border-bottom: 4px solid darken(@brand-primary, 10%);
+  border-bottom: 4px solid darken(@brand-primary, 7%);
   line-height: 1;
   color: @body-bg;
   font-size: 13px;
@@ -108,7 +114,7 @@ color:@brand-primary;
   border-radius: 4px;
   background: @brand-success;
   border: none;
-  border-bottom: 4px solid darken(@brand-success, 10%);
+  border-bottom: 4px solid #009974;
   line-height: 1;
   color: @body-bg;
   font-size: 13px;
@@ -122,6 +128,7 @@ color:@brand-primary;
   background: lighten(@brand-success, 2%);
   border-bottom: 4px solid darken(@brand-success, 4%);
 }
+
 
 a {
   color: @link-color;
