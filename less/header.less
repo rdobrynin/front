@@ -1,15 +1,111 @@
 // Insert your styling here.
-.navbar-inverse {
-background-color: @brand;
-  .navbar-nav > li > a{
+
+span.ts-icon.ts-icon-myaccount {
+  position: absolute;
+  font-size: 1.8em;
+  left: -13px;
+  top: 8px;
+}
+
+span.ts-icon.ts-icon-help {
+  position: relative;
+  top: 12px;
+  color: @brand;
+}
+
+a.navbar-brand {
+  padding-right: 30px;
+}
+
+#elion-common-nav {
+  min-height: 20px;
+  margin-bottom: 10px;
+  height: 41px;
+
+
+  .navbar-nav > li:before {
+    content: " | ";
+    position: absolute;
+    top: 1px;
+    font-size: 25px;
+    left: -5px;
+    color: @brand-hover;
+  }
+
+ .active:before {
+   display: none;
+ }
+
+  .navbar-nav > li:first-child:before {
+    content: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: @brand-hover;
+  }
+
+  .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: @brand-hover;
+  }
+
+  background-color: @brand;
+  .navbar-nav > li > a {
     color: @component-active-color;
   }
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: @brand-hover;
+#elion-top-nav {
+  position: relative;
+  margin-top:  40px;
+  border-radius: 0;
+  border: 0;
+  background-color: @component-active-color;
+  padding-top: 15px;
+  margin-bottom: 30px;
+
+  .navbar-nav >li >a {
+    padding-bottom: 20px;
+  }
+
+  a {
+    font-size: 1.2em;
+  }
+
+  img.logo {
+    position: relative;
+    top: -13px;
+  }
+
+  .container-fluid {
+    border-bottom: 1px solid #E3E3E3;
+  }
+
+  .navbar-nav > .active > a {
+    border-bottom: 3px solid @brand-hover;
+  }
+
+  .vertical-divider {
+    color: #E3E3E3;
+    position: absolute;
+    right: -1px;
+    font-size: 20px;
+  }
+
+  .navbar-nav > li > a {
+    color: @brand-hover;
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+  }
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: @brand-hover;
-}
+
+
+
