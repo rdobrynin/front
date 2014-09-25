@@ -12,7 +12,7 @@ $(function() {
         $(this).addClass('active');
     });
 
-    $('#myTab a').click(function (e) {
+    $('.nav-tabs a').click(function (e) {
         e.preventDefault()
         $(this).tab('show');
         if($('.first-tab').hasClass('active')) {

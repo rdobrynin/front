@@ -35,7 +35,7 @@
   <body role="document">
 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="elion-common-nav">
+  <div class="navbar navbar-inverse" role="navigation" id="elion-common-nav">
       <div class="container-fluid">
           <div class="row">
           <div class="navbar-header">
@@ -65,7 +65,7 @@
                   </li>
               </ul>
               <ul class="nav navbar-nav pull-right">
-                  <li><a href="#"> <span class="ts-icon ts-icon-myaccount"></span>Usernameright</a></li>
+                  <li><a href="#"> <span class="ts-icon ts-icon-myaccount"></span><span>Usernameright</span></a></li>
                   <li><a href="#about">My account</a></li>
                   <li><a href="#contact">Log Out</a></li>
               </ul>
@@ -90,17 +90,17 @@
           </div>
           <div class="navbar-collapse collapse" id="top-main-menu">
               <ul class="nav navbar-nav">
-                  <li class="active"><a href="index.html">Dashboard<span class="vertical-divider">|</span></a></li>
-                  <li><a href="#">Virtual machines<span class="vertical-divider">|</span></a></li>
-                  <li><a href="#">Logs<span class="vertical-divider">|</span></a></li>
-                  <li><a href="#">Templates<span class="vertical-divider">|</span></a></li>
-                  <li><a href="#">Users<span class="vertical-divider">|</span></a></li>
-                  <li><a href="#">Billing Plans<span class="vertical-divider">|</span></a></li>
+                  <li class="active"><a href="index.html">Dashboard</a></li>
+                  <li><a href="#">Virtual machines</a></li>
+                  <li><a href="#">Logs</a></li>
+                  <li><a href="#">Templates</a></li>
+                  <li><a href="#">Users</a></li>
+                  <li><a href="#">Billing Plans</a></li>
                   <li><a href="#">Reports</a></li>
               </ul>
-
-                  <span class="pull-right"><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></span>
-
+              <ul class="nav navbar-nav pull-right">
+                  <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
+              </ul>
           </div><!--/.nav-collapse -->
           </div>
       </div>
@@ -111,10 +111,10 @@
       </div>
   <div class="container-fluid block">
     <div class="row">
-        <ul class="nav nav-tabs" id="myTab">
-            <li class="active first-tab"><a href="#tab_a">Information</a></li>
-            <li><a href="#tab_b">Turnover</a></li>
-            <li><a href="#tab_c">Data charts</a></li>
+        <ul class="nav nav-tabs" id="resTab">
+            <li class="active first-tab"><a href="#res_info_tab">Information</a></li>
+            <li><a href="#res_over_tab">Turnover</a></li>
+            <li><a href="#res_charts_tab">Data charts</a></li>
         </ul>
     </div>
   </div>
@@ -122,7 +122,7 @@
   <div class="container-fluid wrapper">
      <div class="row">
          <div class="tab-content">
-             <div class="tab-pane active" id="tab_a">
+             <div class="tab-pane active" id="res_info_tab">
                      <table class="table table-bordered" style="width: 75%" id="table-dashboard-info">
                          <thead>
                          <tr>
@@ -153,21 +153,13 @@
 
                          </tbody>
                      </table>
-
-
-
-
-
-
-
-
              </div>
-             <div class="tab-pane" id="tab_b">
+             <div class="tab-pane" id="res_over_tab">
                  <h4>Pane B</h4>
                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
                      ac turpis egestas.</p>
              </div>
-             <div class="tab-pane" id="tab_c">
+             <div class="tab-pane" id="res_charts_tab">
                  <h4>Pane C</h4>
                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
                      ac turpis egestas.</p>
@@ -176,6 +168,61 @@
      </div>
   </div>
 
+  <div class="brand-legend">
+      <h2>Virtual Machines</h2>
+  </div>
+
+  <div class="container-fluid block">
+      <div class="row">
+          <ul class="nav nav-tabs" id="vmTab">
+              <li class="active first-tab"><a href="#my_vm_tab">My Virtual Machines(4)</a></li>
+              <li><a href="#client_vm_tab">Clients Virtual Machines</a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="container-fluid wrapper">
+      <div class="row">
+          <div class="tab-content">
+              <div class="tab-pane active" id="my_vm_tab">
+                  <table class="table table-bordered" style="width: 75%" >
+                      <thead>
+                      <tr>
+                          <th>CPU</th>
+                          <th>Storage</th>
+                          <th>Memory</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td>
+                              <span style="font-size: 4.5em; letter-spacing: -5px;">4</span>
+                              <span style="font-size: 1.4em;">Cores Used (100%)</span>
+                              <span class="info">4 cores</span>
+                              <button class="btn btn-primary">Upgrade</button>
+                          </td>
+                          <td>
+                              <span style="font-size: 4.5em; letter-spacing: -5px;">52</span>
+                              <span style="font-size: 1.4em;">GB Used (20%)</span>
+                              <span class="info" >4 cores</span>
+                          </td>
+                          <td>
+                              <span style="font-size: 4.5em; letter-spacing: -5px;">2.304</span>
+                              <span style="font-size: 1.4em;">GB Used</span>
+                              <span class="info" >Unlimited</span>
+                          </td>
+                      </tr>
+
+                      </tbody>
+                  </table>
+              </div>
+              <div class="tab-pane" id="client_vm_tab">
+                  <h4>Pane B</h4>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                      ac turpis egestas.</p>
+              </div>
+          </div><!-- tab content -->
+      </div>
+  </div>
 
   </body>
 </html>

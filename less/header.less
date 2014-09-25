@@ -1,15 +1,12 @@
 // Insert your styling here.
 
 span.ts-icon.ts-icon-myaccount {
-  position: absolute;
-  font-size: 1.8em;
-  left: -13px;
-  top: 8px;
+font-size: 2em;
+  vertical-align: text-top;
 }
 
 span.ts-icon.ts-icon-help {
   position: relative;
-  top: 12px;
   color: @brand;
 }
 
@@ -17,34 +14,48 @@ a.navbar-brand {
   padding-right: 30px;
 }
 
+#top-menu {
+  padding-left: 0;
+}
+
+#top-main-menu {
+  padding-top: 10px;
+}
+
+
 #elion-common-nav {
   min-height: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   height: 41px;
+  border-radius: 0;
+  border: 0;
+  position: relative;
 
 
   .navbar-nav > li:before {
-    content: " | ";
+
+    background: none repeat scroll 0 0 #4f2369;
+    content: "";
+    display: block;
+    height: 28px;
+    margin-top: -15px;
     position: absolute;
-    top: 1px;
-    font-size: 25px;
-    left: -5px;
-    color: @brand-hover;
+    right: 0px;
+    top: 50%;
+    width: 1px;
+    z-index: 1;
   }
 
- .active:before {
-   display: none;
- }
-
-  .navbar-nav > li:first-child:before {
-    content: none;
-  }
 
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 0.9em;
     font-weight: bold;
+  }
+
+  .navbar-nav > li > a:hover {
+    background-color: @brand-hover;
   }
   .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: @brand-hover;
@@ -54,6 +65,7 @@ a.navbar-brand {
     background-color: @brand-hover;
   }
 
+
   background-color: @brand;
   .navbar-nav > li > a {
     color: @component-active-color;
@@ -62,16 +74,35 @@ a.navbar-brand {
 
 #elion-top-nav {
   position: relative;
-  margin-top:  40px;
   border-radius: 0;
   border: 0;
   background-color: @body-bg;
   padding-top: 15px;
+  float: left;
+  width: 100%;
   margin-bottom: 40px;
 
   .navbar-nav >li >a {
-    padding-bottom: 20px;
+    padding-bottom: 35px;
   }
+
+  .navbar-nav >li >a:after {
+    background-color: @table-border-color;
+    content: "";
+    display: block;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    top: 17%;
+    width: 1px;
+    z-index: 1;
+  }
+
+  .navbar-nav >li:first-child>a:after {
+    background: transparent;
+  }
+
+
 
   a {
     font-size: 1.2em;
@@ -79,7 +110,7 @@ a.navbar-brand {
 
   img.logo {
     position: relative;
-    top: -13px;
+    top: 0;
   }
 
   .container-fluid {
@@ -90,12 +121,6 @@ a.navbar-brand {
     border-bottom: 3px solid @brand-hover;
   }
 
-  .vertical-divider {
-    color: #E3E3E3;
-    position: absolute;
-    right: -1px;
-    font-size: 20px;
-  }
 
   .navbar-nav > li > a {
     color: @brand-hover;
