@@ -181,66 +181,62 @@
         <table class="table">
             <thead>
             <tr>
-                <th>ID</th>
-                <th>VM label</th>
+                <th>REF</th>
+                <th>Date</th>
                 <th>User</th>
-                <th>OS Label</th>
-                <th>Disk size</th>
-                <th>RAM</th>
-                <th>CPU</th>
-                <th>IP</th>
-                <th>Power</th>
-                <th>Reboot</th>
+                <th>Target</th>
+                <th>Action</th>
+                <th>Status</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>#4243</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="#">4244</a></td>
+                <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td>Windows Standard Edition R2x64 xen</td>
-                <td>20 GB</td>
-                <td>1.234 GB</td>
-                <td>1</td>
-                <td>88.196.221.197</td>
-                <td><span class="switch"><a href="#">ON</a></span></td>
-                <td style="text-align: center"><button class="btn btn-small">Reboot</button></td>
+                <td><a href="#">admin_machine_test</a></td>
+                <td>Reboot virtual machine</td>
+                <td>Complete</td>
             </tr>
             <tr>
-                <td>#4243</td>
+                <td><a href="#">4244</a></td>
+                <td>08 Sep,2014, 12:55;15</td>
+                <td>pvmadmin</td>
                 <td><a href="#">admin_machine_test</a></td>
-                <td>pvmadmin</td>
-                <td>Windows Standard Edition R2x64 xen</td>
-                <td>20 GB</td>
-                <td>1.234 GB</td>
-                <td>1</td>
-                <td>88.196.221.197</td>
-                <td><span class="switch"><a href="#">ON</a></span></td>
-                <td style="text-align: center"><button class="btn btn-small">Reboot</button></td>
-            </tr>
-            <tr class="disabled">
-                <td>#4243</td>
-                <td><a class="disabled" href="#">admin_machine_test</a></td>
-                <td>pvmadmin</td>
-                <td>Windows Standard Edition R2x64 xen</td>
-                <td>20 GB</td>
-                <td>1.234 GB</td>
-                <td>1</td>
-                <td>88.196.221.197</td>
-                <td><span class="switch"><a href="#">ON</a></span></td>
-                <td style="text-align: center"><button class="btn btn-small btn-disabled">Reboot</button></td>
+                <td>Reboot virtual machine</td>
+                <td>Pending</td>
             </tr>
             <tr>
-                <td>#4243</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="#">4244</a></td>
+                <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td>Windows Standard Edition R2x64 xen</td>
-                <td>20 GB</td>
-                <td>1.234 GB</td>
-                <td>1</td>
-                <td>88.196.221.197</td>
-                <td><span class="switch"><a href="#">ON</a></span></td>
-                <td style="text-align: center"><button class="btn btn-small">Reboot</button></td>
+                <td><a href="#">admin_machine_test</a></td>
+                <td>Reboot virtual machine</td>
+                <td>Running</td>
+            </tr>
+            <tr>
+                <td><a href="#">4244</a></td>
+                <td>08 Sep,2014, 12:55;15</td>
+                <td>pvmadmin</td>
+                <td><a href="#">admin_machine_test</a></td>
+                <td>Reboot virtual machine</td>
+                <td>Canceled</td>
+            </tr>
+            <tr>
+                <td><a href="#">4244</a></td>
+                <td>08 Sep,2014, 12:55;15</td>
+                <td>pvmadmin</td>
+                <td><a href="#">admin_machine_test</a></td>
+                <td>Reboot virtual machine</td>
+                <td>Failed</td>
+            </tr>
+            <tr>
+                <td><a href="#">4244</a></td>
+                <td>08 Sep,2014, 12:55;15</td>
+                <td>pvmadmin</td>
+                <td><a href="#">admin_machine_test</a></td>
+                <td>Reboot virtual machine</td>
+                <td>Failed</td>
             </tr>
             </tbody>
         </table>

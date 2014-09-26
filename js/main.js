@@ -16,18 +16,16 @@ $(function() {
         e.preventDefault()
         $(this).tab('show');
         if($('.first-tab').hasClass('active')) {
-
             $('.first-tab').css('border-right', '1px solid #ddd');
         }
     });
 
     if($('.first-tab').hasClass('active')) {
-
         $('.first-tab').css('border-right', '1px solid #ddd');
     }
 
-    $('.alert').click(function () {
-        $(this).alert('close');
+    $('.close-alert').click(function () {
+        $(this).parent().parent().parent().alert('close');
     });
 
 

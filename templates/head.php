@@ -32,7 +32,8 @@
             </div>
             <div class="navbar-collapse collapse" id="top-menu">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Eraklient</a></li>
+                    <li class="active"><a href="#">OnApp</a></li>
+                    <li><a href="#">Eraklient</a></li>
                     <li><a href="#about">Äriklient</a></li>
                     <li><a href="https://pood.elion.ee/">E-pood</a></li>
                     <li class="dropdown">
