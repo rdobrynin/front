@@ -11,23 +11,39 @@ html {
 }
 
 
+
 a {
-  outline:0 none !important;
-  &:focus,
-  &:visited,
-  &:active {
-    outline:0 none !important;
+
+  color:@brand;
+  text-decoration:none;
+  position:relative;
+  outline: none!important;
+
+  &:link{
+
   }
-  &:hover {
-    color: @brand;
+
+  &:hover{
+    text-decoration:underline;
+    color:@brand-hover;
   }
-  color: @link-color;
-  .disabled {
-    pointer-events: none;
-    cursor: pointer;
-    color: lighten(@link-color, 40%);
+
+  &:visited{
+
   }
-}
+
+  &:active{
+    color:@brand-hover;
+  }
+
+  &:focus{
+    color:@brand-hover;
+  }
+
+} // a END
+
+
+
 
 button {
   outline:0 none !important;
@@ -112,6 +128,7 @@ color:@brand-primary;
   font-size: 1.2em;
 }
 
+//BUTTONS
 
 .btn {
   background:@btn-default-bg;
