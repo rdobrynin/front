@@ -30,45 +30,71 @@ a.navbar-brand {
   border-radius: 0;
   border: 0;
   position: relative;
-
-
-  .navbar-nav > li:before {
-
-    background: none repeat scroll 0 0 #4f2369;
-    content: "";
-    display: block;
-    height: 28px;
-    margin-top: -15px;
-    position: absolute;
-    right: 0px;
-    top: 50%;
-    width: 1px;
-    z-index: 1;
-  }
-
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 0.9em;
-    font-weight: bold;
-  }
-
-  .navbar-nav > li > a:hover {
-    background-color: @brand-hover;
-  }
-  .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: @brand-hover;
-  }
-
-  .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: @brand-hover;
-  }
-
-
   background-color: @brand;
-  .navbar-nav > li > a {
-    color: @component-active-color;
+  .navbar-nav {
+    li {
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: @component-active-color;
+        &:hover {
+          background-color: @brand-hover;
+        }
+      }
+      &:before {
+        background: none repeat scroll 0 0 #4f2369;
+        content: "";
+        display: block;
+        height: 28px;
+        margin-top: -15px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        width: 1px;
+        z-index: 1;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        a {
+        &:hover {
+          background-color: @brand;
+        }
+        }
+      }
+
+    }
+
+    .active {
+      a {
+        background-color: @brand-hover;
+      }
+    }
+    .open a {
+      background-color: @brand-hover;
+    }
+  }
+
+  .navbar-inverse {
+    .navbar-nav {
+      .active {
+        a {
+          &:hover, &:focus {
+            background-color: @brand-hover;
+          }
+        }
+      }
+      .open {
+        a {
+          &:hover, &:focus {
+            background-color: @brand-hover;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -76,33 +102,44 @@ a.navbar-brand {
   position: relative;
   border-radius: 0;
   border: 0;
-  background-color: @body-bg;
+  background-color: @component-active-color;
   padding-top: 15px;
   float: left;
   width: 100%;
-
-  .navbar-nav >li >a {
-    padding-bottom: 35px;
+  .navbar-nav {
+    li {
+      a {
+        padding-bottom: 35px;
+        color: @brand-hover;
+        &:after {
+          background-color: @table-border-color;
+          content: "";
+          display: block;
+          height: 28px;
+          position: absolute;
+          left: 0;
+          top: 17%;
+          width: 1px;
+          z-index: 1;
+        }
+        &:hover, &:focus {
+          background: transparent;
+        }
+      }
+      &:first-child {
+        a {
+          &:after {
+            background: transparent;
+          }
+        }
+      }
+    }
+    .active {
+      a {
+        border-bottom: 3px solid @brand-hover;
+      }
+    }
   }
-
-  .navbar-nav >li >a:after {
-    background-color: @table-border-color;
-    content: "";
-    display: block;
-    height: 28px;
-    position: absolute;
-    left: 0;
-    top: 17%;
-    width: 1px;
-    z-index: 1;
-  }
-
-  .navbar-nav >li:first-child>a:after {
-    background: transparent;
-  }
-
-
-
   a {
     font-size: 1.2em;
   }
@@ -113,20 +150,7 @@ a.navbar-brand {
   }
 
   .container-fluid {
-    border-bottom: 1px solid #E3E3E3;
-  }
-
-  .navbar-nav > .active > a {
-    border-bottom: 3px solid @brand-hover;
-  }
-
-
-  .navbar-nav > li > a {
-    color: @brand-hover;
-  }
-
-  .nav > li > a:hover, .nav > li > a:focus {
-    background: none;
+    border-bottom: 1px solid darken(@gray-lighter, 8%);
   }
 }
 

@@ -1,18 +1,32 @@
 // Insert your styling here.
 body {
-  background-color: @body;
+  background-color: @body-bg;
 }
 
 html {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a, a:visited, a:focus, a:active, a:hover, button:focus{
+
+a {
   outline:0 none !important;
+  &:focus,
+  &:visited,
+  &:active {
+    outline:0 none !important;
+  }
+}
+
+button {
+  outline:0 none !important;
+  &:focus,
+  &:visited,
+  &:active {
+    outline:0 none !important;
+  }
 }
 
 .legend {
@@ -21,7 +35,7 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
   float: left;
   width: 100%;
   h2 {
-    color: #ffffff;
+    color: @component-active-color;
     margin-left: 4%;
     margin-right: 4%;
     padding-top: 8px;
@@ -35,7 +49,7 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
 }
 
 .wrapper {
-  background-color: @body-bg;
+  background-color: @component-active-color;
   padding-top: 15px;
   padding-bottom: 20px;
 }
@@ -79,8 +93,6 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
     border-bottom: 1px;
   }
 }
-
-
 
 .tab-pane {
   padding-top: 20px;
