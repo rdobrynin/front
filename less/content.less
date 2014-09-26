@@ -112,51 +112,83 @@ color:@brand-primary;
   font-size: 1.2em;
 }
 
-//buttons
 
-.btn-sm {
-  padding: 9px 9px 7px 8px !important;
+.btn {
+  background:@btn-default-bg;
+  border:none; // Needed for input
+  border-bottom:4px solid @btn-default-border;
+  line-height:1;
+  color:@btn-default-color;
+  font-size:13px;
+  font-weight:@btn-font-weight;
+  padding:12px 40px;
+  display:inline-block;
+  position:relative;
+
+  &:hover{
+    text-decoration:none;
+    background:@btn-default-bg-hover;
+    border-bottom:4px solid @btn-default-border-hover;
+    color:#fff;
+  }
+  &:visited{
+
+  }
+
+  &:active{
+    background:@btn-default-border;
+    border-bottom:4px solid @btn-default-border;
+    color:@component-active-color;
+  }
+
+  &:focus{
+    outline:none;
+  }
+  &.btn-small {
+    padding:8px 11px;
+  }
+
+//PRIMARY BUTTON
+
+  &.btn-primary {
+    background:@btn-primary-bg;
+    border-bottom:4px solid @btn-primary-border;
+
+    &:hover{
+      background: @btn-primary-bg-hover;
+      border-bottom:4px solid @btn-primary-border-hover;
+    }
+
+    &:visited{
+
+    }
+
+    &:active{
+      background:@btn-primary-border;
+      border-bottom:4px solid @btn-primary-border;
+    }
+
+    &:focus{
+
+    }
 }
 
-.btn-primary{
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-  background: @btn-primary-bg;
-  border: none;
-  border-bottom: 4px solid @btn-primary-border;
-  line-height: 1;
-  color: @body-bg;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 12px 30px;
-  display: inline-block;
-  position: relative;
-  &:hover, &:focus {
-    background: lighten(@btn-primary-bg, 2%);
-    border-bottom: 4px solid darken(@btn-primary-bg, 4%);
-  }
-}
+  &.btn-disabled,
+  &:disabled{
+    background:@btn-disabled-bg;
+    border-bottom:4px solid @btn-disabled-border;
+    color: @btn-disabled-color;
+    cursor:default;
 
+    &:hover{
+      background:#a4a5a6;
+      border-bottom:4px solid @btn-disabled-border-hover;
+      color:@btn-disabled-color;
+      cursor:default;
+    }
 
-.btn-success{
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-  background: @brand-success;
-  border: none;
-  border-bottom: 4px solid @btn-success-border;
-  line-height: 1;
-  color: @body-bg;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 12px 30px;
-  display: inline-block;
-  position: relative;
-  &:hover, &:focus {
-    background: lighten(@brand-success, 2%);
-    border-bottom: 4px solid darken(@brand-success, 4%);
   }
+
 }
 
 .disabled {
