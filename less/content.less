@@ -30,13 +30,22 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
   }
 }
 
-.block {
+.tab-container {
   border-bottom: 1px solid @table-border-color;
 }
 
 .wrapper {
   background-color: @body-bg;
   padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.block {
+  border-bottom: 1px solid @table-border-color;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -50,7 +59,6 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
 
 #table-dashboard-info {
   th {
-    background-color: @table-th;
     text-align: center;
     padding: 15px 0 15px 0;
     font-size: 1.2em;
@@ -82,6 +90,8 @@ span.info {
 color:@brand-primary;
   font-size: 1.2em;
 }
+
+//buttons
 
 .btn-sm {
   padding: 9px 9px 7px 8px !important;
@@ -152,9 +162,3 @@ a.disabled {
   font-weight: bold;
   color: @brand;
 }
-
-form {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-

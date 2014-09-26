@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/modernizr.min.js" afterPath="$PROJECT_DIR$/assets/js/modernizr.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/header.less" afterPath="$PROJECT_DIR$/less/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/overrides.less" afterPath="$PROJECT_DIR$/less/overrides.less" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,13 +26,13 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61156505">
+    <splitter split-orientation="horizontal" split-proportion="0.48020113">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="63" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.5192308" vertical-offset="0" max-vertical-offset="7402">
+                <state line="278" column="66" selection-start="12844" selection-end="12844" vertical-scroll-proportion="0.69154227" vertical-offset="4916" max-vertical-offset="7842">
                   <folding>
                     <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -57,7 +56,7 @@
           <file leaf-file-name="overrides.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/less/overrides.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="19" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1962">
+                <state line="100" column="0" selection-start="1663" selection-end="1663" vertical-scroll-proportion="-8.653846" vertical-offset="1350" max-vertical-offset="2697">
                   <folding />
                 </state>
               </provider>
@@ -67,10 +66,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="header.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="header.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/less/header.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="133" column="16" selection-start="2164" selection-end="2164" vertical-scroll-proportion="0.57992566" vertical-offset="1980" max-vertical-offset="3363">
+                <state line="131" column="0" selection-start="2132" selection-end="2132" vertical-scroll-proportion="-7.269231" vertical-offset="1980" max-vertical-offset="3363">
                   <folding />
                 </state>
               </provider>
@@ -85,10 +84,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/content.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="-2.0576923" vertical-offset="379" max-vertical-offset="3669">
+                <state line="54" column="14" selection-start="991" selection-end="991" vertical-scroll-proportion="0.86392814" vertical-offset="299" max-vertical-offset="3713">
                   <folding />
                 </state>
               </provider>
@@ -131,10 +130,10 @@
         <option value="$PROJECT_DIR$/billing_plan.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/less/variables.less" />
-        <option value="$PROJECT_DIR$/less/overrides.less" />
-        <option value="$PROJECT_DIR$/less/content.less" />
         <option value="$PROJECT_DIR$/less/header.less" />
+        <option value="$PROJECT_DIR$/less/overrides.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/content.less" />
       </list>
     </option>
   </component>
@@ -708,35 +707,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/overrides.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7610" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/content.less">
+    <entry file="file://$PROJECT_DIR$/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="-2.0576923" vertical-offset="379" max-vertical-offset="3669">
+        <state line="131" column="0" selection-start="2132" selection-end="2132" vertical-scroll-proportion="-7.269231" vertical-offset="1980" max-vertical-offset="3363">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/header.less">
+    <entry file="file://$PROJECT_DIR$/less/overrides.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="16" selection-start="2164" selection-end="2164" vertical-scroll-proportion="0.57992566" vertical-offset="1980" max-vertical-offset="3363">
+        <state line="100" column="0" selection-start="1663" selection-end="1663" vertical-scroll-proportion="-8.653846" vertical-offset="1350" max-vertical-offset="2697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/content.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="14" selection-start="991" selection-end="991" vertical-scroll-proportion="0.86392814" vertical-offset="299" max-vertical-offset="3713">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="63" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.5192308" vertical-offset="0" max-vertical-offset="7402">
+        <state line="278" column="66" selection-start="12844" selection-end="12844" vertical-scroll-proportion="0.69154227" vertical-offset="4916" max-vertical-offset="7842">
           <folding>
             <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
