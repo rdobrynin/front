@@ -26,4 +26,13 @@ $(function() {
         $('.first-tab').css('border-right', '1px solid #ddd');
     }
 
+    $('.alert').click(function () {
+        $(this).alert('close');
+    });
+
+
+    setTimeout(function() {
+        $('#test-alert-warning').fadeIn('fast');
+    }, 3000);
+
 });

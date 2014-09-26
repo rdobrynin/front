@@ -1,5 +1,25 @@
+<div class="container-fluid alert alert-warning fade in" id="test-alert-warning" data-alert="alert" role="alert">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <span class="pull-left"><span class="ts-icon-info"></span><span style="padding-left: 35px;">
+                        <b>Primary alert: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>113</b> days</span>
+                </span>
+            </div>
+            <span class="sr-only">Close</span>
+            <span class="close pull-right" data-dismiss="alert">
+                <span class="close-alert">&times;</span>
+            </span>
+            <span class="pull-right"><span class="ts-icon-arrow-right"></span>
+                <a href="#"><b>Read more</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            </span>
+        </div>
+    </div>
+</div>
+
+
 <!-- Fixed navbar -->
-<div class="navbar navbar-inverse" role="navigation" id="elion-common-nav">
+<div class="navbar " role="navigation" id="elion-common-nav">
     <div class="container-fluid">
         <div class="row">
             <div class="navbar-header">
@@ -35,6 +55,7 @@
         </div>
     </div>
 </div>
+
 <!--TOP NAV-->
 <div class="navbar" role="navigation" id="elion-top-nav">
     <div class="container-fluid">
@@ -50,7 +71,7 @@
             </div>
             <div class="navbar-collapse collapse" id="top-main-menu">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Dashboard</a></li>
+                    <li class="active"><a href="index.php">Dashboard</a></li>
                     <li><a href="#">Virtual machines</a></li>
                     <li><a href="#">Logs</a></li>
                     <li><a href="#">Templates</a></li>

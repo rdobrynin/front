@@ -489,17 +489,28 @@
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-@state-success-text:             #3c763d;
-@state-success-bg:               #dff0d8;
-@state-success-border:           darken(spin(@state-success-bg, -10), 5%);
+@state-success-text:             #fff;
+@state-success-bg:               #00b48c;
+@state-success-bg-hover:         lighten(@state-success-bg, 1%);
+@state-success-border-top:       darken(@state-success-bg, 5%);
+@state-success-border-bottom:    darken(spin(@state-success-bg, -1), 5%);
+
 
 @state-info-text:                #31708f;
 @state-info-bg:                  #d9edf7;
 @state-info-border:              darken(spin(@state-info-bg, -10), 7%);
 
-@state-warning-text:             #8a6d3b;
-@state-warning-bg:               #fcf8e3;
-@state-warning-border:           darken(spin(@state-warning-bg, -10), 5%);
+@state-warning-text:             #fff;
+@state-warning-bg:               #ff6319;
+@state-warning-bg-hover:         lighten(@state-warning-bg, 1%);
+@state-warning-border-top:       darken(@state-warning-bg, 5%);
+@state-warning-border-bottom:    darken(spin(@state-warning-bg, -2), 5%);
+
+@state-primary-text:             #fff;
+@state-primary-bg:               #0083be;
+@state-primary-bg-hover:         lighten(@state-primary-bg, 1%);
+@state-primary-border-top:       darken(@state-primary-bg, 5%);
+@state-primary-border-bottom:    darken(spin(@state-primary-bg, -2), 5%);
 
 @state-danger-text:              #a94442;
 @state-danger-bg:                #f2dede;

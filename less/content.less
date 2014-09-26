@@ -201,6 +201,83 @@ color:@brand-primary;
 
 }
 
+.alert {
+
+  padding: 15px;
+  margin-bottom: 0;
+  border-radius: 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-left: 0;
+  .close-alert {
+    color: @component-active-color;
+    font-size: @font-size-h2;
+    position: absolute;
+    top: -5px;
+
+    &:hover, &:focus {
+      opacity: 0.3;
+    }
+  }
+  .close {
+    opacity: 1.0;
+  }
+  &:hover, &:focus {
+    opacity: 1.0;
+  }
+
+  a {
+    color:@component-active-color;
+  }
+  .ts-icon-delete {
+    position: absolute;
+    font-size: 25px;
+    top: -6px;
+    padding-left: 15px;
+  }
+  .readmore {
+    padding-right: 15px;
+  }
+  .ts-icon-info {
+    font-size: @font-size-h3;
+    position: absolute;
+    top: -5px;
+  }
+  cursor: pointer;
+
+  &:hover {
+  background-color: @state-success-bg-hover;
+    }
+
+  &.alert-warning{
+    position: fixed;
+    z-index: @zindex-navbar-fixed;
+    &:hover {
+      background-color: @state-warning-bg-hover;
+    }
+    border-top: 4px solid @state-warning-border-top;
+    border-bottom: 4px solid @state-warning-border-bottom;
+  }
+
+  &.alert-success {
+    border-top: 4px solid @state-success-border-top;
+    border-bottom: 4px solid @state-success-border-bottom;
+    &:hover {
+      background-color: @state-success-bg-hover;
+    }
+  }
+
+  &.primary-success {
+    border-top: 4px solid @state-primary-border-top;
+    border-bottom: 4px solid @state-primary-border-bottom;
+    &:hover {
+      background-color: @state-primary-bg-hover;
+    }
+  }
+
+}
+
 .disabled {
   td {
     color: lighten(@gray-light, 20%);
@@ -213,4 +290,15 @@ color:@brand-primary;
 .switch {
   font-weight: bold;
   color: @brand;
+}
+
+
+form  {
+  padding-left: 0;
+  margin-left: -30px;
+}
+
+
+#test-alert-warning {
+  display: none;
 }

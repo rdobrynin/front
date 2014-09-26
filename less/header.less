@@ -25,7 +25,10 @@ a.navbar-brand {
   .ts-icon-myaccount {
     vertical-align: middle;
     padding-left: 0;
-    font-size: @font-size-h4;
+    font-size: @font-size-h3;
+    &:before {
+      line-height: 0;
+    }
   }
 }
 
@@ -41,6 +44,8 @@ a.navbar-brand {
   border-radius: 0;
   border: 0;
   position: relative;
+  float: left;
+  width: 100%;
   background-color: @brand;
   .navbar-nav {
     li {
@@ -71,6 +76,9 @@ a.navbar-brand {
     .dropdown-menu {
       li {
         a {
+          padding-top: 6px;
+          padding-bottom: 6px;
+          font-weight: normal;
         &:hover {
           background-color: @brand;
         }
@@ -89,7 +97,6 @@ a.navbar-brand {
     }
   }
 
-  .navbar-inverse {
     .navbar-nav {
       .active {
         a {
@@ -106,7 +113,7 @@ a.navbar-brand {
         }
       }
     }
-  }
+
 }
 
 #elion-top-nav {
