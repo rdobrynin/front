@@ -72,6 +72,8 @@ a {
   }
 }
 
+
+
 button {
   outline:0 none !important;
 }
@@ -119,10 +121,18 @@ button {
 }
 
 #table-dashboard-info {
+tbody {
+  tr {
+    td {
+     vertical-align: baseline;
+    }
+  }
+}
+
   th {
     text-align: center;
     padding: 15px 0 15px 0;
-    font-size: 1.2em;
+    font-size: @font-size-base + 2;
   }
 
   td {
@@ -147,7 +157,7 @@ button {
 
 span.info {
 color:@brand-primary;
-  font-size: 1.2em;
+  font-size: @font-size-base + 2;
 }
 
 //BUTTONS
@@ -158,7 +168,7 @@ color:@brand-primary;
   border-bottom:4px solid @btn-default-border;
   line-height:1;
   color:@btn-default-color;
-  font-size:13px;
+  font-size:@font-size-base - 1;
   font-weight:@btn-font-weight;
   padding:12px 40px;
   display:inline-block;
@@ -231,6 +241,71 @@ color:@brand-primary;
 
 }
 
+//TABS
+.nav-tabs {
+  border-bottom: none;
+
+  li {
+    border-right: 1px solid @table-border-color;
+    a {
+      color:@brand;
+      border-radius: 0;
+      padding:15px 80px 15px 80px;
+      margin-right: 0;
+      @media (max-width: 767px) {
+        padding: 15px 30px 15px 30px;
+      }
+    }
+
+    .active {
+      a {
+        border-radius: 0;
+      }
+      &:first-child {
+        border-right:0;
+      }
+    }
+
+  }
+
+  .active {
+    &:first-child {
+      border-right:0;
+    }
+  }
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+  color:@brand;
+  border-bottom-color: @body-bg;
+  cursor: default;
+  border-right:0;
+  border-left:0;
+
+}
+
+.nav-tabs > li.active > a {
+  border-bottom: 1px solid @component-active-color;
+  background-color: @component-active-color;
+}
+
+.nav-tabs > li.first-tab > a, .nav-tabs > li.first-tab > a:hover {
+  border-left: 1px solid @table-border-color !important;
+}
+
+.nav-tabs > li > a:hover {
+  border-bottom: 1px solid @table-border-color;
+}
+
+.nav-tabs > li.active > a:hover {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid @body-bg;
+  background-color: @component-active-color;
+  color:@brand;
+}
+
+
 .alert {
   margin-bottom: 0;
   border-radius: 0;
@@ -260,7 +335,7 @@ color:@brand-primary;
   }
   .ts-icon-delete {
     position: absolute;
-    font-size: 25px;
+    font-size: @font-size-h3 + 1;
     top: -6px;
     padding-left: 15px;
   }

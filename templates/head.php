@@ -14,7 +14,7 @@
 </div>
 
 <!-- Main top navbar -->
-<div class="navbar " role="navigation" id="elion-common-nav">
+<div class="navbar hidden-xs " role="navigation" id="elion-common-nav">
     <div class="container-fluid">
         <div class="row">
             <div class="navbar-header">

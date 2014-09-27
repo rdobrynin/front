@@ -37,69 +37,6 @@ a.navbar-brand {
 }
 
 
-.nav-tabs {
-  border-bottom: none;
-
-  li {
-    border-right: 1px solid @table-border-color;
-    a {
-      color:@brand;
-      border-radius: 0;
-      padding:15px 80px 15px 80px;
-      margin-right: 0;
-    }
-
-    .active {
-      a {
-        border-radius: 0;
-      }
-      &:first-child {
-        border-right:0;
-      }
-    }
-
-  }
-
-  .active {
-    &:first-child {
-      border-right:0;
-    }
-  }
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
-  color:@brand;
-  border-bottom-color: @body-bg;
-  cursor: default;
-  border-right:0;
-  border-left:0;
-
-}
-
-.nav-tabs > li.active > a {
-  border-bottom: 1px solid @component-active-color;
-  background-color: @component-active-color;
-}
-
-.nav-tabs > li.first-tab > a, .nav-tabs > li.first-tab > a:hover {
-  border-left: 1px solid @table-border-color !important;
-}
-
-.nav-tabs > li > a:hover {
-  border-bottom: 1px solid @table-border-color;
-}
-
-.nav-tabs > li.active > a:hover {
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px solid @body-bg;
-  background-color: @component-active-color;
-  color:@brand;
-}
-
-
-
-
 #elion-common-nav {
   min-height: 20px;
   margin-bottom: 0;
@@ -115,11 +52,15 @@ a.navbar-brand {
       a {
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 0.9em;
+        font-size: @font-size-base - 1;
         font-weight: bold;
         color: @nav-open-link-hover-color;
         &:hover {
           background-color: @brand-hover;
+        }
+
+        @media (min-width: 768px) and (max-width: 979px) {
+          font-size: @font-size-base - 4;
         }
       }
       &:before {
@@ -177,6 +118,8 @@ a.navbar-brand {
       }
     }
 
+
+
 }
 
 #elion-top-nav {
@@ -187,6 +130,20 @@ a.navbar-brand {
   padding-top: 15px;
   float: left;
   width: 100%;
+
+  @media (max-width: 767px) {
+    padding-top: 0;
+    .navbar-brand{
+      padding: 4px 4px;
+    }
+    .navbar-toggle {
+      background-color: @brand;
+      .icon-bar {
+        background-color: @body-bg
+      }
+    }
+  }
+
   .navbar-nav {
     li {
       a {
@@ -222,7 +179,7 @@ a.navbar-brand {
     }
   }
   a {
-    font-size: 1.2em;
+    font-size: @font-size-base+2;
   }
 
   img.logo {
@@ -232,6 +189,24 @@ a.navbar-brand {
 
   .container-fluid {
     border-bottom: 1px solid darken(@gray-lighter, 8%);
+  }
+//responsive
+  @media (min-width: 980px) and (max-width: 1036px) {
+    a {
+      font-size: @font-size-base;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    a {
+      font-size: @font-size-base;
+    }
+    .navbar-brand {
+      display: none;
+    }
+
+    #top-main-menu {
+      padding-left: 0;
+    }
   }
 }
 

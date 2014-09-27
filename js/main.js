@@ -24,17 +24,20 @@ $(function() {
         $('.first-tab').css('border-right', '1px solid #ddd');
     }
 
-//    setTimeout(function() {
-//        $('#test-alert-warning').fadeIn('fast');
-//    }, 1000);
-
     $('#test-alert-warning, #test-alert-success').hide();
 
-    $(window).scroll(function(){
-        $(".alert-warning")
-            .stop()
-            .animate({"marginTop": ($(window).scrollTop() + 0) + "px"}, "slow" );
-    });
+//TEST
+
+//    setTimeout(function() {
+//        $('#test-alert-warning').fadeIn('fast');
+//    }, 8000);
+
+
+//    $(window).scroll(function(){
+//        $(".alert-warning")
+//            .stop()
+//            .animate({"marginTop": ($(window).scrollTop() + 0) + "px"}, "slow" );
+//    });
 
 
 });
