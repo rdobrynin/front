@@ -8,7 +8,7 @@
         <span class="sr-only">Close</span>
     </button>
     <span class="ts-icon-info"></span>
-     <span style="padding-left: 33px;"> <strong>Primary alert:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>113</b> days
+     <span style="padding-left: 33px;"> <strong>Success alert:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>113</b> days
      </span>
 </div>
 <footer></footer>
