@@ -1,22 +1,16 @@
-<div class="container-fluid alert alert-warning fade in" id="test-alert-warning" data-alert="alert" role="alert">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-8">
-                <span class="pull-left"><span class="ts-icon-info"></span><span style="padding-left: 35px;">
-                        <b>Primary alert: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>113</b> days</span>
-                </span>
-            </div>
-            <span class="sr-only">Close</span>
-            <span class="close pull-right" data-dismiss="alert">
-                <span class="close-alert">&times;</span>
-            </span>
-            <span class="pull-right"><span class="ts-icon-arrow-right"></span>
-                <a href="#"><b>Read more</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            </span>
-        </div>
+<div class="alert alert-warning alert-dismissible fade in" role="alert" id="test-alert-warning">
+    <div class="pull-right">
+        <span class="ts-icon-arrow-right"></span>
+        <a href="#"><b>Read more</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     </div>
+    <button type="button" class="close pull-right" data-dismiss="alert">
+        <span aria-hidden="true" class="close-alert">&times;</span>
+        <span class="sr-only">Close</span>
+    </button>
+     <span class="ts-icon-info"></span>
+     <span style="padding-left: 33px;"> <strong>Primary alert:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>113</b> days
+     </span>
 </div>
-
 
 <!-- Fixed navbar -->
 <div class="navbar " role="navigation" id="elion-common-nav">

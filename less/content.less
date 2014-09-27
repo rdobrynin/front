@@ -234,17 +234,17 @@ color:@brand-primary;
 }
 
 .alert {
-  padding: 15px;
+
   margin-bottom: 0;
   border-radius: 0;
   position: relative;
   float: left;
   width: 100%;
-  padding-left: 0;
+  padding: 15px 5% 15px 5%;
   .close-alert {
     color: @component-active-color;
     font-size: @font-size-h2;
-    position: absolute;
+    position: relative;
     top: -5px;
 
     &:hover, &:focus {
@@ -270,11 +270,7 @@ color:@brand-primary;
   .readmore {
     padding-right: 15px;
   }
-  .ts-icon-info {
-    font-size: @font-size-h3;
-    position: absolute;
-    top: -5px;
-  }
+
   cursor: pointer;
 
   &:hover {
@@ -307,7 +303,27 @@ color:@brand-primary;
     }
   }
 
+  .ts-icon-info {
+    font-size: @font-size-h3;
+    position: absolute;
+    top: 11px;
+  }
+
+  button {
+    font-size: @font-size-h3;
+  }
+
 }
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 14px;
+  right: 4%;
+  color: inherit;
+  float: right !important;
+}
+
+
 
 .disabled {
   td {

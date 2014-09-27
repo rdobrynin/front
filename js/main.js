@@ -24,13 +24,13 @@ $(function() {
         $('.first-tab').css('border-right', '1px solid #ddd');
     }
 
-    $('.close-alert').click(function () {
-        $(this).parent().parent().parent().alert('close');
-    });
+//    $('.close-alert').click(function () {
+//        $(this).parent().parent().parent().alert('close');
+//    });
 
 
     setTimeout(function() {
         $('#test-alert-warning').fadeIn('fast');
-    }, 3000);
+    }, 1000);
 
 });
