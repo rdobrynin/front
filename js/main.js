@@ -30,4 +30,11 @@ $(function() {
 
     $('#test-alert-warning, #test-alert-success').hide();
 
+    $(window).scroll(function(){
+        $(".alert-warning")
+            .stop()
+            .animate({"marginTop": ($(window).scrollTop() + 0) + "px"}, "slow" );
+    });
+
+
 });
