@@ -24,8 +24,10 @@ $(function() {
         $('.first-tab').css('border-right', '1px solid #ddd');
     }
 
-    setTimeout(function() {
-        $('#test-alert-warning').fadeIn('fast');
-    }, 1000);
+//    setTimeout(function() {
+//        $('#test-alert-warning').fadeIn('fast');
+//    }, 1000);
+
+    $('#test-alert-warning, #test-alert-success').hide();
 
 });

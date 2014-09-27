@@ -1,3 +1,4 @@
+<!--Primary alert-->
 <div class="alert alert-warning alert-dismissible fade in" role="alert" id="test-alert-warning">
     <div class="pull-right">
         <span class="ts-icon-arrow-right"></span>
@@ -12,7 +13,7 @@
      </span>
 </div>
 
-<!-- Fixed navbar -->
+<!-- Main top navbar -->
 <div class="navbar " role="navigation" id="elion-common-nav">
     <div class="container-fluid">
         <div class="row">
