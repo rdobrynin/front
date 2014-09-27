@@ -101,7 +101,7 @@
                           <td>1</td>
                           <td>88.196.221.197</td>
                           <td><span class="switch"><a href="#">ON</a></span></td>
-                          <td style="text-align: center"><button class="btn btn-small">Reboot</button></td>
+                          <td style="text-align: center"><button class="btn btn-icon"><span class="ts-icon-sync"></span></button></td>
                       </tr>
                       <tr>
                           <td>#4243</td>
@@ -113,7 +113,7 @@
                           <td>1</td>
                           <td>88.196.221.197</td>
                           <td><span class="switch"><a href="#">ON</a></span></td>
-                          <td style="text-align: center"><button class="btn btn-small">Reboot</button></td>
+                          <td style="text-align: center"><button class="btn btn-icon"><span class="ts-icon-sync"></span></button></td>
                       </tr>
                       <tr class="disabled">
                           <td>#4243</td>
@@ -125,7 +125,7 @@
                           <td>1</td>
                           <td>88.196.221.197</td>
                           <td><span class="switch disabled"><a href="#">ON</a></span></td>
-                          <td style="text-align: center"><button class="btn btn-small btn-disabled">Reboot</button></td>
+                          <td style="text-align: center"><button class="btn btn-icon btn-disabled"><span class="ts-icon-sync"></span></button></td>
                       </tr>
                       <tr>
                           <td>#4243</td>
@@ -137,7 +137,7 @@
                           <td>1</td>
                           <td>88.196.221.197</td>
                           <td><span class="switch"><a href="#">ON</a></span></td>
-                          <td style="text-align: center"><button class="btn btn-small">Reboot</button></td>
+                          <td style="text-align: center"><button class="btn btn-icon"><span class="ts-icon-sync"></span></button></td>
                       </tr>
 
                       </tbody>
@@ -170,7 +170,7 @@
                      </div>
                  </div>
                  <div class="form-group col-xs-12 col-sm-6 col-lg-3">
-                     <button type="submit" class="btn ">Submit Button</button>
+                     <button type="submit" class="btn btn-sm ">Filter</button>
                  </div>
              </form>
          </div>
