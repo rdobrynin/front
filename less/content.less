@@ -40,6 +40,11 @@ a {
 
 } // a END
 
+img.running {
+  top: -2px;
+  position: relative;
+  left: -1px;
+}
 
 //table
 
@@ -334,21 +339,31 @@ color:@brand-primary;
     border-bottom-right-radius: 3px;
     border-left: 1px solid @input-border;
     background-color: @table-th;
-
+    background-position: center;
+    background-image: url('../img/caret.png');
+    background-size: 12px 7px;
+    background-repeat: no-repeat;
+  }
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    .caret {
+      background-image: url('../img/caret@2x.png');
+    }
   }
 }
-
 
 .btn-group.open .dropdown-toggle {
   box-shadow: none;
 }
 
-
-
 //TABS
 .nav-tabs {
   border-bottom: none;
-
   li {
     border-right: 1px solid @table-border-color;
     a {
@@ -513,6 +528,14 @@ color:@brand-primary;
 .switch {
   font-weight: bold;
   color: @brand;
+}
+
+.ts-icon-delete {
+  &.status {
+    font-size: @font-size-base+2;
+    color: #dbdbdb;
+    font-weight: bold;
+  }
 }
 
 

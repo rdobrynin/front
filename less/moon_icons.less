@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?2ov338');
+  src:url('../fonts/icomoon.eot?#iefix2ov338') format('embedded-opentype'),
+  url('../fonts/icomoon.woff?2ov338') format('woff'),
+  url('../fonts/icomoon.ttf?2ov338') format('truetype'),
+  url('../fonts/icomoon.svg?2ov338#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pending:before {
+  content: "\e600";
+  font-size: @font-size-base+2;
+  color: @state-primary-bg;
+  padding-right: 6px;
+  top: 1px;
+  position: relative;
+}
+.icon-complete:before {
+  content: "\e601";
+  font-size: @font-size-base+1;
+  color: @state-success-bg;
+  padding-right: 1px;
+  top: 1px;
+  position: relative;
+  margin-left: -2px;
+}
+.icon-failed:before {
+  content: "\e602";
+  font-size: @font-size-base+2;
+  color: @state-warning-bg;
+  padding-right: 6px;
+  top: 1px;
+  position: relative;
+}
+
+.icon-animate {
+  background-position: center;
+  background-image: url('../img/running.gif');
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+}
