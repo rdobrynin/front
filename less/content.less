@@ -74,9 +74,13 @@ a {
 
 
 
-button {
+button,button.btn.dropdown-toggle.selectpicker.btn-select {
   outline:0 none !important;
+  &:focus, &:hover, {
+    outline:0 none !important;
+  }
 }
+
 
 .legend {
   background-color: @brand;
@@ -90,6 +94,8 @@ button {
     padding-top: 8px;
     padding-bottom: 16px;
     margin-bottom: 0;
+    left: -5px;
+    position: relative;
   }
 }
 
@@ -226,6 +232,11 @@ color:@brand-primary;
     color: @btn-select-color;
     background:@btn-select-bg;
     border:1px solid @btn-select-border;
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: @font-size-base;
+    height: 34px;
+    padding-top: 9px;
 
     &:hover{
       background: @btn-select-bg-hover;
@@ -244,11 +255,10 @@ color:@brand-primary;
     &:focus{
 
     }
-
-
+    .filter-option.pull-left {
+      color:@gray;
+    }
   }
-
-
 
   &.btn-disabled,
   &:disabled{
@@ -270,6 +280,31 @@ color:@brand-primary;
     padding: 4px 14px 2px 17px;
     span {
       font-size: @font-size-large;
+    }
+  }
+
+}
+
+.btn-group {
+  &.bootstrap-select {
+    margin-right: 10px;
+    .check-mark {
+      display: none;
+    }
+    .dropdown-menu {
+      margin:-2px 0;
+      li {
+        a {
+          color:@brand;
+          padding-left: 16px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          &:hover {
+            background-color: @brand;
+            color:@component-active-color;
+          }
+        }
+      }
     }
   }
 }

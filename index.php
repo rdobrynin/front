@@ -166,7 +166,11 @@
                     <option>Ketchup</option>
                     <option>Relish</option>
                 </select>
-                <input type="password" class="input-small form-control" placeholder="Password">
+              <select class="selectpicker" title='All users' data-header="All users">
+                <option>pvmadmin</option>
+                <option>client</option>
+                <option>tester</option>
+              </select>
                 <button type="button" class="btn btn-sm">Filter</button>
             </form>
                 </div>
