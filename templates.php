@@ -87,6 +87,7 @@
 <!--breadcrumbs-->
 <div class="container-fluid">
   <div class="breadcrumbs">
+    <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Templates
   </div>
 </div>
   <div class="legend">

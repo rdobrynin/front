@@ -86,11 +86,103 @@
 
 <!--breadcrumbs-->
 <div class="container-fluid">
-  <div class="breadcrumbs">
-  </div>
+ <div class="row">
+   <div class="breadcrumbs">
+     <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Logs
+   </div>
+ </div>
 </div>
   <div class="legend">
-              <h2>Logs</h2>
+              <h2>Latest activity logs</h2>
       </div>
+<div class="block">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="control-group">
+        <form class="form-inline" method="get">
+          <label class="control-label">Filter logs</label>
+          <select class="selectpicker">
+            <option>All users</option>
+            <option>Client</option>
+            <option>pvmadmin</option>
+            <option>Tester</option>
+          </select>
+          <select class="selectpicker">
+            <option>All actions</option>
+            <option>Build disk</option>
+            <option>Configure operation system</option>
+          </select>
+          <button type="button" class="btn btn-sm">Filter</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid wrapper">
+  <div class="row">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>REF</th>
+        <th>Date</th>
+        <th>User</th>
+        <th>Target</th>
+        <th>Action</th>
+        <th>Status</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="#">4244</a></td>
+        <td>08 Sep,2014, 12:55;15</td>
+        <td>pvmadmin</td>
+        <td><a href="#">admin_machine_test</a></td>
+        <td>Reboot virtual machine</td>
+        <td><span class="icon-complete"></span>Complete</td>
+      </tr>
+      <tr>
+        <td><a href="#">4244</a></td>
+        <td>08 Sep,2014, 12:55;15</td>
+        <td>pvmadmin</td>
+        <td><a href="#">admin_machine_test</a></td>
+        <td>Strartup virtual machine</td>
+        <td><span class="icon-pending"></span>Pending</td>
+      </tr>
+      <tr>
+        <td><a href="#">4244</a></td>
+        <td>08 Sep,2014, 12:55;15</td>
+        <td>pvmadmin</td>
+        <td><a href="#">admin_machine_test</a></td>
+        <td>Stop virtual machine</td>
+        <td> <img class="running" src="img/running.gif" alt="" width="17" height="17">&nbsp;Running</td>
+      </tr>
+      <tr>
+        <td><a href="#">4244</a></td>
+        <td>08 Sep,2014, 12:55;15</td>
+        <td>pvmadmin</td>
+        <td><a href="#">admin_machine_test</a></td>
+        <td>Reboot virtual machine</td>
+        <td><span class="ts-icon-delete status"></span>Canceled</td>
+      </tr>
+      <tr>
+        <td><a href="#">4244</a></td>
+        <td>08 Sep,2014, 12:55;15</td>
+        <td>pvmadmin</td>
+        <td><a href="#">admin_machine_test</a></td>
+        <td>Reboot virtual machine</td>
+        <td><span class="icon-failed">Failed</span></td>
+      </tr>
+      <tr>
+        <td><a href="#">4244</a></td>
+        <td>08 Sep,2014, 12:55;15</td>
+        <td>pvmadmin</td>
+        <td><a href="#">admin_machine_test</a></td>
+        <td>Reboot virtual machine</td>
+        <td><span class="icon-failed">Failed</span></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 <?php include('templates/footer.php'); ?>

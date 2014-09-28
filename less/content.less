@@ -46,6 +46,8 @@ img.running {
   left: -1px;
 }
 
+
+
 //table
 
 .table {
@@ -533,9 +535,17 @@ color:@brand-primary;
 .ts-icon-delete {
   &.status {
     font-size: @font-size-base+2;
-    color: #dbdbdb;
+    color: @hard-light;
     font-weight: bold;
   }
+}
+
+.breadcrumbs {
+  color: @gray-light;
+  .ts-icon-breadcrumb-arrow {
+    color: @table-border-color;
+  }
+
 }
 
 

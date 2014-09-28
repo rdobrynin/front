@@ -314,7 +314,7 @@
                 <td><span class="ts-icon-delete status"></span>Canceled</td>
             </tr>
             <tr>
-                <td><a href="#">4244</a></td>
+                <td class="failed"><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
                 <td><a href="#">admin_machine_test</a></td>
@@ -322,7 +322,7 @@
                 <td><span class="icon-failed">Failed</span></td>
             </tr>
             <tr>
-                <td><a href="#">4244</a></td>
+                <td class="failed"><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
                 <td><a href="#">admin_machine_test</a></td>
