@@ -162,14 +162,15 @@
             <form class="form-inline" method="get">
                 <label class="control-label">Filter logs</label>
                 <select class="selectpicker">
-                    <option>Mustard</option>
-                    <option>Ketchup</option>
-                    <option>Relish</option>
+                  <option>All users</option>
+                  <option>Client</option>
+                  <option>pvmadmin</option>
+                  <option>Tester</option>
                 </select>
-              <select class="selectpicker" title='All users' data-header="All users">
-                <option>pvmadmin</option>
-                <option>client</option>
-                <option>tester</option>
+              <select class="selectpicker">
+                <option>All actions</option>
+                <option>Build disk</option>
+                <option>Configure operation system</option>
               </select>
                 <button type="button" class="btn btn-sm">Filter</button>
             </form>
