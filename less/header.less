@@ -1,8 +1,8 @@
 // Insert your styling here.
 
 span.ts-icon.ts-icon-myaccount {
-font-size: 2em;
-  vertical-align: text-top;
+
+  color: #fff;
 }
 
 span.ts-icon.ts-icon-help {
@@ -16,6 +16,33 @@ a.navbar-brand {
 
 #top-menu {
   padding-left: 0;
+
+  .ts-icon-arrow-down {
+   vertical-align: middle;
+    padding-left: 3px;
+  }
+
+  .ts-icon-myaccount {
+    vertical-align: middle;
+    padding-left: 0;
+    font-size: @font-size-h3;
+    &:before {
+      line-height: 0;
+    }
+  }
+
+  .navbar-nav {
+   li {
+     .dropdown-menu {
+       background-color: @brand-hover;
+       margin-top: 0;
+       -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+       border-radius: 0;
+       border: 0;
+     }
+   }
+  }
 }
 
 #top-main-menu {
@@ -30,82 +57,142 @@ a.navbar-brand {
   border-radius: 0;
   border: 0;
   position: relative;
-
-
-  .navbar-nav > li:before {
-
-    background: none repeat scroll 0 0 #4f2369;
-    content: "";
-    display: block;
-    height: 28px;
-    margin-top: -15px;
-    position: absolute;
-    right: 0px;
-    top: 50%;
-    width: 1px;
-    z-index: 1;
-  }
-
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 0.9em;
-    font-weight: bold;
-  }
-
-  .navbar-nav > li > a:hover {
-    background-color: @brand-hover;
-  }
-  .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: @brand-hover;
-  }
-
-  .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: @brand-hover;
-  }
-
-
+  float: left;
+  width: 100%;
   background-color: @brand;
-  .navbar-nav > li > a {
-    color: @component-active-color;
+  .navbar-nav {
+    li {
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: @font-size-base - 1;
+        font-weight: bold;
+        color: @nav-open-link-hover-color;
+        &:hover {
+          background-color: @brand-hover;
+        }
+
+        @media (min-width: 768px) and (max-width: 979px) {
+          font-size: @font-size-base - 4;
+        }
+      }
+      &:before {
+        background: none repeat scroll 0 0 #4f2369;
+        content: "";
+        display: block;
+        height: 28px;
+        margin-top: -15px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        width: 1px;
+        z-index: 1;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        a {
+          padding-top: 6px;
+          padding-bottom: 6px;
+          font-weight: normal;
+        &:hover {
+          background-color: @brand;
+        }
+        }
+      }
+
+    }
+
+    .active {
+      a {
+        background-color: @brand-hover;
+      }
+    }
+    .open a {
+      background-color: @brand-hover;
+    }
   }
+
+    .navbar-nav {
+      .active {
+        a {
+          &:hover, &:focus {
+            background-color: @brand-hover;
+          }
+        }
+      }
+      .open {
+        a {
+          &:hover, &:focus {
+            background-color: @brand-hover;
+          }
+        }
+      }
+    }
+
+
+
 }
 
 #elion-top-nav {
   position: relative;
   border-radius: 0;
   border: 0;
-  background-color: @body-bg;
+  background-color: @component-active-color;
   padding-top: 15px;
   float: left;
   width: 100%;
-  margin-bottom: 40px;
 
-  .navbar-nav >li >a {
-    padding-bottom: 35px;
+  @media (max-width: 767px) {
+    padding-top: 0;
+    .navbar-brand{
+      padding: 4px 4px;
+    }
+    .navbar-toggle {
+      background-color: @brand;
+      .icon-bar {
+        background-color: @body-bg
+      }
+    }
   }
 
-  .navbar-nav >li >a:after {
-    background-color: @table-border-color;
-    content: "";
-    display: block;
-    height: 28px;
-    position: absolute;
-    left: 0;
-    top: 17%;
-    width: 1px;
-    z-index: 1;
+  .navbar-nav {
+    li {
+      a {
+        padding-bottom: 35px;
+        color: @brand-hover;
+        &:after {
+          background-color: @table-border-color;
+          content: "";
+          display: block;
+          height: 28px;
+          position: absolute;
+          left: 0;
+          top: 17%;
+          width: 1px;
+          z-index: 1;
+        }
+        &:hover, &:focus {
+          background: transparent;
+        }
+      }
+      &:first-child {
+        a {
+          &:after {
+            background: transparent;
+          }
+        }
+      }
+    }
+    .active {
+      a {
+        border-bottom: 3px solid @brand-hover;
+      }
+    }
   }
-
-  .navbar-nav >li:first-child>a:after {
-    background: transparent;
-  }
-
-
-
   a {
-    font-size: 1.2em;
+    font-size: @font-size-base+2;
   }
 
   img.logo {
@@ -114,21 +201,31 @@ a.navbar-brand {
   }
 
   .container-fluid {
-    border-bottom: 1px solid #E3E3E3;
+    border-bottom: 1px solid darken(@gray-lighter, 8%);
   }
-
-  .navbar-nav > .active > a {
-    border-bottom: 3px solid @brand-hover;
+//responsive
+  @media (min-width: 980px) and (max-width: 1036px) {
+    a {
+      font-size: @font-size-base;
+    }
   }
+  @media (min-width: 768px) and (max-width: 979px) {
+    a {
+      font-size: @font-size-base;
+    }
+    .navbar-brand {
+      display: none;
+    }
 
-
-  .navbar-nav > li > a {
-    color: @brand-hover;
+    #top-main-menu {
+      padding-left: 0;
+    }
   }
+}
 
-  .nav > li > a:hover, .nav > li > a:focus {
-    background: none;
-  }
+.breadcrumbs {
+  padding-bottom: 20px;
+  min-height: 40px;
 }
 
 

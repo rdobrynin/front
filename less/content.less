@@ -1,27 +1,90 @@
 // Insert your styling here.
 body {
-  background-color: @body;
+  background-color: @body-bg;
 }
 
 html {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a, a:visited, a:focus, a:active, a:hover, button:focus{
+a {
+
+  color:@brand;
+  text-decoration:none;
+  position:relative;
+  outline: none!important;
+
+  &:link{
+
+  }
+
+  &:hover{
+    text-decoration:underline;
+    color:@brand-hover;
+  }
+
+  &:visited{
+
+  }
+
+  &:active{
+    color:@brand-hover;
+  }
+
+  &:focus{
+    color:@brand-hover;
+  }
+
+} // a END
+
+
+//table
+
+.table {
+  border: 1px solid @table-border-color;
+  thead > tr > th {
+    border-bottom: 0;
+    border-left: 1px solid @table-border-color;
+    background-color: @table-th;
+  }
+  thead > tr > th{
+    padding-left: 10px;
+    vertical-align: middle;
+  }
+  tbody > tr > th {
+    vertical-align: middle;
+  }
+  tfoot > tr > th{
+    vertical-align: middle;
+  }
+  thead > tr > td {
+    vertical-align: middle;
+  }
+  tbody > tr > td {
+    vertical-align: middle;
+  }
+
+  tfoot > tr > td {
+    vertical-align: middle;
+  }
+}
+
+
+
+button {
   outline:0 none !important;
 }
 
-.brand-legend {
+.legend {
   background-color: @brand;
   position: relative;
   float: left;
   width: 100%;
   h2 {
-    color: #ffffff;
+    color: @component-active-color;
     margin-left: 4%;
     margin-right: 4%;
     padding-top: 8px;
@@ -30,13 +93,22 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
   }
 }
 
-.block {
+.tab-container {
   border-bottom: 1px solid @table-border-color;
 }
 
 .wrapper {
-  background-color: @body-bg;
+  background-color: @component-active-color;
   padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.block {
+  border-bottom: 1px solid @table-border-color;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -49,11 +121,18 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
 }
 
 #table-dashboard-info {
+tbody {
+  tr {
+    td {
+     vertical-align: baseline;
+    }
+  }
+}
+
   th {
-    background-color: @table-th;
     text-align: center;
     padding: 15px 0 15px 0;
-    font-size: 1.2em;
+    font-size: @font-size-base + 2;
   }
 
   td {
@@ -72,79 +151,291 @@ a, a:visited, a:focus, a:active, a:hover, button:focus{
   }
 }
 
-
-
 .tab-pane {
   padding-top: 20px;
 }
 
 span.info {
 color:@brand-primary;
-  font-size: 1.2em;
+  font-size: @font-size-base + 2;
 }
 
-.btn-sm {
-  padding: 9px 9px 7px 8px !important;
+//BUTTONS
+
+.btn {
+  background:@btn-default-bg;
+  border:none; // Needed for input
+  border-bottom:4px solid @btn-default-border;
+  line-height:1;
+  color:@btn-default-color;
+  font-size:@font-size-base - 1;
+  font-weight:@btn-font-weight;
+  padding:12px 40px;
+  display:inline-block;
+  position:relative;
+  outline:0 none !important;
+
+  &:hover{
+    text-decoration:none;
+    background:@btn-default-bg-hover;
+    border-bottom:4px solid @btn-default-border-hover;
+    color:#fff;
+  }
+  &:visited{
+
+  }
+
+  &:active{
+    background:@btn-default-border;
+    border-bottom:4px solid @btn-default-border;
+    color:@component-active-color;
+  }
+
+  &:focus{
+    outline:none;
+  }
+  &.btn-sm {
+    padding:8px 14px;
+  }
+
+//PRIMARY BUTTON
+
+  &.btn-primary {
+    background:@btn-primary-bg;
+    border-bottom:4px solid @btn-primary-border;
+
+    &:hover{
+      background: @btn-primary-bg-hover;
+      border-bottom:4px solid @btn-primary-border-hover;
+    }
+
+    &:visited{
+
+    }
+
+    &:active{
+      background:@btn-primary-border;
+      border-bottom:4px solid @btn-primary-border;
+    }
+
+    &:focus{
+
+    }
+}
+  &.btn-select {
+    color: @btn-select-color;
+    background:@btn-select-bg;
+    border:1px solid @btn-select-border;
+
+    &:hover{
+      background: @btn-select-bg-hover;
+      border:1px solid @btn-select-border-hover;
+    }
+
+    &:visited{
+
+    }
+
+    &:active{
+      background:@btn-select-border;
+      border:1px solid @btn-select-border;
+    }
+
+    &:focus{
+
+    }
+
+
+  }
+
+
+
+  &.btn-disabled,
+  &:disabled{
+    background:@btn-disabled-bg;
+    border-bottom:4px solid @btn-disabled-border;
+    color: @btn-disabled-color;
+    cursor:default;
+
+    &:hover{
+      background:#a4a5a6;
+      border-bottom:4px solid @btn-disabled-border-hover;
+      color:@btn-disabled-color;
+      cursor:default;
+    }
+
+  }
+
+  &.btn-icon {
+    padding: 4px 14px 2px 17px;
+    span {
+      font-size: @font-size-large;
+    }
+  }
 }
 
-.btn-primary{
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-  background: @brand-primary;
-  border: none;
-  border-bottom: 4px solid darken(@brand-primary, 7%);
-  line-height: 1;
-  color: @body-bg;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 12px 30px;
-  display: inline-block;
+//TABS
+.nav-tabs {
+  border-bottom: none;
+
+  li {
+    border-right: 1px solid @table-border-color;
+    a {
+      color:@brand;
+      border-radius: 0;
+      padding:15px 80px 15px 80px;
+      margin-right: 0;
+      @media (max-width: 767px) {
+        padding: 15px 30px 15px 30px;
+      }
+    }
+
+    .active {
+      a {
+        border-radius: 0;
+      }
+      &:first-child {
+        border-right:0;
+      }
+    }
+
+  }
+
+  .active {
+    &:first-child {
+      border-right:0;
+    }
+  }
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+  color:@brand;
+  border-bottom-color: @body-bg;
+  cursor: default;
+  border-right:0;
+  border-left:0;
+
+}
+
+.nav-tabs > li.active > a {
+  border-bottom: 1px solid @component-active-color;
+  background-color: @component-active-color;
+}
+
+.nav-tabs > li.first-tab > a, .nav-tabs > li.first-tab > a:hover {
+  border-left: 1px solid @table-border-color !important;
+}
+
+.nav-tabs > li > a:hover {
+  border-bottom: 1px solid @table-border-color;
+}
+
+.nav-tabs > li.active > a:hover {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid @body-bg;
+  background-color: @component-active-color;
+  color:@brand;
+}
+
+
+.alert {
+  margin-bottom: 0;
+  border-radius: 0;
   position: relative;
-}
+  float: left;
+  width: 100%;
+  padding: 15px 5% 15px 5%;
+  .close-alert {
+    color: @component-active-color;
+    font-size: @font-size-h2;
+    position: relative;
+    top: -5px;
 
-.btn-primary:hover, .btn-primary:focus {
-  background: lighten(@brand-primary, 2%);
-  border-bottom: 4px solid darken(@brand-primary, 4%);
-}
+    &:hover, &:focus {
+      opacity: 0.3;
+    }
+  }
+  .close {
+    opacity: 1.0;
+  }
+  &:hover, &:focus {
+    opacity: 1.0;
+  }
 
-.btn-success{
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-  background: @brand-success;
-  border: none;
-  border-bottom: 4px solid #009974;
-  line-height: 1;
-  color: @body-bg;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 12px 30px;
-  display: inline-block;
-  position: relative;
-}
+  a {
+    color:@component-active-color;
+  }
+  .ts-icon-delete {
+    position: absolute;
+    font-size: @font-size-h3 + 1;
+    top: -6px;
+    padding-left: 15px;
+  }
+  .readmore {
+    padding-right: 15px;
+  }
 
-.btn-success:hover, .btn-success:focus {
-  background: lighten(@brand-success, 2%);
-  border-bottom: 4px solid darken(@brand-success, 4%);
-}
-
-
-a {
-  color: @link-color;
-}
-
-a.disabled {
-  pointer-events: none;
   cursor: pointer;
-  color: lighten(@link-color, 40%);
+
+  &:hover {
+  background-color: @state-success-bg-hover;
+    }
+
+  &.alert-warning{
+    position: relative;
+    z-index: @zindex-navbar-fixed;
+    &:hover {
+      background-color: @state-warning-bg-hover;
+    }
+    border-top: 4px solid @state-warning-border-top;
+    border-bottom: 4px solid @state-warning-border-bottom;
+  }
+
+  &.alert-success {
+    border-top: 4px solid @state-success-border-top;
+    border-bottom: 4px solid @state-success-border-bottom;
+    &:hover {
+      background-color: @state-success-bg-hover;
+    }
+  }
+
+  &.primary-success {
+    border-top: 4px solid @state-primary-border-top;
+    border-bottom: 4px solid @state-primary-border-bottom;
+    &:hover {
+      background-color: @state-primary-bg-hover;
+    }
+  }
+
+  .ts-icon-info {
+    font-size: @font-size-h3;
+    position: absolute;
+    top: 11px;
+  }
+
+  button {
+    font-size: @font-size-h3;
+  }
+
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 14px;
+  right: 4%;
+  color: inherit;
+  float: right !important;
 }
 
 
-.disabled > td  {
-  color: lighten(@gray-light, 20%);
-  .switch a {
+
+.disabled {
+  td {
     color: lighten(@gray-light, 20%);
+    .switch a {
+      color: lighten(@gray-light, 20%);
+    }
   }
 }
 
@@ -153,8 +444,4 @@ a.disabled {
   color: @brand;
 }
 
-form {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 

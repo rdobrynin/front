@@ -24,84 +24,60 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: @font-size-h3;
 }
 
 
-.nav-tabs {
-  border-bottom: none;
-
-  li {
-    border-right: 1px solid @table-border-color;
-    a {
-      color:@brand;
-      border-radius: 0;
-      padding:15px 80px 15px 80px;
-      margin-right: 0;
-//      border-left: 1px solid @table-border-color;
-    }
-
-    .active {
-      a {
-        border-radius: 0;
-      }
-    }
-
-
-  }
-
-  .active:first-child {
-    border-right:0;
-  }
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
-  color:@brand;
-  border-bottom-color: #F6F6F6;
-  cursor: default;
-  border-right:0;
-  border-left:0;
-
-}
-
-.nav-tabs > li.active > a {
-  border-bottom: 1px solid @body-bg;
-}
-
-.nav-tabs > li.first-tab > a, .nav-tabs > li.first-tab > a:hover {
-  border-left: 1px solid @table-border-color !important;
-}
-
-.nav-tabs > li > a:hover {
-  border-bottom: 1px solid @table-border-color;
-}
-
-.nav-tabs > li.active > a:hover {
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px solid @body-bg;
-  background-color: none;
-}
-
-.table {
-  border: 1px solid @table-border-color;
-  thead > tr > th {
-    border-bottom: 0;
-    border-left: 1px solid @table-border-color;
-    background-color: @table-th;
-  }
-  thead > tr > th{
-    padding-left: 10px;
-  }
-}
 
 .btn-sm {
   padding: 6px 20px;
 }
 
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-  vertical-align: middle;
+
+//.dropdown-menu {
+//  position: absolute;
+//  top: 100%;
+//  left: 0;
+//  z-index: 1000;
+//  display: none;
+//  float: left;
+//  min-width: 160px;
+//  padding: 5px 0;
+//  margin: 2px 0 0;
+//  list-style: none;
+//  font-size: 14px;
+//  text-align: left;
+//  background-color: @brand-hover;
+//  border: 0;
+//  -webkit-border-radius: 0;
+//  -moz-border-radius: 0;
+//  border-radius: 0;
+//  -webkit-box-shadow: none;
+//  -moz-box-shadow: none;
+//  box-shadow: none;
+//  background-clip: padding-box;
+//
+//  li {
+//    a {
+//      display: block;
+//      padding: 3px 20px;
+//      clear: both;
+//      font-weight: normal;
+//      line-height: 1.42857143;
+//      color: @component-active-color;
+//      white-space: nowrap;
+//      &:hover, &:focus {
+//        text-decoration: none;
+//        color: @component-active-color;
+//        background-color: @brand;
+//      }
+//    }
+//  }
+//}
+
+.form-inline  {
+  .control-label {
+    padding-right: 30px;
+    font-size: @font-size-base+2 !important;
+  }
 }
-
-
-
