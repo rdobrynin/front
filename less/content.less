@@ -331,6 +331,9 @@ form {
   &.btn-sm {
     padding:8px 14px;
   }
+  &.btn-md {
+    padding:12px 18px;
+  }
 
 //PRIMARY BUTTON
 
@@ -357,6 +360,28 @@ form {
     }
 }
 
+  &.btn-switch {
+    background:@btn-switch-bg;
+    border-bottom:4px solid @btn-switch-border;
+
+    &:hover{
+      background: @btn-switch-bg-hover;
+      border-bottom:4px solid @btn-switch-border-hover;
+    }
+
+    &:visited{
+
+    }
+
+    &:active{
+      background:@btn-switch-border;
+      border-bottom:4px solid @btn-switch-border;
+    }
+
+    &:focus{
+
+    }
+  }
 
   &.btn-select {
     color: @btn-select-color;
@@ -857,6 +882,31 @@ form {
   position: relative;
   float: left;
   padding-left: 4%;
+  text-align: center;
+  .vm-label {
+    font-weight: bold;
+    display: block;
+    font-size: @font-size-large+2;
+    padding: 5px 0 ;
+  }
+  .vm-os-name {
+    font-size: @font-size-base+1;
+    padding-bottom: 40px;
+    display: block;
+  }
+  .vm-status {
+    font-size: @font-size-base;
+    display: block;
+    color: @gray-light;
+  }
+
+  .system-buttons {
+    padding: 20px 0;
+    .btn {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
 }
 
 .system-data-info{

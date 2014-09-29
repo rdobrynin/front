@@ -146,7 +146,15 @@
 
 <div class="system-data-control">
 <div class="container-fluid">
-    sd
+    <img src="img/win_icon.png" alt="" width="148" height="140">
+    <span class="vm-label">admin_vm_password</span>
+    <span class="vm-os-name">Windows 2012 Standard Edition R2 x64 xen</span>
+    <span class="vm-status">The machine is running</span>
+    <div class="system-buttons">
+        <button type="button" class="btn btn-switch btn-md">ON</button>
+        <button type="button" class="btn btn-md">Reboot</button>
+        <button type="button" class="btn btn-md">Console</button>
+    </div>
 </div>
 </div>
 
