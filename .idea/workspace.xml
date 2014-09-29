@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.php" afterPath="$PROJECT_DIR$/logs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,40 +26,47 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.36519748">
       <split-first>
         <leaf>
-          <file leaf-file-name="logs.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/logs.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="34" selection-start="3672" selection-end="3672" vertical-scroll-proportion="-20.25926" vertical-offset="911" max-vertical-offset="4199">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="billing_plans.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/billing_plans.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="40" selection-start="2739" selection-end="2739" vertical-scroll-proportion="-7.5925927" vertical-offset="911" max-vertical-offset="2561">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="238" column="39" selection-start="10757" selection-end="10757" vertical-scroll-proportion="-3.5925925" vertical-offset="4187" max-vertical-offset="7028">
+                <state line="238" column="39" selection-start="10757" selection-end="10757" vertical-scroll-proportion="-9.592592" vertical-offset="4025" max-vertical-offset="6871">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="16" selection-start="1680" selection-end="1680" vertical-scroll-proportion="-18.0" vertical-offset="36" max-vertical-offset="1345">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="logs.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/logs.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="190" column="0" selection-start="6929" selection-end="6929" vertical-scroll-proportion="0.57544756" vertical-offset="3222" max-vertical-offset="4436">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cloud_new_VM_info2.jpg" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/img/Cloud_new_VM_info2.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/less/content.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="268" column="32" selection-start="4684" selection-end="4684" vertical-scroll-proportion="1.0977542" vertical-offset="3993" max-vertical-offset="12349">
+                <state line="145" column="30" selection-start="2181" selection-end="2181" vertical-scroll-proportion="-7.7625" vertical-offset="1989" max-vertical-offset="13203">
                   <folding />
                 </state>
               </provider>
@@ -67,15 +76,6 @@
             <entry file="file://$PROJECT_DIR$/img/Cloud_new_select.jpg">
               <provider selected="true" editor-type-id="images">
                 <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="reports.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reports.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="78" column="46" selection-start="3532" selection-end="3532" vertical-scroll-proportion="-18.25926" vertical-offset="911" max-vertical-offset="2561">
-                  <folding />
-                </state>
               </provider>
             </entry>
           </file>
@@ -119,10 +119,17 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="variables.less" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Cloud_new2.jpg" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/img/Cloud_new2.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/variables.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="-0.5744681" vertical-offset="864" max-vertical-offset="16664">
+                <state line="29" column="31" selection-start="823" selection-end="823" vertical-scroll-proportion="0.69414896" vertical-offset="0" max-vertical-offset="16592">
                   <folding />
                 </state>
               </provider>
@@ -162,17 +169,17 @@
         <option value="$PROJECT_DIR$/js/retina.js" />
         <option value="$PROJECT_DIR$/less/moon_icons.less" />
         <option value="$PROJECT_DIR$/templates/head.php" />
-        <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/billing_plans.php" />
-        <option value="$PROJECT_DIR$/logs.php" />
         <option value="$PROJECT_DIR$/reports.php" />
         <option value="$PROJECT_DIR$/templates.php" />
         <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/vm.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/less/content.less" />
+        <option value="$PROJECT_DIR$/logs.php" />
       </list>
     </option>
   </component>
@@ -447,11 +454,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/overrides.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="342" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="54" />
@@ -621,11 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="63" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-10.333333" vertical-offset="81" max-vertical-offset="666" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Cloud_new_Billing_plan_create.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -641,16 +638,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Cloud_new_Reports2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Cloud_new2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3233533" vertical-offset="270" max-vertical-offset="1951" />
@@ -659,13 +646,6 @@
     <entry file="file://$PROJECT_DIR$/billing_plans.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="40" selection-start="2739" selection-end="2739" vertical-scroll-proportion="-7.5925927" vertical-offset="911" max-vertical-offset="2561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="34" selection-start="3672" selection-end="3672" vertical-scroll-proportion="-20.25926" vertical-offset="911" max-vertical-offset="4199">
           <folding />
         </state>
       </provider>
@@ -717,23 +697,52 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/Cloud_new_Reports2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="39" selection-start="10757" selection-end="10757" vertical-scroll-proportion="-3.5925925" vertical-offset="4187" max-vertical-offset="7028">
+        <state line="238" column="39" selection-start="10757" selection-end="10757" vertical-scroll-proportion="-9.592592" vertical-offset="4025" max-vertical-offset="6871">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="1680" selection-end="1680" vertical-scroll-proportion="-18.0" vertical-offset="36" max-vertical-offset="1345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Cloud_new2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="823" selection-end="823" vertical-scroll-proportion="0.69414896" vertical-offset="0" max-vertical-offset="16592">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="32" selection-start="4684" selection-end="4684" vertical-scroll-proportion="1.0977542" vertical-offset="3993" max-vertical-offset="12349">
+        <state line="145" column="30" selection-start="2181" selection-end="2181" vertical-scroll-proportion="-7.7625" vertical-offset="1989" max-vertical-offset="13203">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/variables.less">
+    <entry file="file://$PROJECT_DIR$/img/Cloud_new_VM_info2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="-0.5744681" vertical-offset="864" max-vertical-offset="16664">
+        <state line="190" column="0" selection-start="6929" selection-end="6929" vertical-scroll-proportion="0.57544756" vertical-offset="3222" max-vertical-offset="4436">
           <folding />
         </state>
       </provider>

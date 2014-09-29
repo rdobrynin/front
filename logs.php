@@ -184,5 +184,7 @@
     </table>
   </div>
 </div>
-
+<div class="wrapper">
+    <span class="view-all"><a href="#">View all logs(139)</a></span>
+</div>
 <?php include('templates/footer.php'); ?>

@@ -128,7 +128,6 @@ button,button.btn.dropdown-toggle.selectpicker.btn-select {
   position: relative;
   float: left;
   width: 100%;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -456,6 +455,56 @@ form {
 .btn-group.open .dropdown-toggle {
   box-shadow: none;
 }
+
+//view all
+
+
+.view-all {
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  background: #f6f6f6;
+  font-size: 15px;
+  line-height: 1;
+  display: block;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 20px @brand-select;
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: @brand-select;
+  }
+  span {
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    color: white;
+    background: #642887;
+    border-bottom: 4px solid #4e256b;
+    padding: 11px 14px;
+    margin: 10px 10px;
+    font-size: 13px;
+    line-height: 1;
+    &i {
+      font-style: normal;
+      display: inline-block;
+      margin-left: 4px;
+    }
+    &:hover {
+      background: #73369e;
+    }
+  }
+
+}
+
+
+
 
 //TABS
 .nav-tabs {
