@@ -17,7 +17,6 @@
 <!-- Main top navbar -->
 <div class="navbar hidden-xs " role="navigation" id="elion-common-nav">
   <div class="container-fluid">
-    <div class="row">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -49,14 +48,12 @@
           <li><a href="#contact">Log Out</a></li>
         </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </div>
 </div>
 
 <!--TOP NAV-->
 <div class="navbar" role="navigation" id="elion-top-nav">
   <div class="container-fluid">
-    <div class="row">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -80,24 +77,20 @@
           <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
         </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </div>
 </div>
 
 <!--breadcrumbs-->
 <div class="container-fluid">
- <div class="row">
    <div class="breadcrumbs">
      <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Logs
    </div>
- </div>
 </div>
   <div class="legend">
               <h2>Latest activity logs</h2>
       </div>
 <div class="block">
   <div class="container-fluid">
-    <div class="row">
       <div class="control-group">
         <form class="form-inline" method="get">
           <label class="control-label">Filter logs</label>
@@ -115,11 +108,9 @@
           <button type="button" class="btn btn-sm">Filter</button>
         </form>
       </div>
-    </div>
   </div>
 </div>
 <div class="container-fluid wrapper">
-  <div class="row">
     <table class="table">
       <thead>
       <tr>
@@ -165,7 +156,7 @@
         <td><span class="ts-icon-delete status"></span>Canceled</td>
       </tr>
       <tr>
-        <td><a href="#">4244</a></td>
+        <td class="failed"><a href="#">4244</a></td>
         <td>08 Sep,2014, 12:55;15</td>
         <td>pvmadmin</td>
         <td><a href="#">admin_machine_test</a></td>
@@ -173,7 +164,7 @@
         <td><span class="icon-failed">Failed</span></td>
       </tr>
       <tr>
-        <td><a href="#">4244</a></td>
+        <td class="failed"><a href="#">4244</a></td>
         <td>08 Sep,2014, 12:55;15</td>
         <td>pvmadmin</td>
         <td><a href="#">admin_machine_test</a></td>
@@ -182,7 +173,6 @@
       </tr>
       </tbody>
     </table>
-  </div>
 </div>
 <div class="wrapper">
     <span class="view-all"><a href="#">View all logs(139)</a></span>

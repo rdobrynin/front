@@ -17,7 +17,6 @@
 <!-- Main top navbar -->
 <div class="navbar hidden-xs " role="navigation" id="elion-common-nav">
   <div class="container-fluid">
-    <div class="row">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -49,14 +48,12 @@
           <li><a href="#contact">Log Out</a></li>
         </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </div>
 </div>
 
 <!--TOP NAV-->
 <div class="navbar" role="navigation" id="elion-top-nav">
   <div class="container-fluid">
-    <div class="row">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -80,7 +77,6 @@
           <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
         </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </div>
 </div>
 
@@ -93,16 +89,13 @@
               <h2>Resources & Turnover</h2>
       </div>
   <div class="container-fluid tab-container">
-    <div class="row">
         <ul class="nav nav-tabs" id="resTab">
             <li class="active first-tab"><a href="#res_info_tab">Information</a></li>
             <li><a href="#res_over_tab">Turnover</a></li>
             <li><a href="#res_charts_tab">Data charts</a></li>
         </ul>
-    </div>
   </div>
   <div class="container-fluid wrapper">
-     <div class="row">
          <div class="tab-content">
              <div class="tab-pane active" id="res_info_tab">
                      <table class="table table-bordered"  id="table-dashboard-info">
@@ -146,22 +139,18 @@
                      ac turpis egestas.</p>
              </div>
          </div><!-- tab content -->
-     </div>
   </div>
   <div class="legend">
       <h2>Virtual Machines</h2>
   </div>
 
   <div class="container-fluid tab-container">
-      <div class="row">
           <ul class="nav nav-tabs" id="vmTab">
               <li class="active first-tab"><a href="#my_vm_tab">My Virtual Machines(4)</a></li>
               <li><a href="#client_vm_tab">Clients Virtual Machines</a></li>
           </ul>
-      </div>
   </div>
   <div class="container-fluid wrapper">
-      <div class="row">
           <div class="tab-content">
               <div class="tab-pane active" id="my_vm_tab">
                   <table class="table">
@@ -239,14 +228,12 @@
                       ac turpis egestas.</p>
               </div>
           </div><!-- tab content -->
-      </div>
   </div>
   <div class="legend">
       <h2>Latest activity logs</h2>
   </div>
 <div class="block">
     <div class="container-fluid">
-        <div class="row">
             <div class="control-group">
             <form class="form-inline" method="get">
                 <label class="control-label">Filter logs</label>
@@ -266,11 +253,9 @@
                 <button type="button" class="btn btn-sm">Filter</button>
             </form>
                 </div>
-        </div>
     </div>
 </div>
 <div class="container-fluid wrapper">
-    <div class="row">
         <table class="table">
             <thead>
             <tr>
@@ -333,7 +318,6 @@
             </tr>
             </tbody>
         </table>
-    </div>
     </div>
 <div class="wrapper">
     <span class="view-all"><a href="#">View all logs(139)</a></span>

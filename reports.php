@@ -17,7 +17,6 @@
 <!-- Main top navbar -->
 <div class="navbar hidden-xs " role="navigation" id="elion-common-nav">
   <div class="container-fluid">
-    <div class="row">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -49,14 +48,12 @@
           <li><a href="#contact">Log Out</a></li>
         </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </div>
 </div>
 
 <!--TOP NAV-->
 <div class="navbar" role="navigation" id="elion-top-nav">
   <div class="container-fluid">
-    <div class="row">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -80,7 +77,6 @@
           <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
         </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </div>
 </div>
 
