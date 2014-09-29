@@ -88,9 +88,7 @@
         </div>
     </div>
 </div>
-  <div class="legend">
-              <h2>Latest activity logs</h2>
-      </div>
+  <div class="legend"><h2>Latest activity logs</h2></div>
 <div class="block">
   <div class="container-fluid">
       <div class="control-group">

@@ -83,8 +83,7 @@
 <!--breadcrumbs-->
 <div class="block" style="padding-bottom: 0">
     <div class="container-fluid">
-        <div class="breadcrumbs">
-        </div>
+        <div class="breadcrumbs"></div>
     </div>
 </div>
   <div class="legend">

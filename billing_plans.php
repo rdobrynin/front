@@ -88,8 +88,6 @@
         </div>
     </div>
 </div>
-  <div class="legend">
-              <h2>Billing plans</h2>
-      </div>
+  <div class="legend"><h2>Billing plans</h2></div>
 
 <?php include('templates/footer.php'); ?>

@@ -89,8 +89,6 @@
         </div>
     </div>
 </div>
-  <div class="legend">
-              <h2>Virtual machines</h2>
-      </div>
+  <div class="legend"><h2>Virtual machines</h2></div>
 
 <?php include('templates/footer.php'); ?>
