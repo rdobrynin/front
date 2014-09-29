@@ -17,11 +17,6 @@ a.navbar-brand {
 #top-menu {
   padding-left: 0;
 
-  .ts-icon-arrow-down {
-   vertical-align: middle;
-    padding-left: 3px;
-  }
-
   .ts-icon-myaccount {
     vertical-align: middle;
     padding-left: 0;
@@ -40,10 +35,48 @@ a.navbar-brand {
        -moz-border-radius: 0;
        border-radius: 0;
        border: 0;
+       padding-top: 0;
+       padding-bottom: 0;
      }
    }
   }
 }
+
+#vm_submenu {
+  .navbar-nav {
+    li {
+      .dropdown-menu {
+        background-color: @brand;
+        margin-top: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border: 0;
+        padding: 0;
+
+        li a {
+          padding-left: 15px;
+          padding-right: 3px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          &:hover {
+            background-color: @brand-hover;
+          }
+        }
+        .ts-icon-arrow-right {
+          position: absolute;
+          right: 0;
+        }
+      }
+      a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: @font-size-base+1;
+      }
+    }
+  }
+}
+
 
 #top-main-menu {
   padding-top: 10px;
