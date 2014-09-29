@@ -143,8 +143,16 @@
            </div>
        </div>
 </div>
-<div class="block">
+
+<div class="system-data-control">
+<div class="container-fluid">
+    sd
+</div>
+</div>
+
+<div class="system-data-info">
     <div class="container-fluid">
+        sdqqq
     </div>
 </div>
 
