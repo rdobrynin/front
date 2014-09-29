@@ -32,7 +32,7 @@
           <li><a href="#about">Äriklient</a></li>
           <li><a href="https://pood.elion.ee/">E-pood</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">OneSpot&nbsp;<span class="ts-icon-arrow-down"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">OneSpot</a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>
@@ -89,7 +89,7 @@
     </div>
 </div>
   <div class="legend"><h2>admin_vm_password</h2></div>
-    <div class="container-fluid">
+    <div class="container-fluid" style="border-bottom:1px solid #dadada;">
        <div class="row">
            <div class="navbar-collapse collapse" id="vm_submenu">
                <ul class="nav navbar-nav">
@@ -103,6 +103,21 @@
            </div>
        </div>
 </div>
+
+
+<div class="block">
+
+
+    <div class="container-fluid">
+
+    </div>
+
+</div>
+
+
+
+
+
   <div class="legend">
       <h2>Latest activity logs</h2>
   </div>

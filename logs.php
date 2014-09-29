@@ -32,7 +32,7 @@
           <li><a href="#about">Äriklient</a></li>
           <li><a href="https://pood.elion.ee/">E-pood</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">OneSpot&nbsp;<span class="ts-icon-arrow-down"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">OneSpot</a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>

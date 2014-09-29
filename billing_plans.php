@@ -32,7 +32,7 @@
                 <li><a href="#about">Äriklient</a></li>
                 <li><a href="https://pood.elion.ee/">E-pood</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">OneSpot&nbsp;<span class="ts-icon-arrow-down"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">OneSpot</a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
@@ -70,8 +70,8 @@
                 <li><a href="logs.php">Logs</a></li>
                 <li><a href="templates.php">Templates</a></li>
                 <li><a href="users.php">Users</a></li>
-                <li><a href="billing_plans.php">Billing Plans</a></li>
-                <li class="active"><a href="reports.php">Reports</a></li>
+                <li class="active"><a href="billing_plans.php">Billing Plans</a></li>
+                <li><a href="reports.php">Reports</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right">
                 <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
@@ -79,7 +79,6 @@
         </div><!--/.nav-collapse -->
     </div>
 </div>
-
 <!--breadcrumbs-->
 <div class="block" style="padding-bottom: 0">
     <div class="container-fluid">
