@@ -179,6 +179,89 @@ color:@brand-primary;
   font-size: @font-size-base + 2;
 }
 
+
+//forms
+
+//todo
+form {
+  label, &.label {
+    font-weight: bold;
+    display: block;
+    margin: 22px 0 10px;
+    line-height: 1.4;
+  }
+  input[type='text'],  input[type='password']  {
+  -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    color: @input-text;
+    line-height: 1;
+    padding: 14px 0;
+    text-indent: 14px;
+    border: 1px solid @hard-light;
+    display: block; width: 100%;
+    margin-bottom: 4px;
+    &:focus, &.focus, &:active {
+      color: black;
+      border: 1px solid @brand;
+      outline: none;
+    }
+  }
+  input[type='text'][disabled], input[type='password'][disabled] {
+    color: @input-bg-disabled-text;
+    background: @gray-lighter;
+    &:focus, &:active {
+      border: 1px solid @hard-light;
+    }
+  }
+
+  .invalid {
+    input[type='text'] {
+      background: @input-bg-invalid;
+      color: @navbar-default-link-hover-color;
+      border: 1px solid @state-warning-border-top;
+      &:focus, &:active {
+        border: 1px solid @state-warning-border-top;
+      }
+    }
+    textarea {
+      background: @input-bg-invalid;
+      color: @navbar-default-link-hover-color;
+      border: 1px solid @state-warning-border-top;
+      &:focus, &:active {
+        border: 1px solid @state-warning-border-top;
+      }
+    }
+  }
+
+  textarea {
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    color: @input-text;
+    line-height: 1;
+    padding: 14px 0;
+    text-indent: 14px;
+    border: 1px solid @hard-light;
+    display: block; width: 100%;
+    margin-bottom: 4px;
+    min-height: 120px;
+    &:focus, &:active, &.focus {
+      color: black;
+      border: 1px solid @brand-hover;
+      outline: none;
+    }
+  }
+  textarea[disabled] {
+    color: @input-bg-disabled-text;
+    background: @gray-lighter;
+    &:focus, &:active {
+      border: 1px solid @hard-light;
+    }
+  }
+
+}
+
 //BUTTONS
 
 .btn {
@@ -347,7 +430,6 @@ color:@brand-primary;
 
 .selectpicker {
   .caret {
-// caret todo
     border: 0;
     width: 33px;
     height: 32px;
