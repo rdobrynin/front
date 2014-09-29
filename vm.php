@@ -82,10 +82,12 @@
 
 
 <!--breadcrumbs-->
-<div class="container-fluid">
-  <div class="breadcrumbs">
-    <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Virtual machines
-  </div>
+<div class="block" style="padding-bottom: 0">
+    <div class="container-fluid">
+        <div class="breadcrumbs">
+            <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Virtual machines
+        </div>
+    </div>
 </div>
   <div class="legend">
               <h2>Virtual machines</h2>

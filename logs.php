@@ -81,10 +81,12 @@
 </div>
 
 <!--breadcrumbs-->
-<div class="container-fluid">
-   <div class="breadcrumbs">
-     <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Logs
-   </div>
+<div class="block" style="padding-bottom: 0">
+    <div class="container-fluid">
+        <div class="breadcrumbs">
+            <a href="index.php">Dashboard&nbsp;</a><span class="ts-icon-breadcrumb-arrow"></span>Logs
+        </div>
+    </div>
 </div>
   <div class="legend">
               <h2>Latest activity logs</h2>
@@ -175,6 +177,6 @@
     </table>
 </div>
 <div class="wrapper">
-    <span class="view-all"><a href="#">View all logs(139)</a></span>
+    <a href="#"><span class="view-all">View all logs (139)</span></a>
 </div>
 <?php include('templates/footer.php'); ?>
