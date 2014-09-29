@@ -5,6 +5,12 @@ $(function() {
         }
         $(this).addClass('active');
     });
+    $("#vm_submenu li").click(function(){
+        if ($("#vm_submenu li").hasClass('active')) {
+            $("#vm_submenu li").removeClass('active');
+        }
+        $(this).addClass('active');
+    });
     $("#top-main-menu li").click(function(){
         if ($("#top-main-menu li").hasClass('active')) {
             $("#top-main-menu li").removeClass('active');

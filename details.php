@@ -89,10 +89,19 @@
     </div>
 </div>
   <div class="legend"><h2>admin_vm_password</h2></div>
-<div class="block">
     <div class="container-fluid">
-
-    </div>
+       <div class="row">
+           <div class="navbar-collapse collapse" id="vm_submenu">
+               <ul class="nav navbar-nav">
+                   <li class="active"><a href="#">Information</a></li>
+                   <li><a href="#">Network</a></li>
+                   <li><a href="#">Backups</a></li>
+                   <li><a href="#">Virtual machine</a></li>
+                   <li><a href="#">Power</a></li>
+                   <li><a href="#">Admin</a></li>
+               </ul>
+           </div>
+       </div>
 </div>
   <div class="legend">
       <h2>Latest activity logs</h2>

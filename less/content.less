@@ -552,8 +552,56 @@ form {
 
 }
 
+//vm_submenu
 
-
+#vm_submenu {
+  .navbar-nav {
+    li {
+      a {
+        &:before {
+          background-color: #dddddd;
+          content: "";
+          display: block;
+          height: 28px;
+          position: absolute;
+          left: 0;
+          top: 17%;
+          width: 1px;
+          z-index: 1;
+        }
+        &:hover, &:focus {
+          background-color: @brand;
+          color: @component-active-color;
+          &:before, &:after {
+            background: none;
+          }
+        }
+      }
+      &:first-child a  {
+       &:before {
+         background:transparent;
+       }
+      }
+      &.active {
+        a {
+          background-color: @brand;
+          color: @component-active-color;
+          &:before {
+            background:none;
+            content: "";
+            display: block;
+            height: 28px;
+            position: absolute;
+            left: 0;
+            top: 17%;
+            width: 1px;
+            z-index: 1;
+          }
+        }
+      }
+    }
+  }
+}
 
 //TABS
 .nav-tabs {
