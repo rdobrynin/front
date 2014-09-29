@@ -118,7 +118,6 @@
                                <ul class="dropdown-menu">
                                    <li><a tabindex="-1" href="#">Edit properties</a></li>
                                    <li><a tabindex="-1" href="#">Disk</a></li>
-
                                </ul>
                            </li>
                        </ul>
