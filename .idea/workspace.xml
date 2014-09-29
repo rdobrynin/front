@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/billing_plans.php" afterPath="$PROJECT_DIR$/billing_plans.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.php" afterPath="$PROJECT_DIR$/logs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports.php" afterPath="$PROJECT_DIR$/reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates.php" afterPath="$PROJECT_DIR$/templates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm.php" afterPath="$PROJECT_DIR$/vm.php" />
-    </list>
+    <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="" />
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +58,7 @@
           <file leaf-file-name="logs.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/logs.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="178" column="6" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.6113256" vertical-offset="2729" max-vertical-offset="3999">
+                <state line="180" column="0" selection-start="6804" selection-end="6804" vertical-scroll-proportion="0.24066924" vertical-offset="3053" max-vertical-offset="3999">
                   <folding />
                 </state>
               </provider>
@@ -780,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="6" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.6113256" vertical-offset="2729" max-vertical-offset="3999">
+        <state line="180" column="0" selection-start="6804" selection-end="6804" vertical-scroll-proportion="0.24066924" vertical-offset="3053" max-vertical-offset="3999">
           <folding />
         </state>
       </provider>
