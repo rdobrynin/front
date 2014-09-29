@@ -88,7 +88,7 @@
         </div>
     </div>
 </div>
-  <div class="legend"><h2>admin_vm_password</h2></div>
+  <div class="legend"><h2><span class="icon-cloud"></span> admin_vm_password</h2></div>
     <div class="container-fluid" style="border-bottom:1px solid #dadada;">
        <div class="row">
            <div class="navbar-collapse collapse" id="vm_submenu">
