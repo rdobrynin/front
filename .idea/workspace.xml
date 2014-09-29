@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/billing_plans.php" afterPath="$PROJECT_DIR$/billing_plans.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.php" afterPath="$PROJECT_DIR$/logs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports.php" afterPath="$PROJECT_DIR$/reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates.php" afterPath="$PROJECT_DIR$/templates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm.php" afterPath="$PROJECT_DIR$/vm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
@@ -34,13 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Cloud_new2.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/Cloud_new2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="logs.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,9 +48,25 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="12" selection-start="2975" selection-end="2975" vertical-scroll-proportion="-10.925926" vertical-offset="911" max-vertical-offset="6863">
+            <state line="238" column="39" selection-start="10757" selection-end="10757" vertical-scroll-proportion="-8.925926" vertical-offset="4043" max-vertical-offset="6901">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/content.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="272" column="29" selection-start="4283" selection-end="4283" vertical-scroll-proportion="0.64444447" vertical-offset="4374" max-vertical-offset="10998">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cloud_new_select.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/Cloud_new_select.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -113,15 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="27" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.87703013" vertical-offset="0" max-vertical-offset="1672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -157,14 +150,14 @@
         <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/billing_plans.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/logs.php" />
         <option value="$PROJECT_DIR$/reports.php" />
         <option value="$PROJECT_DIR$/templates.php" />
         <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/vm.php" />
-        <option value="$PROJECT_DIR$/less/content.less" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/less/content.less" />
       </list>
     </option>
   </component>
@@ -633,11 +626,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Cloud_new_select.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Cloud_new_Reports2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -656,13 +644,6 @@
     <entry file="file://$PROJECT_DIR$/billing_plans.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="40" selection-start="2739" selection-end="2739" vertical-scroll-proportion="-7.5925927" vertical-offset="911" max-vertical-offset="2561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="12" selection-start="2975" selection-end="2975" vertical-scroll-proportion="-10.925926" vertical-offset="911" max-vertical-offset="6863">
           <folding />
         </state>
       </provider>
@@ -709,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="7" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.8580247" vertical-offset="691" max-vertical-offset="10836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/retina.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="3" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="970">
@@ -725,7 +699,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="27" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.87703013" vertical-offset="0" max-vertical-offset="1672">
+        <state line="14" column="41" selection-start="470" selection-end="470" vertical-scroll-proportion="0.29234338" vertical-offset="0" max-vertical-offset="1672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Cloud_new_select.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="39" selection-start="10757" selection-end="10757" vertical-scroll-proportion="-8.925926" vertical-offset="4043" max-vertical-offset="6901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/content.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="29" selection-start="4283" selection-end="4283" vertical-scroll-proportion="0.64444447" vertical-offset="4374" max-vertical-offset="10998">
           <folding />
         </state>
       </provider>

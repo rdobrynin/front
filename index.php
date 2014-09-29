@@ -255,11 +255,13 @@
                   <option>Client</option>
                   <option>pvmadmin</option>
                   <option>Tester</option>
+                  <option>Observer</option>
                 </select>
               <select class="selectpicker">
                 <option>All actions</option>
                 <option>Build disk</option>
-                <option>Configure operation system</option>
+                <option>Destroy disk</option>
+                  <option>Reboot vm</option>
               </select>
                 <button type="button" class="btn btn-sm">Filter</button>
             </form>
