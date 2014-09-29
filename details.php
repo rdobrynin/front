@@ -107,14 +107,20 @@
                        <ul class="dropdown-menu" role="menu">
                            <li><a href="#">Backups list</a></li>
                            <li><a href="#">Schedules</a></li>
-
                        </ul>
                    </li>
                    <li class="dropdown">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Virtual machine</a>
                        <ul class="dropdown-menu" role="menu">
                            <li><a href="#">Delete</a></li>
-                           <li><a href="#">Edit<span class="ts-icon-arrow-right"></span></a></li>
+                           <li class="dropdown-submenu">
+                               <a tabindex="-1" href="#">Edit<span class="ts-icon-arrow-right"></span></a>
+                               <ul class="dropdown-menu">
+                                   <li><a tabindex="-1" href="#">Edit properties</a></li>
+                                   <li><a tabindex="-1" href="#">Disk</a></li>
+
+                               </ul>
+                           </li>
                        </ul>
                    </li>
                    <li class="dropdown">
@@ -122,7 +128,6 @@
                        <ul class="dropdown-menu" role="menu">
                            <li><a href="#">Reboot in recovery</a></li>
                            <li><a href="#">Suspend</a></li>
-
                        </ul>
                    </li>
                    <li class="dropdown">
@@ -135,20 +140,10 @@
            </div>
        </div>
 </div>
-
-
 <div class="block">
-
-
     <div class="container-fluid">
-
     </div>
-
 </div>
-
-
-
-
 
   <div class="legend">
       <h2>Latest activity logs</h2>
