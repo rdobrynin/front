@@ -122,56 +122,56 @@
         <th>Status</th>
       </tr>
       </thead>
-      <tbody>
-      <tr>
-        <td><a href="#">4244</a></td>
-        <td>08 Sep,2014, 12:55;15</td>
-        <td>pvmadmin</td>
-        <td><a href="#">admin_machine_test</a></td>
-        <td>Reboot virtual machine</td>
-        <td><span class="icon-complete"></span>Complete</td>
-      </tr>
-      <tr>
-        <td><a href="#">4244</a></td>
-        <td>08 Sep,2014, 12:55;15</td>
-        <td>pvmadmin</td>
-        <td><a href="#">admin_machine_test</a></td>
-        <td>Strartup virtual machine</td>
-        <td><span class="icon-pending"></span>Pending</td>
-      </tr>
-      <tr>
-        <td><a href="#">4244</a></td>
-        <td>08 Sep,2014, 12:55;15</td>
-        <td>pvmadmin</td>
-        <td><a href="#">admin_machine_test</a></td>
-        <td>Stop virtual machine</td>
-        <td> <img class="running" src="img/running.gif" alt="" width="17" height="17">&nbsp;Running</td>
-      </tr>
-      <tr>
-        <td><a href="#">4244</a></td>
-        <td>08 Sep,2014, 12:55;15</td>
-        <td>pvmadmin</td>
-        <td><a href="#">admin_machine_test</a></td>
-        <td>Reboot virtual machine</td>
-        <td><span class="ts-icon-delete status"></span>Canceled</td>
-      </tr>
-      <tr>
-        <td class="failed"><a href="#">4244</a></td>
-        <td>08 Sep,2014, 12:55;15</td>
-        <td>pvmadmin</td>
-        <td><a href="#">admin_machine_test</a></td>
-        <td>Reboot virtual machine</td>
-        <td><span class="icon-failed">Failed</span></td>
-      </tr>
-      <tr>
-        <td class="failed"><a href="#">4244</a></td>
-        <td>08 Sep,2014, 12:55;15</td>
-        <td>pvmadmin</td>
-        <td><a href="#">admin_machine_test</a></td>
-        <td>Reboot virtual machine</td>
-        <td><span class="icon-failed">Failed</span></td>
-      </tr>
-      </tbody>
+        <tbody>
+        <tr>
+            <td><a href="#">4244</a></td>
+            <td>08 Sep,2014, 12:55;15</td>
+            <td>pvmadmin</td>
+            <td><a href="details.php">admin_machine_test</a></td>
+            <td>Reboot virtual machine</td>
+            <td><span class="ts-icon-thick"></span>Complete</td>
+        </tr>
+        <tr>
+            <td><a href="#">4244</a></td>
+            <td>08 Sep,2014, 12:55;15</td>
+            <td>pvmadmin</td>
+            <td><a href="details.php">admin_machine_test</a></td>
+            <td>Strartup virtual machine</td>
+            <td><span class="ts-icon-time"></span>Pending</td>
+        </tr>
+        <tr>
+            <td><a href="#">4244</a></td>
+            <td>08 Sep,2014, 12:55;15</td>
+            <td>pvmadmin</td>
+            <td><a href="details.php">admin_machine_test</a></td>
+            <td>Stop virtual machine</td>
+            <td> <img class="running" src="img/running.gif" alt="" width="17" height="17">&nbsp;Running</td>
+        </tr>
+        <tr>
+            <td><a href="#">4244</a></td>
+            <td>08 Sep,2014, 12:55;15</td>
+            <td>pvmadmin</td>
+            <td><a href="details.php">admin_machine_test</a></td>
+            <td>Reboot virtual machine</td>
+            <td><span class="ts-icon-delete"></span>Canceled</td>
+        </tr>
+        <tr>
+            <td class="failed"><a href="#">4244</a></td>
+            <td>08 Sep,2014, 12:55;15</td>
+            <td>pvmadmin</td>
+            <td><a href="details.php">admin_machine_test</a></td>
+            <td>Reboot virtual machine</td>
+            <td><span class="ts-icon-alert"></span>Failed</td>
+        </tr>
+        <tr>
+            <td class="failed"><a href="#">4244</a></td>
+            <td>08 Sep,2014, 12:55;15</td>
+            <td>pvmadmin</td>
+            <td><a href="details.php">admin_machine_test</a></td>
+            <td>Reboot virtual machine</td>
+            <td><span class="ts-icon-alert"></span>Failed</td>
+        </tr>
+        </tbody>
     </table>
 </div>
 <div class="wrapper">

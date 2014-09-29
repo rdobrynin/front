@@ -172,7 +172,7 @@
                       <tbody>
                       <tr>
                           <td>#4243</td>
-                          <td><a href="#">admin_machine_test</a></td>
+                          <td><a href="details.php">admin_machine_test</a></td>
                           <td>pvmadmin</td>
                           <td>Windows Standard Edition R2x64 xen</td>
                           <td>20 GB</td>
@@ -184,7 +184,7 @@
                       </tr>
                       <tr>
                           <td>#4243</td>
-                          <td><a href="#">admin_machine_test</a></td>
+                          <td><a href="details.php">admin_machine_test</a></td>
                           <td>pvmadmin</td>
                           <td>Windows Standard Edition R2x64 xen</td>
                           <td>20 GB</td>
@@ -196,7 +196,7 @@
                       </tr>
                       <tr class="disabled">
                           <td>#4243</td>
-                          <td><a class="disabled" href="#">admin_machine_test</a></td>
+                          <td><a class="disabled" href="details.php">admin_machine_test</a></td>
                           <td>pvmadmin</td>
                           <td>Windows Standard Edition R2x64 xen</td>
                           <td>20 GB</td>
@@ -208,7 +208,7 @@
                       </tr>
                       <tr>
                           <td>#4243</td>
-                          <td><a href="#">admin_machine_test</a></td>
+                          <td><a href="details.php">admin_machine_test</a></td>
                           <td>pvmadmin</td>
                           <td>Windows Standard Edition R2x64 xen</td>
                           <td>20 GB</td>
@@ -218,7 +218,6 @@
                           <td><span class="switch"><a href="#">ON</a></span></td>
                           <td style="text-align: center"><button class="btn btn-icon"><span class="ts-icon-sync"></span></button></td>
                       </tr>
-
                       </tbody>
                   </table>
                   <button class="btn">Create new machine</button>
@@ -273,23 +272,23 @@
                 <td><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="details.php">admin_machine_test</a></td>
                 <td>Reboot virtual machine</td>
-                <td><span class="icon-complete"></span>Complete</td>
+                <td><span class="ts-icon-thick"></span>Complete</td>
             </tr>
             <tr>
                 <td><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="details.php">admin_machine_test</a></td>
                 <td>Strartup virtual machine</td>
-                <td><span class="icon-pending"></span>Pending</td>
+                <td><span class="ts-icon-time"></span>Pending</td>
             </tr>
             <tr>
                 <td><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="details.php">admin_machine_test</a></td>
                 <td>Stop virtual machine</td>
                 <td> <img class="running" src="img/running.gif" alt="" width="17" height="17">&nbsp;Running</td>
             </tr>
@@ -297,25 +296,25 @@
                 <td><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="details.php">admin_machine_test</a></td>
                 <td>Reboot virtual machine</td>
-                <td><span class="ts-icon-delete status"></span>Canceled</td>
+                <td><span class="ts-icon-delete"></span>Canceled</td>
             </tr>
             <tr>
                 <td class="failed"><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="details.php">admin_machine_test</a></td>
                 <td>Reboot virtual machine</td>
-                <td><span class="icon-failed">Failed</span></td>
+                <td><span class="ts-icon-alert"></span>Failed</td>
             </tr>
             <tr>
                 <td class="failed"><a href="#">4244</a></td>
                 <td>08 Sep,2014, 12:55;15</td>
                 <td>pvmadmin</td>
-                <td><a href="#">admin_machine_test</a></td>
+                <td><a href="details.php">admin_machine_test</a></td>
                 <td>Reboot virtual machine</td>
-              <td><span class="icon-failed">Failed</span></td>
+              <td><span class="ts-icon-alert"></span>Failed</td>
             </tr>
             </tbody>
         </table>

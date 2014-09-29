@@ -66,12 +66,12 @@
         <div class="navbar-collapse collapse" id="top-main-menu">
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Dashboard</a></li>
-                <li><a href="vm.php">Virtual machines</a></li>
+                <li class="active"><a href="vm.php">Virtual machines</a></li>
                 <li><a href="logs.php">Logs</a></li>
                 <li><a href="templates.php">Templates</a></li>
                 <li><a href="users.php">Users</a></li>
                 <li><a href="billing_plans.php">Billing Plans</a></li>
-                <li class="active"><a href="reports.php">Reports</a></li>
+                <li><a href="reports.php">Reports</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right">
                 <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
