@@ -72,6 +72,14 @@ img.running {
   }
   tbody > tr > td {
     vertical-align: middle;
+    &.failed {
+      a {
+        color: @state-warning-bg;
+      }
+      &:hover {
+        color: @state-warning-bg-hover;
+      }
+    }
   }
 
   tfoot > tr > td {
@@ -157,7 +165,6 @@ tbody {
       margin-bottom: 10px;
     }
   }
-
   thead > tr > th {
     border-bottom: 1px;
   }

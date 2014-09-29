@@ -40,8 +40,7 @@ $(function() {
 //    });
 
     $('.selectpicker').selectpicker({
-        style: 'btn-select',
-        size: 100
+        style: 'btn-select'
     });
 
 
