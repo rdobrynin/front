@@ -122,6 +122,13 @@ a.navbar-brand {
           }
         }
       }
+      &:last-child {
+        a {
+          &:before {
+            background: transparent;
+          }
+        }
+      }
     }
     .dropdown-menu {
       li {
@@ -141,6 +148,9 @@ a.navbar-brand {
     .active {
       a {
         background-color: @brand-hover;
+        &:before {
+          background: transparent;
+        }
       }
     }
     .open a {
