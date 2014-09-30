@@ -49,5 +49,9 @@ $(function() {
         style: 'btn-select'
     });
 
+    $('#show-id').click(function () {
+        $('#show-id-data').toggle();
+    });
+
 
 });

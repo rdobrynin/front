@@ -109,18 +109,18 @@
                          </thead>
                          <tbody>
                          <tr>
-                             <td>
+                             <td style="width: 33.3333%">
                                  <span style="font-size: 4.5em; letter-spacing: -5px;">4</span>
                                  <span style="font-size: 1.4em;">Cores Used (100%)</span>
                                  <span class="info">4 cores</span>
                                  <button class="btn btn-primary">Upgrade</button>
                              </td>
-                             <td>
+                             <td style="width: 33.33%">
                                  <span style="font-size: 4.5em; letter-spacing: -5px;">52</span>
                                  <span style="font-size: 1.4em;">GB Used (20%)</span>
-                                 <span class="info" >4 cores</span>
+                                 <span class="info" >235 GB</span>
                              </td>
-                             <td>
+                             <td style="width: 33.33%">
                                  <span style="font-size: 4.5em; letter-spacing: -5px;">2.304</span>
                                  <span style="font-size: 1.4em;">GB Used</span>
                                  <span class="info" >Unlimited</span>

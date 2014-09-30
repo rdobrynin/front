@@ -181,8 +181,10 @@
             <dd>Unlimited</dd>
             <dt>IP addresses</dt>
             <dd>89.190.57.192</dd>
+            <dt id="show-id"><a href="#">show IP addresses(7)</a></dt>
+            <dd id="show-id-data">89.190.57.191, <div class="label label-primary">89.190.57.192</div>, 89.190.57.193, 89.190.57.194, 89.190.57.195, 89.190.57.196, 89.190.57.196</dd>
         </dl>
-        <span><a href="#">View all IP addresses(7)</a></span>
+
     </div>
         <div class="col-md-6">
             <h4>Price per hour (EUR)</h4>
