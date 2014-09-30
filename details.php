@@ -145,7 +145,6 @@
 </div>
 
 <div class="system-data-control col-md-4">
-<div class="container-fluid">
     <img src="img/win_icon.png" alt="" width="148" height="140">
     <span class="vm-label">admin_vm_password</span>
     <span class="vm-os-name">Windows 2012 Standard Edition R2 x64 xen</span>
@@ -156,16 +155,58 @@
         <button type="button" class="btn btn-md">Console</button>
     </div>
 </div>
-</div>
 
 <div class="system-data-info col-md-8">
-    <div class="container-fluid">
-        sdqqq
+    <div class="col-md-6">
+          <h4>Information</h4>
+        <dl class="dl-horizontal">
+            <dt>Hostname</dt>
+            <dd>localhost</dd>
+            <dt>Hypervisor</dt>
+            <dd>Host4</dd>
+            <dt>Login</dt>
+            <dd>root / 0xkC2E?9udjt</dd>
+        </dl>
+        <h4>Configuration</h4>
+        <dl class="dl-horizontal">
+            <dt>Memory</dt>
+            <dd>1.024 GB</dd>
+            <dt>CPUs</dt>
+            <dd>1 CPUs</dd>
+            <dt>Disk Size</dt>
+            <dd>20 GB</dd>
+            <dt>Backups</dt>
+            <dd>1/9332 MB</dd>
+            <dt>Network speed</dt>
+            <dd>Unlimited</dd>
+            <dt>IP addresses</dt>
+            <dd>89.190.57.192</dd>
+        </dl>
+        <span><a href="#">View all IP addresses(7)</a></span>
     </div>
+        <div class="col-md-6">
+            <h4>Price per hour (EUR)</h4>
+            <dl class="dl-horizontal">
+                <dt>Online</dt>
+                <dd><span class="ts-icon-circle on">0.042</span></dd>
+                <dt>Offline</dt>
+                <dd><span class="ts-icon-circle off">0.042</span></dd>
+                <dt>Client price</dt>
+                <dd><span class="ts-icon-circle on">0.052</span></dd>
+            </dl>
+            <h4>Options</h4>
+            <dl class="dl-horizontal">
+                <dt>Autobackup</dt>
+                <dd><a href="#"><span class="onoff">OFF</span></a></dd>
+            </dl>
+            <span><a href="#">Edit machine</a></span>
+            <span><a href="#">Edit disk</a></span>
+        </div>
 </div>
 
   <div class="legend">
       <h2>Latest activity logs</h2>
+
   </div>
 <div class="block">
     <div class="container-fluid">
