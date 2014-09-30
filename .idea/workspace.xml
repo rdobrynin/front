@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.php" afterPath="$PROJECT_DIR$/details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/header.less" afterPath="$PROJECT_DIR$/less/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="variables.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="515" column="37" selection-start="17213" selection-end="17213" vertical-scroll-proportion="0.4481766" vertical-offset="8803" max-vertical-offset="17080">
+            <state line="532" column="38" selection-start="17902" selection-end="17902" vertical-scroll-proportion="-9.692307" vertical-offset="9072" max-vertical-offset="17135">
               <folding />
             </state>
           </provider>
@@ -41,47 +41,8 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="41" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-11.333333" vertical-offset="1566" max-vertical-offset="6638">
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/content.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="683" column="26" selection-start="12997" selection-end="12997" vertical-scroll-proportion="-7.4038463" vertical-offset="11909" max-vertical-offset="18854">
-              <folding>
-                <marker date="1412075952648" expanded="true" signature="10613:11239" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="10629:11239" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="10108:11832" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="10607:11074" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="10603:11046" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="10632:10739" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="10921:11151" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="11211:11865" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="11514:11668" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="11597:11647" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="11722:11836" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="11892:11967" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12100:12245" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12112:12224" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12132:12197" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12626:13166" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12639:12791" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12708:12771" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12726:12751" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12816:12890" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12897:13024" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="12922:13025" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="13035:13144" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="13076:13126" placeholder="{...}" />
-                <marker date="1412075952648" expanded="true" signature="17920:17922" placeholder="{...}" />
-              </folding>
+            <state line="104" column="41" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-0.6666667" vertical-offset="1854" max-vertical-offset="6658">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +57,16 @@
       <file leaf-file-name="details.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="24" selection-start="7752" selection-end="7752" vertical-scroll-proportion="-5.3333335" vertical-offset="2808" max-vertical-offset="6296">
+            <state line="31" column="49" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-6.6666665" vertical-offset="378" max-vertical-offset="6280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/header.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="7" selection-start="954" selection-end="954" vertical-scroll-proportion="0.76404494" vertical-offset="432" max-vertical-offset="5373">
               <folding />
             </state>
           </provider>
@@ -183,21 +153,21 @@
         <option value="$PROJECT_DIR$/billing_plans.php" />
         <option value="$PROJECT_DIR$/less/style.less" />
         <option value="$PROJECT_DIR$/less/moon_icons.less" />
-        <option value="$PROJECT_DIR$/less/header.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/details.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/less/content.less" />
+        <option value="$PROJECT_DIR$/details.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/less/header.less" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="54" />
-    <option name="width" value="1892" />
-    <option name="height" value="1386" />
+    <option name="x" value="41" />
+    <option name="y" value="24" />
+    <option name="width" value="2519" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,6 +335,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,31 +411,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="54" width="1892" height="1386" extended-state="0" />
+    <frame x="41" y="24" width="2519" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33462134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33459213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11128284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11102719" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22564936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22545454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854986" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -493,33 +463,7 @@
     <entry file="file://$PROJECT_DIR$/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="54">
-          <folding>
-            <marker date="1412075952648" expanded="true" signature="10613:11239" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10629:11239" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10108:11832" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10607:11074" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10603:11046" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10632:10739" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10921:11151" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11211:11865" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11514:11668" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11597:11647" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11722:11836" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11892:11967" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12100:12245" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12112:12224" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12132:12197" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12626:13166" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12639:12791" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12708:12771" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12726:12751" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12816:12890" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12897:13024" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12922:13025" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="13035:13144" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="13076:13126" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="17920:17922" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -681,9 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/footer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.34615386" vertical-offset="0" max-vertical-offset="847">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.34615386" vertical-offset="0" max-vertical-offset="847" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vm.php">
@@ -703,16 +645,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/moon_icons.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="19" selection-start="904" selection-end="904" vertical-scroll-proportion="0.6240876" vertical-offset="0" max-vertical-offset="1780">
-          <folding />
-        </state>
+        <state line="38" column="19" selection-start="904" selection-end="904" vertical-scroll-proportion="0.6240876" vertical-offset="0" max-vertical-offset="1780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/ts_icons.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="781" selection-end="781" vertical-scroll-proportion="0.33759123" vertical-offset="152" max-vertical-offset="7810">
-          <folding />
-        </state>
+        <state line="29" column="25" selection-start="781" selection-end="781" vertical-scroll-proportion="0.33759123" vertical-offset="152" max-vertical-offset="7810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs.php">
@@ -750,16 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="3" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1823">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="396" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/preview/Cloud_new2.jpg">
@@ -769,65 +698,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="41" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-11.333333" vertical-offset="1566" max-vertical-offset="6638">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="7" selection-start="1784" selection-end="1784" vertical-scroll-proportion="-2.0769231" vertical-offset="1674" max-vertical-offset="4921">
+        <state line="104" column="41" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-0.6666667" vertical-offset="1854" max-vertical-offset="6658">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details.php">
+    <entry file="file://$PROJECT_DIR$/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="24" selection-start="7752" selection-end="7752" vertical-scroll-proportion="-5.3333335" vertical-offset="2808" max-vertical-offset="6296">
+        <state line="532" column="38" selection-start="17902" selection-end="17902" vertical-scroll-proportion="-9.692307" vertical-offset="9072" max-vertical-offset="17135">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="683" column="26" selection-start="12997" selection-end="12997" vertical-scroll-proportion="-7.4038463" vertical-offset="11909" max-vertical-offset="18854">
+        <state line="517" column="28" selection-start="9719" selection-end="9730" vertical-scroll-proportion="-3.2125" vertical-offset="9049" max-vertical-offset="18575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="42" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3319">
           <folding>
-            <marker date="1412075952648" expanded="true" signature="10613:11239" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10629:11239" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10108:11832" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10607:11074" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10603:11046" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10632:10739" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="10921:11151" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11211:11865" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11514:11668" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11597:11647" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11722:11836" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="11892:11967" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12100:12245" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12112:12224" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12132:12197" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12626:13166" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12639:12791" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12708:12771" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12726:12751" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12816:12890" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12897:13024" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="12922:13025" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="13035:13144" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="13076:13126" placeholder="{...}" />
-            <marker date="1412075952648" expanded="true" signature="17920:17922" placeholder="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/variables.less">
+    <entry file="file://$PROJECT_DIR$/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="515" column="37" selection-start="17213" selection-end="17213" vertical-scroll-proportion="0.4481766" vertical-offset="8803" max-vertical-offset="17080">
+        <state line="31" column="49" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-6.6666665" vertical-offset="378" max-vertical-offset="6280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="7" selection-start="954" selection-end="954" vertical-scroll-proportion="0.76404494" vertical-offset="432" max-vertical-offset="5373">
           <folding />
         </state>
       </provider>

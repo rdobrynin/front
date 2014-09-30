@@ -93,7 +93,7 @@
        <div class="row">
            <div class="navbar-collapse collapse" id="vm_submenu">
                <ul class="nav navbar-nav">
-                   <li class="active"><a href="#">Information</a></li>
+                   <li><a href="#">Information</a></li>
                    <li class="dropdown">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Network</a>
                        <ul class="dropdown-menu" role="menu">

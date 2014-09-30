@@ -16,7 +16,6 @@ a.navbar-brand {
 
 #top-menu {
   padding-left: 0;
-
   .ts-icon-myaccount {
     vertical-align: middle;
     padding-left: 0;
@@ -39,6 +38,31 @@ a.navbar-brand {
        padding-bottom: 8px;
      }
    }
+  }
+
+  .dropdown {
+    &:hover {
+      a {
+        &.dropdown-toggle {
+          background-color: @brand-hover;
+        }
+      }
+      .dropdown-menu {
+        display: block;
+
+      }
+    }
+    &:focus {
+      .dropdown-menu {
+        display: none;
+        background-color: @brand-hover;
+      }
+    }
+    .dropdown-menu {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
   }
 }
 
