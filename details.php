@@ -144,7 +144,7 @@
        </div>
 </div>
 
-<div class="system-data-control">
+<div class="system-data-control col-md-4">
 <div class="container-fluid">
     <img src="img/win_icon.png" alt="" width="148" height="140">
     <span class="vm-label">admin_vm_password</span>
@@ -158,7 +158,7 @@
 </div>
 </div>
 
-<div class="system-data-info">
+<div class="system-data-info col-md-8">
     <div class="container-fluid">
         sdqqq
     </div>
