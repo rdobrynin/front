@@ -77,10 +77,6 @@
 
 
 $(function() {
-
-
-
-
     $("#top-menu li").click(function(){
         if ($("#top-menu li").hasClass('active')) {
             $("#top-menu li").removeClass('active');

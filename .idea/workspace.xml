@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.php" afterPath="$PROJECT_DIR$/details.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/header.less" afterPath="$PROJECT_DIR$/less/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +40,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="41" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-0.6666667" vertical-offset="1854" max-vertical-offset="6658">
+            <state line="104" column="41" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-0.6666667" vertical-offset="1854" max-vertical-offset="6954">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/content.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="974" column="20" selection-start="17744" selection-end="17744" vertical-scroll-proportion="0.49485502" vertical-offset="17003" max-vertical-offset="19123">
               <folding />
             </state>
           </provider>
@@ -57,16 +65,7 @@
       <file leaf-file-name="details.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="49" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-6.6666665" vertical-offset="378" max-vertical-offset="6280">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less/header.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="7" selection-start="954" selection-end="954" vertical-scroll-proportion="0.76404494" vertical-offset="432" max-vertical-offset="5373">
+            <state line="170" column="34" selection-start="7919" selection-end="7919" vertical-scroll-proportion="-13.333333" vertical-offset="2700" max-vertical-offset="6576">
               <folding />
             </state>
           </provider>
@@ -155,10 +154,10 @@
         <option value="$PROJECT_DIR$/less/moon_icons.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/less/content.less" />
-        <option value="$PROJECT_DIR$/details.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/details.php" />
         <option value="$PROJECT_DIR$/less/header.less" />
+        <option value="$PROJECT_DIR$/less/content.less" />
       </list>
     </option>
   </component>
@@ -414,9 +413,9 @@
     <frame x="41" y="24" width="2519" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33459213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33459213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11102719" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11102719" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -710,32 +709,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="517" column="28" selection-start="9719" selection-end="9730" vertical-scroll-proportion="-3.2125" vertical-offset="9049" max-vertical-offset="18575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="42" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3319">
+        <state line="20" column="49" selection-start="756" selection-end="756" vertical-scroll-proportion="0.31331593" vertical-offset="0" max-vertical-offset="3543">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details.php">
+    <entry file="file://$PROJECT_DIR$/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-6.6666665" vertical-offset="378" max-vertical-offset="6280">
+        <state line="35" column="24" selection-start="596" selection-end="596" vertical-scroll-proportion="-7.875" vertical-offset="0" max-vertical-offset="5659">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/header.less">
+    <entry file="file://$PROJECT_DIR$/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="7" selection-start="954" selection-end="954" vertical-scroll-proportion="0.76404494" vertical-offset="432" max-vertical-offset="5373">
+        <state line="170" column="34" selection-start="7919" selection-end="7919" vertical-scroll-proportion="-13.333333" vertical-offset="2700" max-vertical-offset="6576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/content.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="974" column="20" selection-start="17744" selection-end="17744" vertical-scroll-proportion="0.49485502" vertical-offset="17003" max-vertical-offset="19123">
           <folding />
         </state>
       </provider>
