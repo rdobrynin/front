@@ -58,9 +58,19 @@ $(function() {
         style: 'btn-select'
     });
 
-    $('#show-id').click(function () {
-        $('#show-id-data').toggle();
+    var clicks = 0;
+    var string = $('#show-id').text();
+    $('#show-id').click(function(){
+        console.log(string);
+        if(clicks == 0){
+            $('#show-id-data').show();
+            $(this).html('<a href="#">hide IP addresses</a>');
+            clicks=1;
+        }else{
+            $('#show-id-data').hide();
+            $(this).html('<a href="#">'+string+'</a>');
+            clicks = 0;
+        }
     });
-
 
 });
