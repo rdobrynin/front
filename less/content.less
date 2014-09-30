@@ -108,6 +108,20 @@ img.running {
   tfoot > tr > td {
     vertical-align: middle;
   }
+
+  @media (max-width: 768px) {
+    head > tr > th, tbody > tr > th, tfoot > tr > th, thead > tr > td, tbody > tr > td, tfoot > tr > td {
+      padding: 3px;
+      line-height: 1.42857143;
+      font-size: 9px;
+      padding-top: 4px;
+      padding-bottom: 4px
+    }
+  }
+
+
+
+
 }
 
 
@@ -1002,6 +1016,9 @@ form {
   float: left;
   padding-left: 4%;
   text-align: center;
+  @media (max-width: 768px) {
+    padding-left: 0;
+  }
   .vm-label {
     font-weight: bold;
     display: block;
@@ -1059,6 +1076,21 @@ form {
     }
 
   }
+
+  @media (max-width: 991px) {
+    dt {
+      padding: 5px;
+      background-color: @gray-lighter;
+    }
+    dd {
+      padding: 5px;
+    }
+    span {
+     a {
+       padding: 5px;
+     }
+    }
+  }
 }
 
 // custom elements
@@ -1067,6 +1099,10 @@ form {
  #show-id-data {
     width: 120%;
     position: absolute;
+   @media (max-width: 991px) {
+     width: auto;
+     position: relative;
+   }
   }
 
 

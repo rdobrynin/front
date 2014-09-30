@@ -129,7 +129,7 @@
             <td>pvmadmin</td>
             <td><a href="details.php">admin_machine_test</a></td>
             <td>Reboot virtual machine</td>
-            <td><span class="ts-icon-thick"></span>Complete</td>
+            <td><span class="ts-icon-thick hidden-md hidden-sm hidden-xs"></span>Complete</td>
         </tr>
         <tr>
             <td><a href="#">4244</a></td>
@@ -137,7 +137,7 @@
             <td>pvmadmin</td>
             <td><a href="details.php">admin_machine_test</a></td>
             <td>Strartup virtual machine</td>
-            <td><span class="ts-icon-time"></span>Pending</td>
+            <td><span class="ts-icon-time hidden-md hidden-sm hidden-xs"></span>Pending</td>
         </tr>
         <tr>
             <td><a href="#">4244</a></td>
@@ -145,7 +145,7 @@
             <td>pvmadmin</td>
             <td><a href="details.php">admin_machine_test</a></td>
             <td>Stop virtual machine</td>
-            <td> <img class="running" src="img/running.gif" alt="" width="17" height="17">&nbsp;Running</td>
+            <td> <img class="running hidden-md hidden-sm hidden-xs" src="img/running.gif" alt="" width="17" height="17">Running</td>
         </tr>
         <tr>
             <td><a href="#">4244</a></td>
@@ -153,7 +153,7 @@
             <td>pvmadmin</td>
             <td><a href="details.php">admin_machine_test</a></td>
             <td>Reboot virtual machine</td>
-            <td><span class="ts-icon-delete"></span>Canceled</td>
+            <td><span class="ts-icon-delete hidden-md hidden-sm hidden-xs"></span>Canceled</td>
         </tr>
         <tr>
             <td class="failed"><a href="#">4244</a></td>
@@ -161,7 +161,7 @@
             <td>pvmadmin</td>
             <td><a href="details.php">admin_machine_test</a></td>
             <td>Reboot virtual machine</td>
-            <td><span class="ts-icon-alert"></span>Failed</td>
+            <td><span class="ts-icon-alert hidden-md hidden-sm hidden-xs"></span>Failed</td>
         </tr>
         <tr>
             <td class="failed"><a href="#">4244</a></td>
@@ -169,7 +169,7 @@
             <td>pvmadmin</td>
             <td><a href="details.php">admin_machine_test</a></td>
             <td>Reboot virtual machine</td>
-            <td><span class="ts-icon-alert"></span>Failed</td>
+            <td><span class="ts-icon-alert hidden-md hidden-sm hidden-xs"></span>Failed</td>
         </tr>
         </tbody>
     </table>
