@@ -119,9 +119,6 @@ img.running {
     }
   }
 
-
-
-
 }
 
 
@@ -596,12 +593,16 @@ form {
           width: 1px;
           z-index: 1;
         }
-        &:hover, &:focus {
+        &:hover {
           background-color: @brand;
           color: @component-active-color;
           &:before, &:after {
             background: none;
           }
+        }
+        &:focus {
+          background-color: @body-bg;
+          color:@brand;
         }
       }
       &:first-child a {
