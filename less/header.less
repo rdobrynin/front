@@ -55,7 +55,6 @@ a.navbar-brand {
     }
     &:focus {
       .dropdown-menu {
-        display: none;
         background-color: @brand-hover;
       }
     }
@@ -93,39 +92,40 @@ a.navbar-brand {
         &:hover {
           background-color: @brand-hover;
         }
-
         @media (min-width: 768px) and (max-width: 979px) {
           font-size: @font-size-base - 4;
         }
-      }
-      &:before {
-        background: none repeat scroll 0 0 #4f2369;
-        content: "";
-        display: block;
-        height: 28px;
-        margin-top: -15px;
-        position: absolute;
-        right: 0px;
-        top: 50%;
-        width: 1px;
-        z-index: 1;
+        &:before {
+          background: none repeat scroll 0 0 #4f2369;
+          content: "";
+          display: block;
+          height: 24px;
+          margin-top: -15px;
+          position: absolute;
+          right: 0px;
+          top: 56%;
+          width: 1px;
+          z-index: 1;
+        }
+        &:hover {
+          &:before {
+            background: transparent;
+          }
+        }
       }
     }
-
     .dropdown-menu {
       li {
         a {
           padding-top: 6px;
           padding-bottom: 6px;
           font-weight: normal;
-        &:hover {
-          background-color: @brand;
-        }
+          &:hover {
+            background-color: @brand;
+          }
         }
       }
-
     }
-
     .active {
       a {
         background-color: @brand-hover;
@@ -135,7 +135,6 @@ a.navbar-brand {
       background-color: @brand-hover;
     }
   }
-
     .navbar-nav {
       .active {
         a {
@@ -152,9 +151,6 @@ a.navbar-brand {
         }
       }
     }
-
-
-
 }
 
 #elion-top-nav {
@@ -166,7 +162,6 @@ a.navbar-brand {
   float: left;
   width: 100%;
   margin-bottom: 0;
-
   @media (max-width: 767px) {
     padding-top: 0;
     .navbar-brand{
@@ -195,6 +190,20 @@ a.navbar-brand {
           top: 17%;
           width: 1px;
           z-index: 1;
+        }
+
+        &.help {
+          &:after {
+            background-color: @table-border-color !important;
+            content: "";
+            display: block;
+            height: 28px;
+            position: absolute;
+            left: 0;
+            top: 17%;
+            width: 1px;
+            z-index: 1;
+          }
         }
         &:hover, &:focus {
           background: transparent;

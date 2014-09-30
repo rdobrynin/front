@@ -590,25 +590,44 @@ form {
           }
         }
       }
-      &:first-child a  {
-       &:before {
-         background:transparent;
-       }
+      &:first-child a {
+        &:before {
+          background: transparent;
+        }
       }
       &.active {
         a {
-          background-color: @brand;
-          color: @component-active-color;
+          background: transparent;
+          color: @brand;
           &:before {
-            background:none;
+            background: @brand;
             content: "";
             display: block;
-            height: 28px;
+            height: 3px;
             position: absolute;
             left: 0;
-            top: 17%;
-            width: 1px;
+            top: 95%;
+            width: 100%;
             z-index: 1;
+          }
+          &:hover {
+            color: @component-active-color;
+          }
+        }
+        &.open {
+          a {
+            background-color: @brand;
+            color: @component-active-color;
+          }
+        }
+        &:hover {
+          a {
+            background-color: @brand;
+            color: @component-active-color;
+          }
+
+          &:before {
+            background: transparent;
           }
         }
       }
@@ -628,6 +647,9 @@ form {
           padding-left: 15px;
           padding-right: 3px;
           padding-top: 10px;
+          &:before {
+            background: transparent;
+          }
           padding-bottom: 10px;
           &:hover {
             background-color: @brand-hover;
@@ -645,6 +667,67 @@ form {
         padding-bottom: 15px;
         font-size: @font-size-base+1;
       }
+
+      &.dropdown {
+        &.active {
+          a {
+            background-color: @brand;
+            color: @component-active-color;
+          }
+        }
+      }
+    }
+    .dropdown {
+      &:hover {
+        a {
+          color: @component-active-color;
+          &.dropdown-toggle {
+            background-color: @brand;
+          }
+        }
+        .dropdown-menu {
+          display: block;
+          li {
+            a {
+              color: @component-active-color;
+            }
+          }
+        }
+        .dropdown-toggle {
+          &:before {
+            background: transparent;
+          }
+        }
+        &:focus {
+          .dropdown-menu {
+            background-color: @brand;
+          }
+        }
+        .dropdown-menu {
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+      &.open {
+        a {
+          &.dropdown-toggle {
+            background-color: @brand;
+            color:@component-active-color;
+          }
+
+          &:before {
+            background: transparent;
+          }
+        }
+        .dropdown-menu {
+          li {
+            a {
+              color:@component-active-color;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -655,16 +738,6 @@ form {
       left: 100%;
       margin-top: -6px;
       margin-left: -1px;
-      &:hover {
-        &.dropdown-menu {
-          display: block;
-        }
-      }
-    }
-    &:hover {
-      .dropdown-menu {
-        display: block
-      }
     }
     a {
       &:after {
@@ -686,8 +759,6 @@ form {
     }
   }
 }
-
-
 .nav-tabs {
   border-bottom: none;
   li {
@@ -701,7 +772,6 @@ form {
         padding: 15px 30px 15px 30px;
       }
     }
-
     .active {
       a {
         border-radius: 0;
@@ -712,7 +782,6 @@ form {
     }
 
   }
-
   .active {
     &:first-child {
       border-right:0;
