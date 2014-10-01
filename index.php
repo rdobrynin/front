@@ -66,9 +66,9 @@
           <li><a href="reports.php">Reports</a></li>
           <li><a class="visible-xs" href="#">Help</a></li>
         </ul>
-        <ul class="nav navbar-nav pull-right">
-          <li><a class="help hidden-xs" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
-        </ul>
+          <ul class="nav navbar-nav pull-right hidden-xs">
+              <li><a class="help" href="#"><span class="ts-icon ts-icon-help"></span></a></li>
+          </ul>
       </div><!--/.nav-collapse -->
   </div>
 </div>
