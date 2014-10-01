@@ -17,14 +17,6 @@
 <!-- Main top navbar -->
 <div class="navbar hidden-xs " role="navigation" id="elion-common-nav">
   <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
       <div class="navbar-collapse collapse" id="top-menu">
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Eraklient</a></li>
