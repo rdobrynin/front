@@ -1,17 +1,17 @@
 // Insert your styling here.
 
-span.ts-icon.ts-icon-myaccount {
-  color: @body-bg;
+span {
+  &.ts-icon {
+    &.ts-icon-help {
+      position: relative;
+      color: @brand;
+    }
+    &.ts-icon-myaccount {
+      color: @body-bg;
+    }
+  }
 }
 
-span.ts-icon.ts-icon-help {
-  position: relative;
-  color: @brand;
-}
-
-a.navbar-brand {
-  padding-right: 30px;
-}
 
 #top-menu {
   padding-left: 0;
@@ -30,9 +30,7 @@ a.navbar-brand {
      .dropdown-menu {
        background-color: @brand-hover;
        margin-top: 0;
-       -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-       border-radius: 0;
+       .border-radius();
        border: 0;
        padding-top: 8px;
        padding-bottom: 8px;
@@ -74,7 +72,7 @@ a.navbar-brand {
   min-height: 20px;
   margin-bottom: 0;
   height: 41px;
-  border-radius: 0;
+  .border-radius();
   border: 0;
   position: relative;
   float: left;
@@ -178,7 +176,7 @@ a.navbar-brand {
 
 #elion-top-nav {
   position: relative;
-  border-radius: 0;
+  .border-radius();
   border: 0;
   background-color: @component-active-color;
   padding-top: 15px;
@@ -187,10 +185,12 @@ a.navbar-brand {
   margin-bottom: 0;
   @media (max-width: @screen-sm-max) {
     padding-top: 0;
-    .navbar-brand {
-      padding: 4px 4px;
-      display: none !important;
-    }
+   a {
+     .navbar-brand {
+       padding: 4px 4px;
+       display: none !important;
+     }
+   }
     .navbar-toggle {
       background-color: @brand;
       .icon-bar {
@@ -261,23 +261,27 @@ a.navbar-brand {
   @media (max-width: @screen-md-max) {
     a {
       font-size: @font-size-base;
-    }
-    .navbar-brand {
-      display: none;
+      .navbar-brand {
+        display: none;
+      }
+
     }
 
     #top-main-menu {
       padding-left: 0;
     }
   }
-  .navbar-brand{
-    display: inline-block;
-    width: 127px;
-    height: 78px;
-    background-repeat: no-repeat;
-    background-position: 0 14px;
-    margin-right: 17px;
-    .img-retina("../img/brand.png", "../img/brand@2x.png", 127px, 40px);
+  a {
+    .navbar-brand {
+      display: inline-block;
+      width: 127px;
+      height: 78px;
+      background-repeat: no-repeat;
+      background-position: 0 14px;
+      margin-right: 17px;
+      .img-retina("../img/brand.png", "../img/brand@2x.png", 127px, 40px);
+      margin-left: 1px;
+    }
   }
 }
 //Breadcrumbs

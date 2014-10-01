@@ -60,7 +60,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span class="navbar-brand"><a href="index.php"></a></span>
+            <a href="index.php"><span class="navbar-brand"></span></a>
         </div>
         <div class="navbar-collapse collapse" id="top-main-menu">
             <ul class="nav navbar-nav">
