@@ -11,30 +11,17 @@ html {
 }
 
 a {
-
   color:@brand;
   text-decoration:none;
   position:relative;
-  outline: none!important;
-
-  &:link{
-
-  }
+  outline: none !important;
 
   &:hover{
     text-decoration:underline;
     color:@brand-hover;
   }
 
-  &:visited{
-
-  }
-
-  &:active{
-    color:@brand-hover;
-  }
-
-  &:focus{
+  &:active, &:focus{
     color:@brand-hover;
   }
 
@@ -54,63 +41,69 @@ img {
 
 .table {
   border: 1px solid @table-border-color;
-  thead > tr > th {
-    border-bottom: 0;
-    border-left: 1px solid @table-border-color;
-    background-color: @table-th;
-  }
-  thead > tr > th{
-    padding-left: 10px;
-    vertical-align: middle;
-  }
-  tbody > tr > th {
-    vertical-align: middle;
-  }
-  tfoot > tr > th{
-    vertical-align: middle;
-  }
-  thead > tr > td {
-    vertical-align: middle;
-  }
-  tbody > tr > td {
-    vertical-align: middle;
-    &.failed {
-      a {
-        color: @state-warning-bg;
+  thead {
+    > tr {
+      > th {
+        border-bottom: 0;
+        border-left: 1px solid @table-border-color;
+        background-color: @table-th;
+        padding-left: 10px;
+        vertical-align: middle;
       }
-      &:hover {
-        color: @state-warning-bg-hover;
+      > td {
+        vertical-align: middle;
       }
     }
-
-    .ts-icon-alert {
-      font-size: @font-size-base+2;
-      color:@state-warning-bg;
-      vertical-align: middle;
-    }
-
-    .ts-icon-time {
-      font-size: @font-size-base+2;
-      color: @state-primary-bg;
-      vertical-align: middle;
-    }
-
-    .ts-icon-thick {
-      font-size: @font-size-base+2;
-      color: @state-success-bg;
-      vertical-align: middle;
-    }
-
-    .ts-icon-delete {
-      font-size: @font-size-base+2;
-      color: @btn-disabled-bg;
-      vertical-align: middle;
-    }
   }
 
+  tbody {
+    >tr {
+      >th {
+        vertical-align: middle;
+      }
+      >td {
+        vertical-align: middle;
+        &.failed {
+          a {
+            color: @state-warning-bg;
+          }
+          &:hover {
+            color: @state-warning-bg-hover;
+          }
+        }
+
+        .ts-icon-alert {
+          font-size: @font-size-base+2;
+          color:@state-warning-bg;
+          vertical-align: middle;
+        }
+
+        .ts-icon-time {
+          font-size: @font-size-base+2;
+          color: @state-primary-bg;
+          vertical-align: middle;
+        }
+
+        .ts-icon-thick {
+          font-size: @font-size-base+2;
+          color: @state-success-bg;
+          vertical-align: middle;
+        }
+
+        .ts-icon-delete {
+          font-size: @font-size-base+2;
+          color: @btn-disabled-bg;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
   tfoot {
     > tr {
       > td {
+        vertical-align: middle;
+      }
+      > th {
         vertical-align: middle;
       }
     }

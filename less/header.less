@@ -1,8 +1,7 @@
 // Insert your styling here.
 
 span.ts-icon.ts-icon-myaccount {
-
-  color: #fff;
+  color: @body-bg;
 }
 
 span.ts-icon.ts-icon-help {
@@ -153,8 +152,10 @@ a.navbar-brand {
         }
       }
     }
-    .open a {
-      background-color: @brand-hover;
+    .open  {
+      a {
+        background-color: @brand-hover;
+      }
     }
   }
     .navbar-nav {
@@ -186,7 +187,7 @@ a.navbar-brand {
   margin-bottom: 0;
   @media (max-width: @screen-sm-max) {
     padding-top: 0;
-    .navbar-brand{
+    .navbar-brand {
       padding: 4px 4px;
       display: none !important;
     }
@@ -253,11 +254,6 @@ a.navbar-brand {
     font-size: @font-size-base+2;
   }
 
-  img.logo {
-    position: relative;
-    top: 0;
-  }
-
   .container-fluid {
     border-bottom: 1px solid darken(@gray-lighter, 8%);
   }
@@ -284,6 +280,7 @@ a.navbar-brand {
     .img-retina("../img/brand.png", "../img/brand@2x.png", 127px, 40px);
   }
 }
+//Breadcrumbs
 
 .breadcrumbs {
   padding-bottom: 20px;
