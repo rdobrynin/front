@@ -135,7 +135,7 @@
                </ul>
            </div>
 <!--           end lg menu-->
-           <div id="vm_submenu_resp">
+           <div class="visible-xs visible-md" id="vm_submenu_resp">
                <ul>
                    <li>Information</li>
                    <li>Network</li>

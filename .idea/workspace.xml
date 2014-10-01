@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/billing_plans.php" afterPath="$PROJECT_DIR$/billing_plans.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.php" afterPath="$PROJECT_DIR$/details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.php" afterPath="$PROJECT_DIR$/logs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports.php" afterPath="$PROJECT_DIR$/reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates.php" afterPath="$PROJECT_DIR$/templates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.php" afterPath="$PROJECT_DIR$/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm.php" afterPath="$PROJECT_DIR$/vm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,7 +104,7 @@
           <file leaf-file-name="details.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/details.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="132" column="28" selection-start="6617" selection-end="6617" vertical-scroll-proportion="0.5833333" vertical-offset="1848" max-vertical-offset="6480">
+                <state line="127" column="24" selection-start="6328" selection-end="6328" vertical-scroll-proportion="0.4871795" vertical-offset="1848" max-vertical-offset="6480">
                   <folding />
                 </state>
               </provider>
@@ -848,7 +840,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="28" selection-start="6617" selection-end="6617" vertical-scroll-proportion="0.5833333" vertical-offset="1848" max-vertical-offset="6480">
+        <state line="127" column="24" selection-start="6328" selection-end="6328" vertical-scroll-proportion="0.4871795" vertical-offset="1848" max-vertical-offset="6480">
           <folding />
         </state>
       </provider>
