@@ -1086,6 +1086,9 @@ form {
   float: right;
 
   @media (max-width: @screen-md-max) {
+    &.col-md-8,  .col-md-6 {
+      width: 100%;
+    }
     padding-left: 0;
 
    h4 {
@@ -1095,28 +1098,24 @@ form {
      text-align: left;
    }
     dd {
-      padding-bottom: 12px;
+      padding: 5px;
     }
-  }
-  &.col-md-8 {
-    @media (max-width: @screen-md-max) {
-      width: 100%;
+    dt {
+      padding: 5px;
+      background-color: @gray-lighter;
+      width: 50%;
+      margin-right: 15px;
     }
-
+    span {
+      a {
+        padding: 5px;
+      }
+    }
   }
 
   @media (max-width: @screen-md-max) {
     dt {
-      padding: 5px;
-      background-color: @gray-lighter;
-    }
-    dd {
-      padding: 5px;
-    }
-    span {
-     a {
-       padding: 5px;
-     }
+      width: 100%;
     }
   }
 }
