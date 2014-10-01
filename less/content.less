@@ -40,10 +40,13 @@ a {
 
 } // a END
 
-img.running {
-  top: -2px;
-  position: relative;
-  left: -1px;
+img {
+  &.running {
+    top: -2px;
+    position: relative;
+    left: -1px;
+    margin-right: 5px;
+  }
 }
 
 
@@ -118,9 +121,6 @@ img.running {
       padding-bottom: 4px
     }
   }
-
-
-
 
 }
 
@@ -596,12 +596,16 @@ form {
           width: 1px;
           z-index: 1;
         }
-        &:hover, &:focus {
+        &:hover {
           background-color: @brand;
           color: @component-active-color;
           &:before, &:after {
             background: none;
           }
+        }
+        &:focus {
+          background-color: @body-bg;
+          color:@brand;
         }
       }
       &:first-child a {
@@ -1095,15 +1099,15 @@ form {
 
 // custom elements
 
-
- #show-id-data {
-    width: 120%;
-    position: absolute;
-   @media (max-width: 991px) {
-     width: auto;
-     position: relative;
-   }
+#show-id-data {
+  width: 120%;
+  position: absolute;
+  display: none;
+  @media (max-width: 991px) {
+    width: auto;
+    position: relative;
   }
+}
 
 
 

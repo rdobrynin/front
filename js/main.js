@@ -3,6 +3,13 @@
  */
 
 $(function() {
+
+    console.log(localStorage.getItem('showID'));
+
+    $('.dropdown').hover(function() {
+        $(this).removeClass('open');
+    });
+
     $("#top-menu li").click(function(){
         if ($("#top-menu li").hasClass('active')) {
             $("#top-menu li").removeClass('active');
@@ -53,9 +60,20 @@ $(function() {
         style: 'btn-select'
     });
 
-    $('#show-id').click(function () {
-        $('#show-id-data').toggle();
+    var clicks = 0;
+    var string = $('#show-id').text();
+    $('#show-id').click(function(){
+        if(clicks == 0){
+            $('#show-id-data').show();
+            $(this).html('<a href="#">hide IP addresses</a>');
+            localStorage.setItem('showID', true);
+            clicks=1;
+        }else{
+            $('#show-id-data').hide();
+            $(this).html('<a href="#">'+string+'</a>');
+            localStorage.setItem('showID', false);
+            clicks = 0;
+        }
     });
-
 
 });

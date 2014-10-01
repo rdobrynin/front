@@ -102,12 +102,28 @@ a.navbar-brand {
           height: 24px;
           margin-top: -15px;
           position: absolute;
-          right: 0px;
+          right: -1px;
           top: 56%;
           width: 1px;
           z-index: 1;
         }
         &:hover {
+          &:before {
+            background: transparent;
+          }
+        }
+      }
+      &.dropdown {
+        &.active {
+          a {
+            &:before {
+              background: transparent;
+            }
+          }
+        }
+      }
+      &:last-child {
+        a {
           &:before {
             background: transparent;
           }
@@ -123,12 +139,18 @@ a.navbar-brand {
           &:hover {
             background-color: @brand;
           }
+         &:before {
+           background: transparent;
+         }
         }
       }
     }
     .active {
       a {
         background-color: @brand-hover;
+        &:before {
+          background: transparent;
+        }
       }
     }
     .open a {
@@ -208,6 +230,9 @@ a.navbar-brand {
         &:hover, &:focus {
           background: transparent;
         }
+//        &:hover {
+//          border-bottom: 3px solid #4e256b;
+//        }
       }
       &:first-child {
         a {

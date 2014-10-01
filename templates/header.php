@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=8, IE=9, IE=10">
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -13,7 +15,7 @@
     <script src="/js/less.min.js" type="text/javascript"></script>
     <!--MODERNIZER-->
     <script src="/assets/js/modernizr.min.js" type="text/javascript"></script>
-  <script type="text/javascript"> localStorage.clear();</script>
+<!--  <script type="text/javascript"> localStorage.clear();</script>-->
     <!--bootstrap select-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/main.js" type="text/javascript"></script>
