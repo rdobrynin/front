@@ -169,6 +169,9 @@ button {
   float: left;
   width: 100%;
   padding-left: 15px;
+  @media (max-width: @screen-sm-max) {
+   padding-left: 0;
+  }
   h2 {
     color: @component-active-color;
     margin-left: 4%;
@@ -189,7 +192,6 @@ button {
       padding-top: 4px;
       padding-bottom: 12px;
       margin-bottom: 0;
-      position: relative;
       font-size: @font-size-base + 2;
     }
   }
@@ -388,6 +390,9 @@ form {
   }
   &.btn-md {
     padding:12px 18px;
+    @media (max-width: @screen-md-max) {
+    padding-bottom: 8px;
+    }
   }
 
 //PRIMARY BUTTON
