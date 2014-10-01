@@ -27,8 +27,7 @@
         </div>
         <div class="navbar-collapse collapse" id="top-menu">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">OnApp</a></li>
-                <li><a href="#">Eraklient</a></li>
+                <li class="active"><a href="#">Eraklient</a></li>
                 <li><a href="#about">Äriklient</a></li>
                 <li><a href="https://pood.elion.ee/">E-pood</a></li>
                 <li class="dropdown">
@@ -61,7 +60,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img class="logo" src="img/brand.png" alt="" width="127" height="40"></a>
+            <span class="navbar-brand"><a href="index.php"></a></span>
         </div>
         <div class="navbar-collapse collapse" id="top-main-menu">
             <ul class="nav navbar-nav">

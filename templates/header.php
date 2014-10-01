@@ -19,7 +19,6 @@
     <!--bootstrap select-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/main.js" type="text/javascript"></script>
-    <script src="/js/retina.js" type="text/javascript"></script>
   <script src="/assets/js/bootstrap-select.js" type="text/javascript"></script>
     <script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>

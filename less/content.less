@@ -108,23 +108,69 @@ img {
     }
   }
 
-  tfoot > tr > td {
-    vertical-align: middle;
-  }
-
-  @media (max-width: 768px) {
-    head > tr > th, tbody > tr > th, tfoot > tr > th, thead > tr > td, tbody > tr > td, tfoot > tr > td {
-      padding: 3px;
-      line-height: 1.42857143;
-      font-size: 9px;
-      padding-top: 4px;
-      padding-bottom: 4px
+  tfoot {
+    > tr {
+      > td {
+        vertical-align: middle;
+      }
     }
   }
 
+  @media (max-width: @screen-sm-min) {
+    head {
+      >tr {
+        >th {
+          line-height: 1.42857143;
+          font-size: 9px;
+          padding-top: 4px;
+          padding-bottom: 4px
+        }
+        >td {
+          line-height: 1.42857143;
+          font-size: 9px;
+          padding-top: 4px;
+          padding-bottom: 4px
+        }
+      }
+    }
+    tbody {
+      >tr {
+        >th {
+          padding: 3px;
+          line-height: 1.42857143;
+          font-size: 9px;
+          padding-top: 4px;
+          padding-bottom: 4px
+        }
+      }
+      >td {
+        padding: 3px;
+        line-height: 1.42857143;
+        font-size: 9px;
+        padding-top: 4px;
+        padding-bottom: 4px
+      }
+    }
+    tfoot {
+      >tr {
+        >th {
+          padding: 3px;
+          line-height: 1.42857143;
+          font-size: 9px;
+          padding-top: 4px;
+          padding-bottom: 4px
+        }
+        >td {
+          padding: 3px;
+          line-height: 1.42857143;
+          font-size: 9px;
+          padding-top: 4px;
+          padding-bottom: 4px
+        }
+      }
+    }
+  }
 }
-
-
 
 button,button.btn.dropdown-toggle.selectpicker.btn-select {
   outline:0 none !important;
@@ -511,21 +557,9 @@ form {
     border-left: 1px solid @input-border;
     background-color: @table-th;
     background-position: center;
-    background-image: url('../img/caret.png');
-    background-size: 12px 7px;
     background-repeat: no-repeat;
     right: 13px !important;
-  }
-  @media
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (   min--moz-device-pixel-ratio: 2),
-  only screen and (     -o-min-device-pixel-ratio: 2/1),
-  only screen and (        min-device-pixel-ratio: 2),
-  only screen and (                min-resolution: 192dpi),
-  only screen and (                min-resolution: 2dppx) {
-    .caret {
-      background-image: url('../img/caret@2x.png');
-    }
+    .img-retina("../img/caret.png", "../img/caret@2x.png", 12px, 7px);
   }
 }
 
@@ -786,7 +820,7 @@ form {
       border-radius: 0;
       padding:15px 80px 15px 80px;
       margin-right: 0;
-      @media (max-width: 767px) {
+      @media (max-width: @screen-sm-max) {
         padding: 15px 30px 15px 30px;
       }
     }
@@ -1020,7 +1054,7 @@ form {
   float: left;
   padding-left: 4%;
   text-align: center;
-  @media (max-width: 768px) {
+  @media (max-width: @screen-sm-max) {
     padding-left: 0;
   }
   .vm-label {
@@ -1049,7 +1083,7 @@ form {
   }
 
 
-  @media (max-width: 991px) {
+  @media (max-width: @screen-md-max) {
     width: 100%;
   }
 }
@@ -1061,7 +1095,7 @@ form {
   position: relative;
   float: right;
 
-  @media (max-width: 991px) {
+  @media (max-width: @screen-md-max) {
     padding-left: 0;
 
    h4 {
@@ -1075,13 +1109,13 @@ form {
     }
   }
   &.col-md-8 {
-    @media (max-width: 991px) {
+    @media (max-width: @screen-md-max) {
       width: 100%;
     }
 
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: @screen-md-max) {
     dt {
       padding: 5px;
       background-color: @gray-lighter;
@@ -1103,7 +1137,14 @@ form {
   width: 120%;
   position: absolute;
   display: none;
-  @media (max-width: 991px) {
+  z-index: 1030;
+  background-color: @body-bg;
+  padding: 10px;
+  border: 1px solid @hard-light;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  @media (max-width: @screen-md-max) {
     width: auto;
     position: relative;
   }
