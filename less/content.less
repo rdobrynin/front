@@ -204,6 +204,9 @@ button {
   background-color: @component-active-color;
   padding-top: 15px;
   padding-bottom: 20px;
+  @media (max-width: @screen-sm-max) {
+    padding-bottom: 10px;
+  }
 }
 
 .block {
@@ -611,6 +614,10 @@ form {
     &:hover {
       background: @brand-hover;
     }
+  }
+
+  @media (max-width: @screen-sm-max) {
+    padding: 12px 0;
   }
 
 }
