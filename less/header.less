@@ -306,6 +306,72 @@ span {
     }
   }
 }
+
+
+//Setails submenu_for torches
+
+#vm_submenu_resp {
+  ul  {
+    padding-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: auto;
+    li {
+      display: table-cell;
+      a {
+        text-decoration: none;
+       padding: 10px;
+        &:before {
+          background-color: @brand;
+          content: "";
+          display: block;
+          height: 17px;
+          position: absolute;
+          left: -2px;
+          top: 27%;
+          width: 1px;
+          z-index: 1;
+        }
+&:hover {
+  background-color: @brand;
+  color: @component-active-color;
+  &:before {
+    background: transparent;
+  }
+}
+
+      }
+      &:first-child {
+        a {
+          &:before {
+            background: transparent;
+          }
+        }
+      }
+      &.open {
+        a {
+          background-color: @brand;
+          color: @component-active-color;
+        }
+      }
+    }
+    .dropdown-menu {
+      background-color: @brand;
+      .border-radius();
+      border:0;
+      li {
+        display: block;
+        a {
+          color: @component-active-color;
+        }
+      }
+    }
+  }
+}
+
+
+
+
 //Breadcrumbs
 
 .breadcrumbs {

@@ -135,14 +135,44 @@
                </ul>
            </div>
 <!--           end lg menu-->
-           <div class="visible-xs visible-md" id="vm_submenu_resp">
+           <div class="visible-xs" id="vm_submenu_resp">
                <ul>
-                   <li>Information</li>
-                   <li>Network</li>
-                   <li>Backups</li>
-                   <li>Virtual machine</li>
-                   <li>Power</li>
-                   <li>Admin</li>
+                   <li class="active"><a href="#">Information</a></li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Network</a>
+                       <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Firewall Rules</a></li>
+                           <li><a href="#">Network Interface</a></li>
+                           <li><a href="#">IP addresses</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Backups</a>
+                       <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Backups list</a></li>
+                           <li><a href="#">Schedules</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Virtual machine</a>
+                       <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Edit properties</a></li>
+                           <li><a href="#">Edit disk</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Power</a>
+                       <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Reboot in recovery</a></li>
+                           <li><a href="#">Suspend</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin</a>
+                       <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Set SSH Keys</a></li>
+                       </ul>
+                   </li>
                </ul>
            </div>
        </div>
