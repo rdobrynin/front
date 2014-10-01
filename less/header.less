@@ -97,7 +97,7 @@ span {
         &:hover {
           background-color: @brand-hover;
         }
-        @media (max-width: @screen-md-min) {
+        @media (max-width: @screen-md-max) {
           font-size: @font-size-base - 4;
         }
         &:before {
@@ -370,6 +370,13 @@ span {
           border-bottom: 2px solid @brand;
         }
       }
+
+
+      &.active {
+        a {
+          border:0;
+        }
+      }
     }
     .dropdown-menu {
       -webkit-box-shadow: none;
@@ -386,6 +393,66 @@ span {
           color: @component-active-color;
           &:hover {
             background-color: @brand-hover;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: @screen-xs-max) {
+    margin-left: -5px;
+    margin-right: -5px;
+    ul {
+      width: 100%;
+      float: left;
+      display: block;
+      position: relative;
+      li {
+        display: block;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        a {
+          &:before {
+            background: transparent;
+          }
+        }
+        &.dropdown {
+          a {
+            &:hover {
+              background: transparent;
+              color: @brand;
+            }
+            &.dropdown-toggle {
+              font-size: 20px;
+              cursor: default;
+            }
+          }
+          &.open {
+            a {
+              &.dropdown-toggle {
+                background: transparent;
+                color: @brand;
+              }
+            }
+          }
+        }
+        &:first-child {
+          display: none;
+        }
+      }
+      .dropdown-menu {
+        li {
+          a {
+            &:hover {
+              color: @component-active-color;
+              background-color: @brand-hover;
+            }
+          }
+          margin-top: -4px;
+          margin-bottom: -2px;
+
+          &:first-child {
+            display: block;
           }
         }
       }
