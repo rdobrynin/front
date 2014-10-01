@@ -165,13 +165,24 @@ img {
   }
 }
 
-button,button.btn.dropdown-toggle.selectpicker.btn-select {
+button {
   outline:0 none !important;
   &:focus, &:hover, {
     outline:0 none !important;
   }
+  &.btn {
+    &.dropdown-toggle {
+      &.selectpicker {
+        &.btn-select {
+          outline:0 none !important;
+          &:focus, &:hover, {
+            outline:0 none !important;
+          }
+        }
+      }
+    }
+  }
 }
-
 
 .legend {
   background-color: @brand;
@@ -256,8 +267,12 @@ tbody {
       margin-bottom: 10px;
     }
   }
-  thead > tr > th {
-    border-bottom: 1px;
+  thead  {
+    > tr {
+      > th {
+        border-bottom: 1px;
+      }
+    }
   }
 }
 
@@ -265,11 +280,13 @@ tbody {
   padding-top: 20px;
 }
 
-span.info {
-color:@brand-primary;
-  font-size: @font-size-base + 2;
-}
+span {
+  &.info {
+    color:@brand-primary;
+    font-size: @font-size-base + 2;
+  }
 
+}
 //forms
 form {
   label, &.label {
@@ -561,11 +578,9 @@ form {
 }
 
 //view all
-
-
 .view-all {
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid @hard-light;
+  border-bottom: 1px solid @hard-light;
   background: #f6f6f6;
   font-size: 15px;
   line-height: 1;
@@ -588,8 +603,8 @@ form {
     border-radius: 4px;
     display: block;
     color: white;
-    background: #642887;
-    border-bottom: 4px solid #4e256b;
+    background: @brand;
+    border-bottom: 4px solid @brand-hover;
     padding: 11px 14px;
     margin: 10px 10px;
     font-size: 13px;
@@ -600,7 +615,7 @@ form {
       margin-left: 4px;
     }
     &:hover {
-      background: #73369e;
+      background: @brand-hover;
     }
   }
 
@@ -613,6 +628,7 @@ form {
     li {
       a {
         &:before {
+//          todo specter
           background-color: #dddddd;
           content: "";
           display: block;
@@ -688,16 +704,18 @@ form {
         -moz-box-shadow: none;
         box-shadow: none;
 
-        li a {
-          padding-left: 15px;
-          padding-right: 3px;
-          padding-top: 10px;
-          &:before {
-            background: transparent;
-          }
-          padding-bottom: 10px;
-          &:hover {
-            background-color: @brand-hover;
+        li  {
+          a {
+            padding-left: 15px;
+            padding-right: 3px;
+            padding-top: 10px;
+            &:before {
+              background: transparent;
+            }
+            padding-bottom: 10px;
+            &:hover {
+              background-color: @brand-hover;
+            }
           }
         }
         .ts-icon-arrow-right {
@@ -833,36 +851,47 @@ form {
     }
   }
 
-}
+  > li {
+    &.active  {
+      > a {
+        color: @brand;
+        border-bottom-color: @body-bg;
+        cursor: default;
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 1px solid @component-active-color;
+        background-color: @component-active-color;
+        &:focus {
+          color: @brand;
+          border-bottom-color: @body-bg;
+          cursor: default;
+          border-right: 0;
+          border-left: 0;
+        }
+        &:hover {
+          border-left: 0;
+          border-right: 0;
+          border-bottom: 1px solid @body-bg;
+          background-color: @component-active-color;
+          color:@brand;
+        }
+      }
+    }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
-  color:@brand;
-  border-bottom-color: @body-bg;
-  cursor: default;
-  border-right:0;
-  border-left:0;
-
-}
-
-.nav-tabs > li.active > a {
-  border-bottom: 1px solid @component-active-color;
-  background-color: @component-active-color;
-}
-
-.nav-tabs > li.first-tab > a, .nav-tabs > li.first-tab > a:hover {
-  border-left: 1px solid @table-border-color !important;
-}
-
-.nav-tabs > li > a:hover {
-  border-bottom: 1px solid @table-border-color;
-}
-
-.nav-tabs > li.active > a:hover {
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px solid @body-bg;
-  background-color: @component-active-color;
-  color:@brand;
+    &.first-tab {
+      > a {
+        border-left: 1px solid @table-border-color !important;
+        &:hover {
+          border-left: 1px solid @table-border-color !important;
+        }
+      }
+    }
+    > a {
+      &:hover {
+        border-bottom: 1px solid @table-border-color;
+      }
+    }
+  }
 }
 
 //terms
@@ -907,8 +936,6 @@ form {
     }
   }
 }
-
-
 
 .onoff {
   color: @gray-light;
@@ -997,15 +1024,16 @@ form {
 
 }
 
-.alert-dismissible .close {
-  position: absolute;
-  top: 14px;
-  right: 4%;
-  color: inherit;
-  float: right !important;
+.alert-dismissible  {
+  &.close {
+    position: absolute;
+    top: 14px;
+    right: 4%;
+    color: inherit;
+    float: right !important;
+  }
+
 }
-
-
 
 .disabled {
   td {
@@ -1075,7 +1103,6 @@ form {
     }
   }
 
-
   @media (max-width: @screen-md-max) {
     width: 100%;
   }
@@ -1142,6 +1169,3 @@ form {
     position: relative;
   }
 }
-
-
-
