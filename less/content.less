@@ -10,6 +10,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h4 {
+  @media (max-width: @screen-sm) {
+  font-size: @font-size-base;
+  }
+}
+
 a {
   color:@brand;
   text-decoration:none;
@@ -936,8 +942,6 @@ form {
       font-weight: normal;
     }
   }
-
-
   @media (max-width: @screen-md-max) {
     dd {
       margin-left: 0 !important;
@@ -1073,6 +1077,10 @@ form {
     vertical-align: middle;
   }
 
+  @media (max-width: @screen-sm) {
+    font-size: @font-size-small;
+  }
+
 }
 
 .system-data-control {
@@ -1083,6 +1091,9 @@ form {
   float: left;
   padding-left: 4%;
   text-align: center;
+  @media (max-width: @screen-md-max) {
+    padding-left: 0;
+  }
   @media (max-width: @screen-sm-max) {
     padding-left: 0;
   }
@@ -1111,7 +1122,7 @@ form {
     }
   }
 
-  @media (max-width: @screen-md-max) {
+  @media (max-width: @screen-md) {
     width: 100%;
   }
 }
@@ -1123,7 +1134,7 @@ form {
   position: relative;
   float: right;
 
-  @media (max-width: @screen-md-max) {
+  @media (max-width: @screen-md) {
     &.col-md-8,  .col-md-6 {
       width: 100%;
     }
@@ -1153,7 +1164,7 @@ form {
 
   @media (max-width: @screen-md-max) {
     dt {
-      width: 100%;
+      width: 50%;
     }
   }
 }
