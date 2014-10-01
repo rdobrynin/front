@@ -225,29 +225,6 @@
   <div class="legend">
       <h2>Latest activity logs</h2>
   </div>
-<div class="block">
-    <div class="container-fluid">
-            <div class="control-group">
-            <form class="form-inline" method="get">
-                <label class="control-label">Filter logs</label>
-                <select class="selectpicker">
-                  <option>All users</option>
-                  <option>Client</option>
-                  <option>pvmadmin</option>
-                  <option>Tester</option>
-                  <option>Observer</option>
-                </select>
-              <select class="selectpicker">
-                <option>All actions</option>
-                <option>Build disk</option>
-                <option>Destroy disk</option>
-                  <option>Reboot vm</option>
-              </select>
-                <button type="button" class="btn btn-sm">Filter</button>
-            </form>
-                </div>
-    </div>
-</div>
 <div class="container-fluid wrapper">
         <table class="table">
             <thead>
