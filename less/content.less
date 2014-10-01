@@ -49,6 +49,9 @@ img {
         background-color: @table-th;
         padding-left: 10px;
         vertical-align: middle;
+        @media (max-width: @screen-sm-min) {
+          font-size: @font-size-small - 2;
+        }
       }
       td {
         vertical-align: middle;
@@ -181,6 +184,13 @@ button {
       margin-top: -9px;
       margin-bottom: -6px;
       padding-right: 7px;
+    }
+    @media (max-width: @screen-sm-max) {
+      padding-top: 4px;
+      padding-bottom: 12px;
+      margin-bottom: 0;
+      position: relative;
+      font-size: @font-size-base + 2;
     }
   }
 }
@@ -480,6 +490,16 @@ form {
     span {
       font-size: @font-size-large;
     }
+    @media (max-width: @screen-sm-max) {
+      font-size: @font-size-small;
+      padding: 3px 6px 2px 11px;
+    }
+  }
+
+  @media (max-width: @screen-sm-max) {
+    font-size: @font-size-small - 2;
+    font-weight: bold;
+    padding: 8px 20px;
   }
 
 }

@@ -46,6 +46,7 @@
 <div class="navbar" role="navigation" id="elion-top-nav">
     <div class="container-fluid">
         <div class="navbar-header">
+            <a href="index.php"><span class="brand-top visible-xs"></span></a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>

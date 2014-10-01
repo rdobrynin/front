@@ -249,6 +249,27 @@ span {
         border-bottom: 3px solid @brand-hover;
       }
     }
+    @media (max-width: @screen-sm-max) {
+      margin: 0;
+      li {
+        a {
+          padding-bottom: 14px;
+          &:after {
+            background: transparent;
+          }
+          &:hover {
+            background-color: @brand;
+            color:@component-active-color;
+            font-size: @font-size-base;
+          }
+        }
+        &.active {
+          a {
+            border: 0;
+          }
+        }
+      }
+    }
   }
   a {
     font-size: @font-size-base+2;
@@ -269,6 +290,7 @@ span {
 
     #top-main-menu {
       padding-left: 0;
+      padding-right: 0;
     }
   }
   a {
