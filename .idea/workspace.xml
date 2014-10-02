@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/billing_plans.php" afterPath="$PROJECT_DIR$/billing_plans.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_billing_plan.php" afterPath="$PROJECT_DIR$/create_billing_plan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.php" afterPath="$PROJECT_DIR$/details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +24,7 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60488796">
+    <splitter split-orientation="horizontal" split-proportion="0.49898168">
       <split-first>
         <leaf>
           <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
@@ -101,7 +97,7 @@
           <file leaf-file-name="create_billing_plan.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/create_billing_plan.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="12" selection-start="3910" selection-end="3910" vertical-scroll-proportion="0.6522222" vertical-offset="943" max-vertical-offset="2844">
+                <state line="74" column="30" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.54435927" vertical-offset="979" max-vertical-offset="2983">
                   <folding />
                 </state>
               </provider>
@@ -141,7 +137,7 @@
           <file leaf-file-name="content.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/content.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="341" column="14" selection-start="6106" selection-end="6106" vertical-scroll-proportion="0.5979615" vertical-offset="5628" max-vertical-offset="23833">
+                <state line="67" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.74065685" vertical-offset="552" max-vertical-offset="23743">
                   <folding />
                 </state>
               </provider>
@@ -651,7 +647,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/less/mixins/buttons.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1850" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1850">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/less/mixins/border-radius.less">
@@ -850,14 +848,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_billing_plan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="12" selection-start="3910" selection-end="3910" vertical-scroll-proportion="0.6522222" vertical-offset="943" max-vertical-offset="2844">
+        <state line="74" column="30" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.54435927" vertical-offset="979" max-vertical-offset="2983">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="14" selection-start="6106" selection-end="6106" vertical-scroll-proportion="0.5979615" vertical-offset="5628" max-vertical-offset="23833">
+        <state line="67" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.74065685" vertical-offset="552" max-vertical-offset="23743">
           <folding />
         </state>
       </provider>
