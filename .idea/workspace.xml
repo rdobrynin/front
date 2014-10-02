@@ -4,6 +4,7 @@
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_billing_plan.php" afterPath="$PROJECT_DIR$/create_billing_plan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +26,13 @@
     <favorites_list name="front" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7717141">
+    <splitter split-orientation="horizontal" split-proportion="0.622598">
       <split-first>
         <leaf>
-          <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/variables.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="240" column="35" selection-start="8068" selection-end="8068" vertical-scroll-proportion="-2.7692308" vertical-offset="4176" max-vertical-offset="17214">
+                <state line="228" column="0" selection-start="7738" selection-end="7738" vertical-scroll-proportion="0.66744184" vertical-offset="3656" max-vertical-offset="17060">
                   <folding />
                 </state>
               </provider>
@@ -95,14 +96,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="create_billing_plan.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="create_billing_plan.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/create_billing_plan.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="110" column="27" selection-start="4917" selection-end="4917" vertical-scroll-proportion="0.6845564" vertical-offset="1391" max-vertical-offset="3271">
+                <state line="96" column="53" selection-start="4494" selection-end="4494" vertical-scroll-proportion="-1.8148148" vertical-offset="1679" max-vertical-offset="3451">
                   <folding>
                     <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -139,10 +146,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="content.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="content.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/content.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="428" column="8" selection-start="8162" selection-end="8163" vertical-scroll-proportion="0.5862069" vertical-offset="9858" max-vertical-offset="31452">
+                <state line="427" column="14" selection-start="8264" selection-end="8264" vertical-scroll-proportion="0.6387316" vertical-offset="7302" max-vertical-offset="24751">
                   <folding />
                 </state>
               </provider>
@@ -200,11 +207,11 @@
         <option value="$PROJECT_DIR$/templates/alerts.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/less/header.less" />
-        <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/billing_plans.php" />
         <option value="$PROJECT_DIR$/details.php" />
-        <option value="$PROJECT_DIR$/less/content.less" />
         <option value="$PROJECT_DIR$/create_billing_plan.php" />
+        <option value="$PROJECT_DIR$/less/variables.less" />
+        <option value="$PROJECT_DIR$/less/content.less" />
       </list>
     </option>
   </component>
@@ -669,13 +676,6 @@
         <state line="19" column="17" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.8846154" vertical-offset="36" max-vertical-offset="1240" />
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="22" selection-start="3258" selection-end="3258" vertical-scroll-proportion="0.33264464" vertical-offset="1910" max-vertical-offset="9554">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="1" selection-start="195" selection-end="195" vertical-scroll-proportion="-0.34615386" vertical-offset="144" max-vertical-offset="1083">
@@ -813,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="35" selection-start="8068" selection-end="8068" vertical-scroll-proportion="-2.7692308" vertical-offset="4176" max-vertical-offset="17214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="38" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.33333334" vertical-offset="1595" max-vertical-offset="6753">
@@ -839,11 +832,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/preview/Cloud_new2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="1" selection-start="141" selection-end="141" vertical-scroll-proportion="0.09879254" vertical-offset="0" max-vertical-offset="983">
@@ -851,21 +839,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/content.less">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="428" column="8" selection-start="8162" selection-end="8163" vertical-scroll-proportion="0.5862069" vertical-offset="9858" max-vertical-offset="31452">
+        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.28992072" vertical-offset="2120" max-vertical-offset="9487">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/preview/Cloud_new2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/create_billing_plan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="27" selection-start="4917" selection-end="4917" vertical-scroll-proportion="0.6845564" vertical-offset="1391" max-vertical-offset="3271">
+        <state line="96" column="53" selection-start="4494" selection-end="4494" vertical-scroll-proportion="-1.8148148" vertical-offset="1679" max-vertical-offset="3451">
           <folding>
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#fieldset#0;n#div#0;n#form#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="0" selection-start="7738" selection-end="7738" vertical-scroll-proportion="0.66744184" vertical-offset="3656" max-vertical-offset="17060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/content.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="427" column="14" selection-start="8264" selection-end="8264" vertical-scroll-proportion="0.6387316" vertical-offset="7302" max-vertical-offset="24751">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -418,9 +418,27 @@ form {
     }
   }
 
-  .input-xs {
-    width: 60px;
+  .input-xs-amount {
+    width: 50%;
+    float:left;
+    margin-right: 10px;
+    color: @state-primary-bg;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+    padding-left: 8px;
+    height: 30px;
+    &:focus {
+      color: @gray-darker;
+      font-weight: bold;
+    }
   }
+input {
+  &:focus {
+    border:1.4px solid @input-border-focus;
+  }
+}
+
 }
 
 //BUTTONS

@@ -89,13 +89,13 @@
         <tbody>
         <tr>
             <td colspan="2">CPUs (1 unit)</td>
-            <td>0.0055</td>
-            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
             <td colspan="2">Memory (1 Mb)</td>
-            <td>0.0055</td>
-            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
             <td class="row" rowspan="3">Data Store Zone (1Gb)</td>
@@ -103,23 +103,23 @@
         </tr>
         <tr>
             <td>Data Store Zone Tier 2</td>
-            <td>0.0055</td>
-            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
             <td>Data Store Zone Tier 2</td>
-            <td>0.0055</td>
-            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
             <td colspan="2">Backup disk size (1 Gb)</td>
-            <td>0.0055</td>
-            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
             <td colspan="2">Template disk size (1 Gb)</td>
-            <td>0.0055</td>
-            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         </tbody>
     </table>
