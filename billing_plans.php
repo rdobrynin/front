@@ -68,7 +68,7 @@
 </div>
   <div class="legend"><h2><span class="icon-billing"></span>Billing plans</h2></div>
 <div class="container-fluid wrapper">
-    <table class="table">
+    <table class="table" id="table-bp">
         <thead>
         <tr>
             <th>Billing Plan label</th>

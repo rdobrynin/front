@@ -68,58 +68,39 @@
     </div>
 </div>
   <div class="legend"><h2><span class="icon-billing"></span>create billing plan</h2></div>
-    <div class="container-fluid">
-        <form class="form-horizontal">
-            <div class="form-group">
-                <label class="control-label" for="billing_label">Label</label>
-                <div class="controls col-md-3">
-                    <input type="text" class="form-control" id="billing_label" placeholder="label">
-                </div>
-            </div>
-        </form>
+<form>
+<div class="container-fluid">
+    <fieldset>
+    <div class="control-group wrapper">
+        <label class="control-label" for="billing_label">Billing plan label</label>
+        <div class="controls col-md-3">
+            <input type="text" class="form-control" id="billing_label" placeholder="label">
+        </div>
     </div>
-<div class="container-fluid wrapper">
-    <table class="table">
+        <div class="legend">Base resources</div>
+    <table class="table" id="table-create-bp">
         <thead>
         <tr>
-            <th>Billing Plan label</th>
-            <th># Of Clients</th>
-            <th>Note</th>
-            <th>Updated</th>
-            <th style="border-left:0;"></th>
+            <th>Resource name</th>
+            <th>expenses (EUR)</th>
+            <th>Client price (EUR)</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>Sliver Status Client(-15%)</td>
-            <td>62</td>
-            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
-            <td>13 Aug, 2014 08:00:18</td>
-            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
+        <tr class="control-group">
+            <td>CPUs (1 unit)</td>
+            <td>0.0055</td>
+            <td>0.0055</td>
         </tr>
         <tr>
-            <td>Sliver Status Client(-15%)</td>
-            <td>62</td>
-            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
-            <td>13 Aug, 2014 08:00:18</td>
-            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
-        </tr>
-        <tr>
-            <td>Sliver Status Client(-15%)</td>
-            <td>62</td>
-            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
-            <td>13 Aug, 2014 08:00:18</td>
-            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
-        </tr>
-        <tr>
-            <td>Sliver Status Client(-15%)</td>
-            <td>62</td>
-            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
-            <td>13 Aug, 2014 08:00:18</td>
-            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
+            <td>Memory (1 Mb)</td>
+            <td>0.0055</td>
+            <td>0.0055</td>
         </tr>
         </tbody>
     </table>
-    <button onclick="window.location.href='/index.php'" class="btn">Create new billing plan</button>
+    </fieldset>
+    <button class="btn">Create</button>
 </div>
+</form>
 <?php include('templates/footer.php'); ?>

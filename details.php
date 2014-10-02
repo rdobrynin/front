@@ -101,6 +101,7 @@
 <!--                           </li>-->
 <!--                       </ul>-->
                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="#">Delete</a></li>
                            <li><a href="#">Edit properties</a></li>
                            <li><a href="#">Edit disk</a></li>
                        </ul>
