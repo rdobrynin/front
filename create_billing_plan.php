@@ -81,21 +81,45 @@
     <table class="table" id="table-create-bp">
         <thead>
         <tr>
-            <th>Resource name</th>
-            <th>expenses (EUR)</th>
-            <th>Client price (EUR)</th>
+            <th scope="col" colspan="2" style="width: 70%">Resource name</th>
+            <th style="width: 15%">expenses (EUR)</th>
+            <th style="width: 15%">Client price (EUR)</th>
         </tr>
         </thead>
         <tbody>
-        <tr class="control-group">
-            <td>CPUs (1 unit)</td>
+        <tr>
+            <td colspan="2">CPUs (1 unit)</td>
             <td>0.0055</td>
-            <td>0.0055</td>
+            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
-            <td>Memory (1 Mb)</td>
+            <td colspan="2">Memory (1 Mb)</td>
             <td>0.0055</td>
+            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+        </tr>
+        <tr>
+            <td class="row" rowspan="3">Data Store Zone (1Gb)</td>
+
+        </tr>
+        <tr>
+            <td>Data Store Zone Tier 2</td>
             <td>0.0055</td>
+            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+        </tr>
+        <tr>
+            <td>Data Store Zone Tier 2</td>
+            <td>0.0055</td>
+            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Backup disk size (1 Gb)</td>
+            <td>0.0055</td>
+            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Template disk size (1 Gb)</td>
+            <td>0.0055</td>
+            <td><input  size="1" class="input-xs form-control" type="text" value="0.005"></td>
         </tr>
         </tbody>
     </table>
