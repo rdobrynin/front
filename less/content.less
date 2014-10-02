@@ -16,6 +16,11 @@ h4 {
   }
 }
 
+hr {
+  width: 100%;
+  border-top:1px solid @table-border-color;
+}
+
 a {
   color:@brand;
   text-decoration:none;
@@ -234,7 +239,7 @@ button {
     padding-bottom: 16px;
     margin-bottom: 0;
     position: relative;
-    .icon-cloud, .icon-billing {
+    .icon-cloud, .icon-billing, .icon-report {
       font-size: 36px;
       display: inline-block;
       vertical-align: middle;
@@ -720,8 +725,8 @@ input {
 .view-all {
   border-top: 1px solid @hard-light;
   border-bottom: 1px solid @hard-light;
-  background: #f6f6f6;
-  font-size: 15px;
+  background: @table-bg-hover;
+  font-size: @font-size-base+1;
   line-height: 1;
   display: block;
   position: relative;
@@ -760,6 +765,18 @@ input {
     padding: 12px 0;
   }
 
+}
+
+.divider {
+  border-bottom: 1px solid @hard-light;
+  background: @table-bg-hover;
+  display: block;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  float: left;
+  padding: 20px 0;
 }
 
 //TABS

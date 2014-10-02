@@ -67,6 +67,40 @@
         </div>
     </div>
 </div>
-  <div class="legend"><h2>Reports</h2></div>
+  <div class="legend"><h2><span class="icon-report"></span>&nbsp;Reports</h2></div>
+<div class="block">
+    <div class="container-fluid">
+        <div class="control-group">
+            <form class="form-inline">
+                <label class="control-label">Use report table</label>
+                <select class="selectpicker">
+                    <option>Select report label</option>
+                    <option>Client</option>
+                    <option>pvmadmin</option>
+                    <option>Tester</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <hr>
+
+<div class="container-fluid">
+    <div class="control-group">
+        <form class="form-inline" method="get">
+            <label class="control-label">Filter by users</label>
+            <select class="selectpicker">
+                <option>All users</option>
+                <option>Client</option>
+                <option>pvmadmin</option>
+                <option>Tester</option>
+            </select>
+            <button type="button" class="btn btn-sm">Filter</button>
+            <button type="button" class="btn btn-sm">Filter & download .xls</button>
+        </form>
+    </div>
+</div>
+</div>
+
+<div class="legend"><h2>Create new report</h2></div>
 
 <?php include('templates/footer.php'); ?>
