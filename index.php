@@ -199,7 +199,7 @@
                       </tr>
                       </tbody>
                   </table>
-                  <button class="btn">Create new machine</button>
+                  <button class="btn" onclick="window.location.href='/create_vm.php'">Create new machine</button>
               </div>
               <div class="tab-pane" id="client_vm_tab">
                   <h4>Pane B</h4>

@@ -100,7 +100,33 @@
     </div>
 </div>
 </div>
+<div class="legend"><h2>Current report view</h2></div>
+<div class="container-fluid tab-container">
+    <ul class="nav nav-tabs" id="rpTab">
+        <li class="active first-tab"><a href="#client-rp-tab">My Virtual Machines(4)</a></li>
+        <li><a href="#partner-rp-tab">Clients Virtual Machines</a></li>
+    </ul>
+</div>
+<div class="container-fluid wrapper">
+    <div class="tab-content">
+        <div class="tab-pane active" id="client-rp-tab">
+            <h4>Clienst</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                ac turpis egestas.</p>
 
-<div class="legend"><h2>Create new report</h2></div>
+        </div>
+        <div class="tab-pane" id="partner-rp-tab">
+            <h4>Partners</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                ac turpis egestas.</p>
+        </div>
+    </div><!-- tab content -->
+</div>
+
+
+
+
+
+
 
 <?php include('templates/footer.php'); ?>

@@ -154,7 +154,7 @@
            </div>
        </div>
 </div>
-
+<div class="row">
 <div class="system-data-control col-md-4">
     <img src="img/win_icon.png" alt="" width="148" height="140">
     <span class="vm-label">admin_vm_password</span>
@@ -216,7 +216,7 @@
             <span><a href="#">Edit disk</a></span>
         </div>
 </div>
-
+</div>
   <div class="legend">
       <h2>Latest activity logs</h2>
   </div>
