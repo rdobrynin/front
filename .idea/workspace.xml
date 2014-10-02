@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a48a1255-9869-4359-86ae-d21abab01753" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/content.less" afterPath="$PROJECT_DIR$/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_billing_plan.php" afterPath="$PROJECT_DIR$/create_billing_plan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +30,7 @@
           <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/variables.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="228" column="0" selection-start="7738" selection-end="7738" vertical-scroll-proportion="0.66744184" vertical-offset="3656" max-vertical-offset="17060">
+                <state line="223" column="29" selection-start="7373" selection-end="7373" vertical-scroll-proportion="0.5" vertical-offset="3656" max-vertical-offset="17060">
                   <folding />
                 </state>
               </provider>
@@ -149,7 +147,7 @@
           <file leaf-file-name="content.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/content.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="427" column="14" selection-start="8264" selection-end="8264" vertical-scroll-proportion="0.6387316" vertical-offset="7302" max-vertical-offset="24751">
+                <state line="459" column="0" selection-start="8901" selection-end="8901" vertical-scroll-proportion="0.69988674" vertical-offset="7824" max-vertical-offset="25111">
                   <folding />
                 </state>
               </provider>
@@ -870,14 +868,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="0" selection-start="7738" selection-end="7738" vertical-scroll-proportion="0.66744184" vertical-offset="3656" max-vertical-offset="17060">
+        <state line="223" column="29" selection-start="7373" selection-end="7373" vertical-scroll-proportion="0.5" vertical-offset="3656" max-vertical-offset="17060">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="427" column="14" selection-start="8264" selection-end="8264" vertical-scroll-proportion="0.6387316" vertical-offset="7302" max-vertical-offset="24751">
+        <state line="459" column="0" selection-start="8901" selection-end="8901" vertical-scroll-proportion="0.69988674" vertical-offset="7824" max-vertical-offset="25111">
           <folding />
         </state>
       </provider>

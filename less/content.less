@@ -74,6 +74,9 @@ img {
       }
       td {
         padding-left: 15px;
+        @media (max-width: @screen-md) {
+          padding-left: 15px !important;
+        }
         vertical-align: middle;
         &.failed {
           a {
@@ -415,6 +418,11 @@ form {
       color:@component-active-color;
       line-height: 2.4em;
       font-size: @font-size-base + 6;
+      @media (max-width: @screen-md) {
+        line-height: 2em;
+        font-size: @font-size-base + 2;
+        padding-left: 10px;
+      }
     }
   }
 
@@ -424,7 +432,7 @@ form {
     margin-right: 10px;
     color: @state-primary-bg;
     font-weight: bold;
-    font-size: 14px;
+    font-size: @font-size-base;
     padding: 0;
     padding-left: 8px;
     height: 30px;
@@ -432,12 +440,23 @@ form {
       color: @gray-darker;
       font-weight: bold;
     }
+    @media (max-width: @screen-md) {
+      width: 80%;
+      font-size: @font-size-base - 4;
+      padding: 4px;
+    }
   }
 input {
   &:focus {
     border:1.4px solid @input-border-focus;
   }
 }
+
+  .controls {
+    @media (max-width: @screen-sm) {
+      padding-left: 0;
+    }
+  }
 
 }
 
