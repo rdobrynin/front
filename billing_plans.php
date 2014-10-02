@@ -66,6 +66,49 @@
         </div>
     </div>
 </div>
-  <div class="legend"><h2>Billing plans</h2></div>
-
+  <div class="legend"><h2><span class="icon-billing"></span>Billing plans</h2></div>
+<div class="container-fluid wrapper">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Billing Plan label</th>
+            <th># Of Clients</th>
+            <th>Note</th>
+            <th>Updated</th>
+            <th style="border-left:0;"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Sliver Status Client(-15%)</td>
+            <td>62</td>
+            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
+            <td>13 Aug, 2014 08:00:18</td>
+            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Sliver Status Client(-15%)</td>
+            <td>62</td>
+            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
+            <td>13 Aug, 2014 08:00:18</td>
+            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Sliver Status Client(-15%)</td>
+            <td>62</td>
+            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
+            <td>13 Aug, 2014 08:00:18</td>
+            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
+        </tr>
+        <tr>
+            <td>Sliver Status Client(-15%)</td>
+            <td>62</td>
+            <td><input type="text" class="input-sm form-control" name="add_note" placeholder="add a note..."></td>
+            <td>13 Aug, 2014 08:00:18</td>
+            <td style="text-align: center;"> <button class="btn btn-td">Edit</button></td>
+        </tr>
+        </tbody>
+    </table>
+    <button class="btn">Create new billing plan</button>
+</div>
 <?php include('templates/footer.php'); ?>
