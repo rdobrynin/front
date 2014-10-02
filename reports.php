@@ -1,19 +1,5 @@
 <?php include('templates/header.php');?>
-<!--Primary alert-->
-<div class="alert alert-warning alert-dismissible fade in" role="alert" id="test-alert-warning">
-  <div class="pull-right">
-    <span class="ts-icon-arrow-right"></span>
-    <a href="#"><b>Read more</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  </div>
-  <button type="button" class="close pull-right" data-dismiss="alert">
-    <span aria-hidden="true" class="close-alert">&times;</span>
-    <span class="sr-only">Close</span>
-  </button>
-  <span class="ts-icon-info"></span>
-     <span style="padding-left: 33px;"> <strong>Primary alert:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>113</b> days
-     </span>
-</div>
-
+<?php include('templates/alerts.php');?>
 <!-- Main top navbar -->
 <div class="navbar hidden-xs " role="navigation" id="elion-common-nav">
   <div class="container-fluid">

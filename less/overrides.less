@@ -16,9 +16,13 @@
   position: relative;
   float: left;
   width: 100%;
-  @media (max-width: 768px) {
+  @media (max-width: @screen-sm) {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  @media (max-width: @screen-md) {
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
 
@@ -30,54 +34,6 @@ h1, .h1, h2, .h2, h3, .h3 {
 h2 {
   font-size: @font-size-h3;
 }
-
-
-
-.btn-sm {
-  padding: 6px 20px;
-}
-
-
-//.dropdown-menu {
-//  position: absolute;
-//  top: 100%;
-//  left: 0;
-//  z-index: 1000;
-//  display: none;
-//  float: left;
-//  min-width: 160px;
-//  padding: 5px 0;
-//  margin: 2px 0 0;
-//  list-style: none;
-//  font-size: 14px;
-//  text-align: left;
-//  background-color: @brand-hover;
-//  border: 0;
-//  -webkit-border-radius: 0;
-//  -moz-border-radius: 0;
-//  border-radius: 0;
-//  -webkit-box-shadow: none;
-//  -moz-box-shadow: none;
-//  box-shadow: none;
-//  background-clip: padding-box;
-//
-//  li {
-//    a {
-//      display: block;
-//      padding: 3px 20px;
-//      clear: both;
-//      font-weight: normal;
-//      line-height: 1.42857143;
-//      color: @component-active-color;
-//      white-space: nowrap;
-//      &:hover, &:focus {
-//        text-decoration: none;
-//        color: @component-active-color;
-//        background-color: @brand;
-//      }
-//    }
-//  }
-//}
 
 .form-inline  {
   .control-label {

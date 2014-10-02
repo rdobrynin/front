@@ -3,9 +3,6 @@
  */
 
 $(function() {
-
-    console.log(localStorage.getItem('showID'));
-
     $('.dropdown').hover(function() {
         $(this).removeClass('open');
     });
@@ -66,12 +63,10 @@ $(function() {
         if(clicks == 0){
             $('#show-id-data').show();
             $(this).html('<a href="#">hide IP addresses</a>');
-            localStorage.setItem('showID', true);
             clicks=1;
         }else{
             $('#show-id-data').hide();
             $(this).html('<a href="#">'+string+'</a>');
-            localStorage.setItem('showID', false);
             clicks = 0;
         }
     });

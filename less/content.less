@@ -372,6 +372,11 @@ form {
   position:relative;
   outline:0 none !important;
 
+  .btn-sm {
+    padding: 6px 20px;
+  }
+
+
   &:hover{
     text-decoration:none;
     background:@btn-default-bg-hover;
@@ -961,7 +966,7 @@ form {
   position: relative;
   float: left;
   width: 100%;
-  padding: 15px 5% 15px 5%;
+  padding: 15px 5% 5px 5%;
   .close-alert {
     color: @component-active-color;
     font-size: @font-size-h2;
@@ -1151,7 +1156,6 @@ form {
     }
     dt {
       padding: 5px;
-      background-color: @gray-lighter;
       width: 50%;
       margin-right: 15px;
     }
@@ -1166,6 +1170,11 @@ form {
     dt {
       width: 50%;
     }
+  }
+  @media (max-width: @screen-sm) {
+   dt {
+     background-color: @hard-light;
+   }
   }
 }
 
