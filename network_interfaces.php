@@ -155,8 +155,8 @@
     </div>
 </div>
 
-
 <div class="container-fluid wrapper">
+    <div class="main-legend">Network interface</div>
     <table class="table">
         <thead>
         <tr>
