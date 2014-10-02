@@ -77,7 +77,7 @@
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Network</a>
                        <ul class="dropdown-menu" role="menu">
                            <li><a href="#">Firewall Rules</a></li>
-                           <li><a href="#">Network Interface</a></li>
+                           <li><a href="network_interfaces.php">Network Interface</a></li>
                            <li><a href="#">IP addresses</a></li>
                        </ul>
                    </li>
@@ -90,16 +90,6 @@
                    </li>
                    <li class="dropdown">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Virtual machine</a>
-<!--                       <ul class="dropdown-menu" role="menu">-->
-<!--                           <li><a href="#">Delete</a></li>-->
-<!--                           <li class="dropdown-submenu">-->
-<!--                               <a tabindex="-1" href="#">Edit<span class="ts-icon-arrow-right"></span></a>-->
-<!--                               <ul class="dropdown-menu">-->
-<!--                                   <li><a tabindex="-1" href="#">Edit properties</a></li>-->
-<!--                                   <li><a tabindex="-1" href="#">Disk</a></li>-->
-<!--                               </ul>-->
-<!--                           </li>-->
-<!--                       </ul>-->
                        <ul class="dropdown-menu" role="menu">
                            <li><a href="#">Delete</a></li>
                            <li><a href="#">Edit properties</a></li>
