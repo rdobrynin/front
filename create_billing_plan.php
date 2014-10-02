@@ -78,11 +78,11 @@
         </div>
     </div>
         <div class="legend">Base resources</div>
-    <table class="table" id="table-create-bp">
+    <table class="table">
         <thead>
         <tr>
             <th scope="col" colspan="2" style="width: 70%">Resource name</th>
-            <th style="width: 15%">expenses (EUR)</th>
+            <th style="width: 15%">Expenses (EUR)</th>
             <th style="width: 15%">Client price (EUR)</th>
         </tr>
         </thead>
@@ -98,7 +98,7 @@
             <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
-            <td class="row" rowspan="3">Data Store Zone (1Gb)</td>
+            <td class="row" rowspan="3">Data Store Zone(1Gb)</td>
 
         </tr>
         <tr>
@@ -118,6 +118,218 @@
         </tr>
         <tr>
             <td colspan="2">Template disk size (1 Gb)</td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+        <div class="legend">Network resources</div>
+        <div class="sub-legend">1 gbps</div>
+        <table class="table" style="padding-bottom: 0; margin-bottom: 0">
+            <thead>
+            <tr>
+                <th scope="col" colspan="2" style="width: 70%">Resource name</th>
+                <th style="width: 15%">Expenses (EUR)</th>
+                <th style="width: 15%">Client price (EUR)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td colspan="2">CPUs (1 unit)</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Memory (1 Mb)</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td class="row" rowspan="3">Data Store Zone(1Gb)</td>
+
+            </tr>
+            <tr>
+                <td>Data Store Zone Tier 2</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td>Data Store Zone Tier 2</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Backup disk size (1 Gb)</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Template disk size (1 Gb)</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="sub-legend">10 gbps</div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th style="width: 70%">Resource name</th>
+                <th style="width: 15%">Expenses (EUR)</th>
+                <th style="width: 15%">Client price (EUR)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td >Outbound traffic</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td >Inbound traffic</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td>IP addresses (1 unit)</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td>Port Speed (1 Mb/per sec.)</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="legend">OS templatess</div>
+        <div class="sub-legend">Linux templates</div>
+        <table class="table" style="padding-bottom: 0; margin-bottom: 0">
+            <thead>
+            <tr>
+                <th style="width: 5%">Label</th>
+                <th style="width: 65%">Name</th>
+                <th style="width: 15%">Expenses (EUR)</th>
+                <th style="width: 15%">Client (EUR)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/red_hat.png"></td>
+                <td>Red Hat Enterprise Linux 6.4 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/red_hat.png"></td>
+                <td>Red Hat Enterprise Linux 6.4 LAMP x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/red_hat.png"></td>
+                <td>Red Hat Enterprise Linux 6.4 LAMP x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            <tr>
+                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td>Ubuntu 12.10 x64</td>
+                <td style="font-weight: bold;">0.0055</td>
+                <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="sub-legend">Windows templates</div>
+    <table class="table" style="padding-bottom: 0; margin-bottom: 0">
+        <thead>
+        <tr>
+            <th style="width: 5%">Label</th>
+            <th style="width: 65%">Name</th>
+            <th style="width: 15%">Expenses (EUR)</th>
+            <th style="width: 15%">Client (EUR)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/windows_2012.png"></td>
+            <td>Windows 2012 Standard Edition R2 x64 xen</td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+        </tr>
+        <tr>
+            <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/windows_2012.png"></td>
+            <td>Windows 2012 Standard Edition R2 x64 xen</td>
+            <td style="font-weight: bold;">0.0055</td>
+            <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="sub-legend">Freebsd templates</div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th style="width: 5%">Label</th>
+            <th style="width: 65%">Name</th>
+            <th style="width: 15%">Expenses (EUR)</th>
+            <th style="width: 15%">Client (EUR)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/freebsd.png"></td>
+            <td>FreeBSD 10.0 x64</td>
             <td style="font-weight: bold;">0.0055</td>
             <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>

@@ -40,6 +40,10 @@ img {
     left: -1px;
     margin-right: 5px;
   }
+  &.system-logo-image-small {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 
@@ -427,7 +431,7 @@ form {
   }
 
   .input-xs-amount {
-    width: 50%;
+    max-width: 100px;
     float:left;
     margin-right: 10px;
     color: @state-primary-bg;
@@ -1315,3 +1319,11 @@ input {
       position: absolute;
   }
 }
+
+.sub-legend {
+  width: 100%;
+  font-size: @font-size-base + 6;
+  font-weight: bold;
+  line-height: 2.6em;
+}
+
