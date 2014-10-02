@@ -109,15 +109,6 @@ img {
           -moz-box-shadow: none;
           box-shadow: none;
           border-radius: @border-radius-base +3;
-//          &:hover {
-//            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-//            -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-//            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-//            -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-//            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-//            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-//            border: 1px solid @table-border-color;
-//          }
           &:focus {
             border-color: @input-border-focus;
             outline: 0;
@@ -203,6 +194,7 @@ button {
    padding-left: 0;
   }
   h2 {
+    text-transform: capitalize;
     color: @component-active-color;
     margin-left: 4%;
     margin-right: 4%;
@@ -313,72 +305,78 @@ form {
   label, &.label {
     font-weight: bold;
     line-height: 1.4;
+    float: left;
+    padding-top: 10px;
   }
-  input[type='text'],  input[type='password']  {
-    .border-radius(@border-radius-small);
-    color: @input-text;
-    line-height: 1;
-    padding: 14px 0;
-    text-indent: 14px;
-    border: 1px solid @hard-light;
-    display: block; width: 100%;
-    margin-bottom: 4px;
-    &:focus, &.focus, &:active {
-      color: black;
-      border: 1px solid @brand;
-      outline: none;
-    }
+  &.form-horizontal {
+    padding-left: 15px;
+    padding-top: 25px;
   }
-  input[type='text'][disabled], input[type='password'][disabled] {
-    color: @input-bg-disabled-text;
-    background: @gray-lighter;
-    &:focus, &:active {
-      border: 1px solid @hard-light;
-    }
-  }
-
-  .invalid {
-    input[type='text'] {
-      background: @input-bg-invalid;
-      color: @navbar-default-link-hover-color;
-      border: 1px solid @state-warning-border-top;
-      &:focus, &:active {
-        border: 1px solid @state-warning-border-top;
-      }
-    }
-    textarea {
-      background: @input-bg-invalid;
-      color: @navbar-default-link-hover-color;
-      border: 1px solid @state-warning-border-top;
-      &:focus, &:active {
-        border: 1px solid @state-warning-border-top;
-      }
-    }
-  }
-
-  textarea {
-    .border-radius(@border-radius-small);
-    color: @input-text;
-    line-height: 1;
-    padding: 14px 0;
-    text-indent: 14px;
-    border: 1px solid @hard-light;
-    display: block; width: 100%;
-    margin-bottom: 4px;
-    min-height: 120px;
-    &:focus, &:active, &.focus {
-      color: black;
-      border: 1px solid @brand-hover;
-      outline: none;
-    }
-  }
-  textarea[disabled] {
-    color: @input-bg-disabled-text;
-    background: @gray-lighter;
-    &:focus, &:active {
-      border: 1px solid @hard-light;
-    }
-  }
+//  input[type='text'],  input[type='password']  {
+//    .border-radius(@border-radius-small);
+//    color: @input-text;
+//    line-height: 1;
+//    padding: 14px 0;
+//    text-indent: 14px;
+//    border: 1px solid @hard-light;
+//    display: block; width: 100%;
+//    margin-bottom: 4px;
+//    &:focus, &.focus, &:active {
+//      color: black;
+//      border: 1px solid @brand;
+//      outline: none;
+//    }
+//  }
+//  input[type='text'][disabled], input[type='password'][disabled] {
+//    color: @input-bg-disabled-text;
+//    background: @gray-lighter;
+//    &:focus, &:active {
+//      border: 1px solid @hard-light;
+//    }
+//  }
+//
+//  .invalid {
+//    input[type='text'] {
+//      background: @input-bg-invalid;
+//      color: @navbar-default-link-hover-color;
+//      border: 1px solid @state-warning-border-top;
+//      &:focus, &:active {
+//        border: 1px solid @state-warning-border-top;
+//      }
+//    }
+//    textarea {
+//      background: @input-bg-invalid;
+//      color: @navbar-default-link-hover-color;
+//      border: 1px solid @state-warning-border-top;
+//      &:focus, &:active {
+//        border: 1px solid @state-warning-border-top;
+//      }
+//    }
+//  }
+//
+//  textarea {
+//    .border-radius(@border-radius-small);
+//    color: @input-text;
+//    line-height: 1;
+//    padding: 14px 0;
+//    text-indent: 14px;
+//    border: 1px solid @hard-light;
+//    display: block; width: 100%;
+//    margin-bottom: 4px;
+//    min-height: 120px;
+//    &:focus, &:active, &.focus {
+//      color: black;
+//      border: 1px solid @brand-hover;
+//      outline: none;
+//    }
+//  }
+//  textarea[disabled] {
+//    color: @input-bg-disabled-text;
+//    background: @gray-lighter;
+//    &:focus, &:active {
+//      border: 1px solid @hard-light;
+//    }
+//  }
 }
 
 //BUTTONS

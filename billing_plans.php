@@ -109,6 +109,6 @@
         </tr>
         </tbody>
     </table>
-    <button class="btn">Create new billing plan</button>
+    <button onclick="window.location.href='/create_billing_plan.php'" class="btn">Create new billing plan</button>
 </div>
 <?php include('templates/footer.php'); ?>
