@@ -218,73 +218,73 @@
             </thead>
             <tbody>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/red_hat.png"></td>
+                <td><span class="img-redhat"></span></td>
                 <td>Red Hat Enterprise Linux 6.4 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/red_hat.png"></td>
+                <td><span class="img-redhat"></span></td>
                 <td>Red Hat Enterprise Linux 6.4 LAMP x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/red_hat.png"></td>
+                <td><span class="img-redhat"></span></td>
                 <td>Red Hat Enterprise Linux 6.4 LAMP x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
             </tr>
             <tr>
-                <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/ubuntu.png"></td>
+                <td><span class="img-ubuntu"></span></td>
                 <td>Ubuntu 12.10 x64</td>
                 <td style="font-weight: bold;">0.0055</td>
                 <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
@@ -303,13 +303,13 @@
         </thead>
         <tbody>
         <tr>
-            <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/windows_2012.png"></td>
+            <td><span class="img-win2000"></span></td>
             <td>Windows 2012 Standard Edition R2 x64 xen</td>
             <td style="font-weight: bold;">0.0055</td>
             <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
         </tr>
         <tr>
-            <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/windows_2012.png"></td>
+            <td><span class="img-win2000"></span></td>
             <td>Windows 2012 Standard Edition R2 x64 xen</td>
             <td style="font-weight: bold;">0.0055</td>
             <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
@@ -328,7 +328,7 @@
         </thead>
         <tbody>
         <tr>
-            <td><img class="system-logo-image-small" alt="" width="50" height="50" src="img/freebsd.png"></td>
+            <td><span class="img-freebsd"></span></td>
             <td>FreeBSD 10.0 x64</td>
             <td style="font-weight: bold;">0.0055</td>
             <td><input  size="1" class="input-xs-amount form-control" type="text" value="0.005"></td>
